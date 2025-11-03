@@ -26,9 +26,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Umit Sen"
   pronouns         : # example: "she/her"  
-  bio              : "Soft Robotics PhD Researcher"
+  bio              : "PhD Researcher"
   location         : "Amherst, MA"
-  employer         : "University of Massachusetts Amherst"
+  employer         : "UMass Amherst"
   uri              : # URL
   email            : "..." 
 
