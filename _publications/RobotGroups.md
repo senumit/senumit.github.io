@@ -1,9 +1,9 @@
 ---
-title: "Paper Title Number 2"
+title: "Circular formations of non-communicating robot groups via local strategies"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+permalink: /publication/RobotGroups
+excerpt: 'about...'
 date: 2010-10-01
 venue: 'Journal 1'
 slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
