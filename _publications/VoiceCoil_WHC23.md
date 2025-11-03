@@ -2,7 +2,7 @@
 title: "Design for Wrist-Worn Haptic Device with Custom Voice Coil Actuation"
 collection: publications
 category: conferences
-permalink: /publication/VoiceCoil_WHC23
+permalink: /publication/VoiceCoil_WHC23.md
 excerpt: 'This is a paper about voice-coil based haptic wrist-worn actuator.'
 date: 2024-02-17
 venue: 'GitHub Journal of Bugs'
