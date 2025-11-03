@@ -2,7 +2,7 @@
 title: "Gamifying Haptics User Studies: Comparison of Response Times from Smartphone Interfaces
 "
 collection: publications
-category: manuscript
+category: manuscripts
 permalink: /publication/hapticGamePaper
 excerpt: 'About....'
 date: 2024-02-17
