@@ -2,7 +2,7 @@
 title: "3D indoor positioning with spatial modulation for visible light communications"
 collection: publications
 category: manuscripts
-permalink: /publication/VLP_paper.md
+permalink: /publication/VLP_paper
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-02-17
 venue: 'Optics Communications'
