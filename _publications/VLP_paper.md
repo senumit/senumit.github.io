@@ -8,3 +8,4 @@ date: 2023-02-15
 venue: 'Optics Communications'
 citation: '<strong>U. Sen</strong>, Y. E. Yesilirmak, I. O. Bayman, T. Arsan, E. Panayirci, and N. Stevens, “3D indoor positioning with spatial modulation for visible light communications,” Optics Communications, vol. 529, p. 129091, Feb. 2023, doi: 10.1016/j.optcom.2022.129091.'
 ---
+<a href="https://www.sciencedirect.com/science/article/pii/S0030401822007386">Paper Link</a>
