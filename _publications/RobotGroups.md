@@ -10,5 +10,3 @@ slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
 paperurl: 'https://journals.sagepub.com/doi/full/10.1177/10597123231204627'
 citation: 'F. Kerestecioğlu, <strong>Ü. Şen</strong>, Ç. Işıkver, and A. Göktekin, “Circular formations of non-communicating robot groups via local strategies,” Adaptive Behavior, vol. 32, no. 4, pp. 291–300, Aug. 2024, doi: 10.1177/10597123231204627.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
