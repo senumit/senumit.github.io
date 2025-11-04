@@ -8,4 +8,5 @@ date: 2023-02-17
 venue: 'IEEE 2023 World Haptics Conference'
 citation: '<strong>U. Sen</strong>, M. Sarac, Design for Wrist-Worn Haptic Device with Custom Voice Coil Actuation,”} in 2023 IEEE World Haptics Conference, Work-in-Progress, Delft, Netherlands, 2023.'
 ---
+<a href="https://2023.worldhaptics.org/wp-content/uploads/2023/06/1065-doc.pdf">Paper Link</a>
 
