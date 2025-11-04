@@ -3,10 +3,9 @@ title: "Design for Wrist-Worn Haptic Device with Custom Voice Coil Actuation"
 collection: publications
 category: conferences
 permalink: /publication/VoiceCoil_WHC23
-excerpt: 'This is a Work-in-progress paper about voice-coil based haptic wrist-worn actuator.'
-date: 2024-02-17
+excerpt: 'In this paper, we propose a wrist-worn device with custom voice coil actuation to provide haptic feedback on the wrist while allowing participants to use their hands in real-world interactions. The custom voice coil is designed with a magnet and a strip of wires rolled around a cylinder. The intensity and frequency of the rendered feedback can be adjusted by design parameters, such as wire width, coil height, coil diameter, and the chosen magnet power. The proposed haptic device can be triggered effectively by users’ interactions in virtual environments'
+date: 2023-02-17
 venue: 'IEEE 2023 World Haptics Conference'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+citation: '<strong>U. Sen</strong>, M. Sarac, Design for Wrist-Worn Haptic Device with Custom Voice Coil Actuation,”} in 2023 IEEE World Haptics Conference, Work-in-Progress, Delft, Netherlands, 2023.'
 ---
 
