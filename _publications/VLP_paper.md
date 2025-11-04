@@ -3,12 +3,8 @@ title: "3D indoor positioning with spatial modulation for visible light communic
 collection: publications
 category: manuscripts
 permalink: /publication/VLP_paper
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2024-02-17
+excerpt: '<strong>Abstract:</strong> In this paper, a novel three-dimensional (3D) indoor visible light positioning (VLP) algorithm is proposed based on the spatial modulation (SM) and its error performance assessed as compared to the conventional received signal strength (RSS)-based 3D VLP systems. As contrasted to the traditional VLP system, the proposed SM-based 3D VLP system first estimates the optical channel gain between the transmitting light-emitting diodes (LEDs) and the two photo detectors (PDs) attached to the user by a pilot-based channel estimation technique. Then, unknown 3D positions of the receiver are determined by the trilateration algorithm with distances computed from the estimates of the channel gains. Consequently, the 3D VLP system achieves an interference-free transmission with increased spectral efficiency and without the need for a demultiplexing process at the receiving end. The algorithm’s performance is evaluated regarding positioning error by applying the SM over four LEDs and the number of pilots selected as a function of the environmental signal-to-noise ratios (SNRs). The computer simulation results show that the positioning errors are obtained in an order of magnitude smaller than RSS-based techniques in an indoor industrial environment. This is mainly because the distances involved in determining the 3D positions can be determined more precisely by the pilot-aided channel estimation method without creating any data rate problem in transmission due to the higher spectral efficiency of the SM.'
+date: 2023-02-15
 venue: 'Optics Communications'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: '<strong>U. Sen</strong>, Y. E. Yesilirmak, I. O. Bayman, T. Arsan, E. Panayirci, and N. Stevens, “3D indoor positioning with spatial modulation for visible light communications,” Optics Communications, vol. 529, p. 129091, Feb. 2023, doi: 10.1016/j.optcom.2022.129091.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
