@@ -4,11 +4,10 @@ title: "Gamifying Haptics User Studies: Comparison of Response Times from Smartp
 collection: publications
 category: manuscripts
 permalink: /publication/hapticGamePaper
-excerpt: 'About....'
-date: 2024-02-17
+excerpt: '<strong>Abstract:</strong> Haptics user studies are often restricted to a set, physical location and use methods that do not captivate the user. Applying game design elements can create an entertaining environment and increase user engagement. Using ubiquitous tools, like smartphones, to conduct haptics user studies could allow researchers to access larger participant groups while a gamified approach could facilitate the data collection by making the experiment more enjoyable. To explore this concept, this work presents a gamified version of an existing psychophysical experiment that investigates response time to multisensory cues using a smartphone based on “Whac-A-Mole”. We conducted a user study to compare our gamified interface with an existing psychophysical interface with thirteen participants exploring the response time from eighteen combinations of auditory, haptic, and visual stimuli at different levels of intensities and participant preferences for both interfaces. The results demonstrate that the gamified interface successfully captured similar trends in response times and significantly elevated participant enjoyment (p<0.003), but did not result in equivalent response times to the original interface. This work shows the benefits and drawbacks of following a gamification approach when designing haptics user studies and discusses factors and trade-offs to consider when gamifying studies.'
+date: 2025-01-30
 venue: 'IEEE Transactions on Haptics'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+citation: 'B. Kudsi, D, Xu, <strong>U. Sen</strong>, K.T. Yoshida, F. Stroppa, C.M. Nunez, M. Sarac, "Gamifying Haptics User Studies: Comparison of Response Times From Smartphone Interfaces," in IEEE Transactions on Haptics, vol. 18, no. 2, pp. 423-429, April-June 2025, doi: 10.1109/TOH.2025.3536885.'
+
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
