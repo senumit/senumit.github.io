@@ -9,4 +9,4 @@ venue: 'Adaptive Behavior'
 citation: 'F. Kerestecioğlu, <strong>Ü. Şen</strong>, Ç. Işıkver, and A. Göktekin, “Circular formations of non-communicating robot groups via local strategies,” Adaptive Behavior, vol. 32, no. 4, pp. 291–300, Aug. 2024, doi: 10.1177/10597123231204627.'
 ---
 
-<a href="[https://journals.sagepub.com/doi/full/10.1177/10597123231204627">Paper Link</a>
+<a href="https://journals.sagepub.com/doi/full/10.1177/10597123231204627">Paper Link</a>
