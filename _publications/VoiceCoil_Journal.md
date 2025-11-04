@@ -8,3 +8,4 @@ date: 2025-01-31
 venue: 'IEEE Robotics and Automation Letters'
 citation: 'A. Adeyemi, <strong>U. Sen</strong>, S. M. Ercan, and M. Sarac, “Hand Dominance and Congruence for Wrist-Worn Haptics Using Custom Voice-Coil Actuation,” IEEE Robot. Autom. Lett., vol. 9, no. 4, pp. 3053–3059, Apr. 2024, doi: 10.1109/LRA.2024.3360815.'
 ---
+<a href="https://ieeexplore.ieee.org/abstract/document/10417076">Paper Link</a>
