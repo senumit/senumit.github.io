@@ -52,6 +52,13 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Validated system performance via <strong>user studies</strong>, resulting in a <strong>poster presentation at the 2023 IEEE World Haptics Conference</strong>.</li>
       <li>Led to <strong>multiple IEEE journal publications</strong> on haptic actuation and human-machine interaction.</li>
     </ul>
+  <!-- Paper links (no title) -->
+    <ul style="margin-top:5px; list-style-type:none; padding-left:0;">
+      <li><a href="https://doi.org/10.xxxx/softrobotics.paper1" target="_blank" rel="noopener noreferrer">IEEE ToH</a></li>
+      <li><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">IEEE RA-L</a></li>
+     <li><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">World Haptics 23</a></li>
+
+    </ul>
   </div>
   <img src="{{ '/images/khas.png' | relative_url }}" 
        alt="Kadir Has University Logo" 
@@ -71,6 +78,11 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Performed <strong>Monte Carlo-based data analysis</strong> and parameter optimization.</li>
       <li>Published in <em>Optics Communications (2023)</em> for advancements in <strong>visible-light communication-based localization</strong>.</li>
     </ul>
+   <!-- Paper links (no title) -->
+    <ul style="margin-top:5px; list-style-type:none; padding-left:0;">
+       <li><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Optics Communications</a></li>
+
+    </ul>
   </div>
   <img src="{{ '/images/khas.png' | relative_url }}" 
        alt="Kadir Has University Logo" 
@@ -89,6 +101,11 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Investigated <strong>communication-free swarm coordination</strong> using <strong>local cost-minimization strategies</strong>.</li>
       <li>Designed cost functions enabling <strong>circular group formation</strong> and tested them through MATLAB simulations.</li>
       <li>Results published in <em>Adaptive Behavior (2024)</em>.</li>
+    </ul>
+  <!-- Paper links (no title) -->
+    <ul style="margin-top:5px; list-style-type:none; padding-left:0;">
+            <li><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Adaptive Behavior</a></li>
+
     </ul>
   </div>
   <img src="{{ '/images/khas.png' | relative_url }}" 
