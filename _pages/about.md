@@ -28,7 +28,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Awarded <strong>two merit-based fellowships</strong> for research in the first year of the Ph.D. program.</li>
     </ul>
     <!-- Paper links (no title) -->
-    <ul style="margin-top:5px; list-style-type:none; padding-left:0;">
+    <p style="margin-top:5px; list-style-type:none; padding-left:0;">
       <a><a href="https://doi.org/10.xxxx/softrobotics.paper1" target="_blank" rel="noopener noreferrer">Paper 1</a><a> | 
       <a><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Paper 2</a></a>
     </ul>
@@ -53,7 +53,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Led to <strong>multiple IEEE journal publications</strong> on haptic actuation and human-machine interaction.</li>
     </ul>
   <!-- Paper links (no title) -->
-    <ul style="margin-top:5px; list-style-type:none; padding-left:0;">
+    <p style="margin-top:5px; list-style-type:none; padding-left:0;">
       <a><a href="https://doi.org/10.xxxx/softrobotics.paper1" target="_blank" rel="noopener noreferrer">IEEE ToH</a></a> |
       <a><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">IEEE RA-L</a></a> |
      <a><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">World Haptics 23</a></li>
@@ -79,7 +79,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Published in <em>Optics Communications (2023)</em> for advancements in <strong>visible-light communication-based localization</strong>.</li>
     </ul>
    <!-- Paper links (no title) -->
-    <ul style="margin-top:5px; list-style-type:none; padding-left:0;">
+    <p style="margin-top:5px; list-style-type:none; padding-left:0;">
        <li><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Optics Communications</a></li>
 
     </ul>
@@ -103,7 +103,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Results published in <em>Adaptive Behavior (2024)</em>.</li>
     </ul>
   <!-- Paper links (no title) -->
-    <ul style="margin-top:5px; list-style-type:none; padding-left:0;">
+    <p style="margin-top:5px; list-style-type:none; padding-left:0;">
             <li><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Adaptive Behavior</a></li>
 
     </ul>
