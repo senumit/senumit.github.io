@@ -227,3 +227,40 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
        style="width:120px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
 </div>
 
+
+
+
+<h1 style="font-size:1.8em; margin-bottom:25px;">Teaching Experience</h1>
+
+<!-- Teaching Assistant - UMass Amherst -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+    <h2 style="margin:0; font-size:1.3em;">Teaching Assistant — University of Massachusetts Amherst</h2>
+    <em>Amherst, MA · 2024 – Present</em>
+    <ul style="margin-top:10px;">
+      <li>Assisting in <strong>Introduction to Robotics</strong> course for undergraduate students.</li>
+      <li>Leading lab sessions on <strong>control systems</strong> and <strong>actuator programming</strong>, providing technical support during experiments.</li>
+    </ul>
+  </div>
+  <img src="{{ '/images/umass.png' | relative_url }}" 
+       alt="UMass Amherst Logo" 
+       style="width:120px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
+</div>
+
+<hr>
+
+<!-- Teaching Assistant - Kadir Has University -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+    <h2 style="margin:0; font-size:1.3em;">Teaching Assistant — Kadir Has University</h2>
+    <em>İstanbul, Türkiye · 2022 – 2023</em>
+    <ul style="margin-top:10px;">
+      <li>Supported teaching activities for <strong>Embedded Systems and Control</strong> courses.</li>
+      <li>Guided students in <strong>microcontroller programming</strong> and <strong>robotic prototyping</strong> using Arduino and MATLAB.</li>
+    </ul>
+  </div>
+  <img src="{{ '/images/khas.png' | relative_url }}" 
+       alt="Kadir Has University Logo" 
+       style="width:120px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
+</div>
+
