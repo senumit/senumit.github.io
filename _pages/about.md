@@ -29,8 +29,10 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
     </ul>
     <!-- Paper links (no title) -->
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
-      <a><a href="https://doi.org/10.xxxx/softrobotics.paper1" target="_blank" rel="noopener noreferrer">Paper 1</a><a> | 
-      <a><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Paper 2</a></a>
+      <a><a href="https://ieeexplore.ieee.org/abstract/document/10858406" target="_blank" rel="noopener noreferrer">IEEE ToH</a></a> |
+      <a><a href="https://ieeexplore.ieee.org/abstract/document/10417076" target="_blank" rel="noopener noreferrer">IEEE RA-L</a></a> |
+     <a><a href="https://2023.worldhaptics.org/wp-content/uploads/2023/06/1065-doc.pdf" target="_blank" rel="noopener noreferrer">World Haptics 23</a>
+     </a>
     </p>
       </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
