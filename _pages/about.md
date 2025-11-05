@@ -13,6 +13,11 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 ---
 
 ## 🧠 Soft Robotic Snake Design & Locomotion  
+
+<img src="{{ '/images/umass.png' | relative_url }}" 
+     alt="University of Massachusetts Amherst" 
+     style="width:90px; vertical-align:middle; margin-right:10px;">
+
 _Ph.D. Research · University of Massachusetts Amherst (2024 – Present)_  
 **Advisor:** Assist. Prof. Gina Olson  
 
