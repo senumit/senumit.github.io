@@ -283,11 +283,14 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <!-- Software -->
 <h2 style="margin:15px 0 5px 0; font-size:1.3em;">Software</h2>
 <ul style="margin-top:5px;">
-  <li><strong>MATLAB & Simulink</strong> — used for system modeling, swarm behavior simulation, and signal analysis.</li>
-  <li><strong>Python</strong> — applied for data analysis, automation of experimental workflows, and numerical modeling of soft actuators.</li>
-  <li><strong>ROS (Robot Operating System)</strong> — used to control and coordinate multi-actuator robotic systems.</li>
-  <li><strong>Arduino & MicroPython</strong> — programmed for embedded control of soft actuators and haptic interfaces.</li>
-  <li><strong>ANSYS</strong> — employed for structural simulation of elastomer-based designs under pressure and strain.</li>
+<li><strong>MATLAB & Simulink</strong> — extensive experience through full-time control design engineering work, robot swarm and visible-light positioning simulations, data analysis for research.</li>
+<li><strong>ROS (Robot Operating System)</strong> — implemented a wireless teleoperation system for two robotic arms via a ROS server in a class project.</li>
+<li><strong>Arduino & MicroPython</strong> — used for controller board design of a wrist-worn haptic device and actuation control of soft robots.</li>
+<li><strong>ANSYS</strong> — used for structural simulations of elastomer-based designs under pressure and strain in graduate-level courses</li>
+<li><strong>Python</strong> — applied for multiple course projects on data analysis; strengthened through completing Machine Learning courses</li>
+<li><strong>Machine Learning Specialization</strong> — completed Andrew Ng’s Machine Learning Specialization on Coursera</li>
+
+
 </ul>
 
 
