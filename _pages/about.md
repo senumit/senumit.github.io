@@ -24,7 +24,7 @@ _Ph.D. Research · University of Massachusetts Amherst (2024 – Present)_
 - Developing a **soft robotic snake** capable of achieving **snake-like locomotion** through **frictional anisotropy**.  
 - Fabricating **pneumatic McKibben actuators** and designing **bioinspired robotic skins** via elastomer molding and FDM-based thermoplastic printing.  
 - Performing experimental design and data analysis to assess how surface properties affect locomotion efficiency.  
-- Awarded **two competitive fellowships** for research excellence in the first year of the Ph.D. program.
+- Awarded **two merit-based fellowships** for research in the first year of the Ph.D. program.
 
 ---
 
