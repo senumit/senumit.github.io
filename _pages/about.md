@@ -182,8 +182,8 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
     <h2 style="margin:0; font-size:1.3em;">Lightning Talk — College of Engineering </h2>
     <em>Amherst, MA · 2025</em>
     <p style="margin-top:10px;">
-      Delivered a 90-seconds talk and presented a poster on <strong>snake-inspired soft robotic locomotion</strong>. 
-      Selected to deliver the talk from a group of 50 engineering graduate students who were also invited to present posters.
+     <li>  Delivered a 90-seconds talk and presented a poster on <strong>snake-inspired soft robotic locomotion</strong>. </li>
+     <li> Selected to deliver the talk from a group of 50 engineering graduate students who were also invited to present posters.</li>
     </p>
   </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
@@ -197,8 +197,8 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
     <h2 style="margin:0; font-size:1.3em;">Poster Presentation — 2023 IEEE World Haptics Conference</h2>
     <em>Delft, Netherlands · 2023</em>
     <p style="margin-top:10px;">
-      Presented research on a <strong>wrist-worn haptic interface</strong> using a custom <strong>voice-coil actuator</strong> for tactile feedback applications.  
-      Discussed actuator design, embedded control, and user study results during the IEEE World Haptics Conference.
+     <li> Presented research on a <strong>wrist-worn haptic interface</strong> using a custom <strong>voice-coil actuator</strong> for tactile feedback applications. </li> 
+     <li> Discussed actuator design, embedded control, and user study results during the IEEE World Haptics Conference.</li>
     </p>
   </div>
   <img src="{{ '/images/whc23.png' | relative_url }}" 
