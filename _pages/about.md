@@ -96,8 +96,8 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
   <h2 style="margin:0; font-size:1.3em;">Control Design Engineer</h2>
   <em>ASELSAN · Ankara, Türkiye · Full-Time · 2023-2024</em>
   <ul style="margin-top:10px;">
-    <li>Contributed to the development and mechanical testing of <strong>precision electromechanical assemblies</strong> for defense and communication systems.</li>
-    <li>Implemented design modifications using <strong>SolidWorks</strong> and <strong>ANSYS</strong> to enhance structural reliability under thermal and vibration loads.</li>
+    <li>...</li>
+    <li>...</li>
   </ul>
 </div>
 
@@ -105,11 +105,11 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 
 <!-- Teaching Assistant -->
 <div style="margin-bottom:40px;">
-  <h2 style="margin:0; font-size:1.3em;">Teaching Assistant</h2>
-  <em>Kadir Has University · İstanbul, Türkiye · 2021 – 2022</em>
+  <h2 style="margin:0; font-size:1.3em;">Engineering Intern</h2>
+  <em>Turkish Aerospace Industries· Ankara, Türkiye · Summer 2022</em>
   <ul style="margin-top:10px;">
-    <li>Assisted in teaching <strong>Control Systems</strong> and <strong>Mechatronic Design</strong> courses, mentoring students in <strong>MATLAB</strong> and <strong>Simulink</strong>-based simulations.</li>
-    <li>Guided senior students through <strong>project-based learning</strong> focused on embedded systems and robotics design.</li>
+    <li>..</li>
+    <li>...</li>
   </ul>
 </div>
 
