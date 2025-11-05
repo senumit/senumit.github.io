@@ -6,6 +6,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
+# About Me
+My name is Umit, and currently I am a PhD student at the University of Massachusetts Amherst. Previously, I was a full-time engineer at ASELSAN, and an undergraduate student at Kadir Has University.
+
+
 # Research
 
 My research focuses on **soft robotics**, particularly **snake-inspired soft robot design and locomotion**. I aim to understand how snakes exploit frictional anisotropy to achieve locomotion, and how this principle can be replicated through soft robotic systems using engineered materials and compliant structures. Previously, I contributed journal papers on **haptic interfaces & wearable haptic device design**, **multi-robot coordination**, and **visible light positioning**.
