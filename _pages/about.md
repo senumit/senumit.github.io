@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 # About Me
-My name is Umit, and currently I am a PhD student at the University of Massachusetts Amherst. Previously, I was a full-time engineer at ASELSAN, and an undergraduate student at Kadir Has University.
+My name is Umit, and currently I am a PhD student at the <em><a href="https://www.umass.edu/" rel="noopener noreferrer">University of Massachusetts Amherst</a> .. Previously, I was a full-time engineer at  <em><a href="https://www.aselsan.com/en" rel="noopener noreferrer">ASELSAN</a> , and an undergraduate student at  <em><a href="https://www.khas.edu.tr/en/" rel="noopener noreferrer">Kadir Has University</a> .
 
 
 # Research
