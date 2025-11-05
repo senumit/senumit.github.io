@@ -27,6 +27,12 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Performing <strong>experimental design</strong> and <strong>data analysis</strong> to assess how surface properties affect locomotion efficiency.</li>
       <li>Awarded <strong>two merit-based fellowships</strong> for research in the first year of the Ph.D. program.</li>
     </ul>
+
+   <p style="margin-top:8px; margin-bottom:0;"><strong>Related Publications:</strong></p>
+    <ul style="margin-top:5px;">
+      <li><a href="https://doi.org/10.xxxx/softrobotics.paper1" target="_blank" rel="noopener noreferrer">Paper 1 — Bioinspired Locomotion in Soft Robotic Systems (Soft Robotics, 2025)</a></li>
+      <li><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Paper 2 — Surface Anisotropy and Motion Control in Pneumatic Soft Robots (IEEE RA-L, 2025)</a></li>
+    </ul>
   </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
        alt="UMass Amherst Logo" 
