@@ -98,7 +98,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <!-- ASELSAN Internship -->
 <div style="margin-bottom:40px;">
   <h2 style="margin:0; font-size:1.3em;">Control Design Engineer</h2>
-  <em><a href="https://www.aselsan.com/"en target="_blank" rel="noopener noreferrer">ASELSAN</a> · Ankara, Türkiye · Full-Time Engineer · 08/2023 - 08/2024</em>
+  <em><a href="https://www.aselsan.com/en" rel="noopener noreferrer">ASELSAN</a> · Ankara, Türkiye · Full-Time Engineer · 08/2023 - 08/2024</em>
   <ul style="margin-top:10px;">
     <li>...</li>
     <li>...</li>
