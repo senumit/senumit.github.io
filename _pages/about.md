@@ -86,3 +86,55 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
        alt="Kadir Has University Logo" 
        style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
 </div>
+
+
+
+
+<h1 style="font-size:1.8em; margin-bottom:25px;">Awards & Honors</h1>
+<!-- UMass Fellowship -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+    <h2 style="margin:0; font-size:1.3em;">College of Engineering Merit Fellowship</h2>
+    <em>University of Massachusetts Amherst · 2024</em>
+    <p style="margin-top:10px;">
+      Awarded a <strong>competitive graduate fellowship</strong> from the <strong>College of Engineering</strong> for outstanding academic performance and research excellence in soft robotics.
+    </p>
+  </div>
+  <img src="{{ '/images/umass.png' | relative_url }}" 
+       alt="UMass Amherst Logo" 
+       style="width:100px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
+</div>
+
+<hr>
+
+<!-- UMass Research Excellence Award -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+    <h2 style="margin:0; font-size:1.3em;">Graduate Research Excellence Award</h2>
+    <em>University of Massachusetts Amherst · 2025</em>
+    <p style="margin-top:10px;">
+      Recognized by the <strong>Department of Mechanical and Industrial Engineering</strong> for pioneering work on <strong>snake-inspired soft robotic locomotion</strong> and early contributions to bioinspired design research.
+    </p>
+  </div>
+  <img src="{{ '/images/umass.png' | relative_url }}" 
+       alt="UMass Amherst Logo" 
+       style="width:100px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
+</div>
+
+<hr>
+
+<!-- Kadir Has Valedictorian -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+    <h2 style="margin:0; font-size:1.3em;">Valedictorian · Mechatronics Engineering</h2>
+    <em>Kadir Has University · 2023</em>
+    <p style="margin-top:10px;">
+      Graduated as <strong>Valedictorian</strong> of the Mechatronics Engineering department with a <strong>4.00/4.00 GPA</strong>, recognized for excellence in robotics, control systems, and research leadership.
+    </p>
+  </div>
+  <img src="{{ '/images/kadirhas.png' | relative_url }}" 
+       alt="Kadir Has University Logo" 
+       style="width:100px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
+</div>
+
+
