@@ -235,11 +235,10 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <!-- Teaching Assistant - UMass Amherst -->
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h2 style="margin:0; font-size:1.3em;">Teaching Assistant — University of Massachusetts Amherst</h2>
+    <h2 style="margin:0; font-size:1.3em;">Graduate Teaching Assistant — University of Massachusetts Amherst</h2>
     <em>Amherst, MA · 2024 – Present</em>
     <ul style="margin-top:10px;">
-      <li>Assisting in <strong>Introduction to Robotics</strong> course for undergraduate students.</li>
-      <li>Leading lab sessions on <strong>control systems</strong> and <strong>actuator programming</strong>, providing technical support during experiments.</li>
+      <li>MIE124 - Computer Prog. for Eng. Problem Solving - Spring 2025</li>
     </ul>
   </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
@@ -252,11 +251,14 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <!-- Teaching Assistant - Kadir Has University -->
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h2 style="margin:0; font-size:1.3em;">Teaching Assistant — Kadir Has University</h2>
+    <h2 style="margin:0; font-size:1.3em;">Undergraduate Teaching Assistant — Kadir Has University</h2>
     <em>İstanbul, Türkiye · 2022 – 2023</em>
     <ul style="margin-top:10px;">
-      <li>Supported teaching activities for <strong>Embedded Systems and Control</strong> courses.</li>
-      <li>Guided students in <strong>microcontroller programming</strong> and <strong>robotic prototyping</strong> using Arduino and MATLAB.</li>
+      <li>KHAS109 - Computational Thinking (Undergrad TA) - Fall 2022</li>
+      <li>KHAS110 - Civic Responsibility Project - Spring 2022</li>
+      <li>KHAS101- Origins and Consequences - Fall 2021</li>
+      <li>TLL102 - Critical Reading and Writing in Turkish II - Spring 2021</li>
+      <li>TLL101 - Critical Reading and Writing in Turkish I - Fall 2020</li>
     </ul>
   </div>
   <img src="{{ '/images/khas.png' | relative_url }}" 
