@@ -9,14 +9,15 @@
 
 main:
 
-- title: "CV"
-    url: /cv/
-    
+
 - title: "Publications"
-   url: /publications/
+  url: /publications/
    
 - title: "Projects"
-   url: /portfolio/
+  url: /portfolio/
+
+- title: "CV"
+  url: /cv/
 
 #  - title: "Talks"
 #    url: /talks/    
