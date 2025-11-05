@@ -12,11 +12,8 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 
 ---
 <!-- UMass Amherst -->
-<div style="display:flex; align-items:center; margin-bottom:25px;">
-  <img src="{{ '/images/umass.png' | relative_url }}" 
-       alt="UMass Amherst Logo" 
-       style="width:90px; margin-right:15px;">
-  <div>
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
     <em>Ph.D. Research · University of Massachusetts Amherst (2024 – Present)</em><br>
     <strong>Advisor:</strong> Assist. Prof. Gina Olson
     <ul>
@@ -26,16 +23,16 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Awarded <strong>two merit-based fellowships</strong> for research in the first year of the Ph.D. program.</li>
     </ul>
   </div>
+  <img src="{{ '/images/umass.png' | relative_url }}" 
+       alt="UMass Amherst Logo" 
+       style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
 </div>
 
 <hr>
 
 <!-- Wrist-Worn Haptic Device -->
-<div style="display:flex; align-items:center; margin-bottom:25px;">
-  <img src="{{ '/images/khas.png' | relative_url }}" 
-       alt="Kadir Has University Logo" 
-       style="width:90px; margin-right:15px;">
-  <div>
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
     <h3 style="margin:0;">Wrist-Worn Haptic Device</h3>
     <em>Senior Thesis · Kadir Has University (2022 – 2023)</em><br>
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
@@ -46,16 +43,16 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Led to <strong>multiple IEEE journal publications</strong> on haptic actuation and human-machine interaction.</li>
     </ul>
   </div>
+  <img src="{{ '/images/kadirhas.png' | relative_url }}" 
+       alt="Kadir Has University Logo" 
+       style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
 </div>
 
 <hr>
 
 <!-- Visible-Light Positioning -->
-<div style="display:flex; align-items:center; margin-bottom:25px;">
-  <img src="{{ '/images/khas.png' | relative_url }}" 
-       alt="Kadir Has University Logo" 
-       style="width:90px; margin-right:15px;">
-  <div>
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
     <h3 style="margin:0;">Visible-Light Positioning</h3>
     <em>Undergraduate Research Assistant · Kadir Has University (2021 – 2022)</em><br>
     <strong>Advisors:</strong> Emeritus Prof. Erdal Panayirci and Assoc. Prof. Taner Arsan
@@ -65,16 +62,16 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Published in <em>Optics Communications (2023)</em> for advancements in <strong>visible-light communication-based localization</strong>.</li>
     </ul>
   </div>
+  <img src="{{ '/images/kadirhas.png' | relative_url }}" 
+       alt="Kadir Has University Logo" 
+       style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
 </div>
 
 <hr>
 
 <!-- Robot Swarm Coordination -->
-<div style="display:flex; align-items:center; margin-bottom:25px;">
-  <img src="{{ '/images/khas.png' | relative_url }}" 
-       alt="Kadir Has University Logo" 
-       style="width:90px; margin-right:15px;">
-  <div>
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
     <h3 style="margin:0;">Robot Swarm Coordination</h3>
     <em>Undergraduate Research Assistant · Kadir Has University (2020 – 2022)</em><br>
     <strong>Advisor:</strong> Prof. Feza Kerestecioglu
@@ -84,4 +81,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Results published in <em>Adaptive Behavior (2024)</em>.</li>
     </ul>
   </div>
+  <img src="{{ '/images/kadirhas.png' | relative_url }}" 
+       alt="Kadir Has University Logo" 
+       style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
 </div>
