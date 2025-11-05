@@ -236,7 +236,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
     <h2 style="margin:0; font-size:1.3em;">Graduate Teaching Assistant — University of Massachusetts Amherst</h2>
-    <em>Amherst, MA · 2024 – Present</em>
+    <em>Amherst, MA</em>
     <ul style="margin-top:10px;">
       <li>MIE124 - Computer Prog. for Eng. Problem Solving - Spring 2025</li>
     </ul>
@@ -252,7 +252,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
     <h2 style="margin:0; font-size:1.3em;">Undergraduate Teaching Assistant — Kadir Has University</h2>
-    <em>İstanbul, Türkiye · 2022 – 2023</em>
+    <em>İstanbul, Türkiye</em>
     <ul style="margin-top:10px;">
       <li>KHAS109 - Computational Thinking (Undergrad TA) - Fall 2022</li>
       <li>KHAS110 - Civic Responsibility Project - Spring 2022</li>
