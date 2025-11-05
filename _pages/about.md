@@ -43,7 +43,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Led to <strong>multiple IEEE journal publications</strong> on haptic actuation and human-machine interaction.</li>
     </ul>
   </div>
-  <img src="{{ '/images/kadirhas.png' | relative_url }}" 
+  <img src="{{ '/images/khas.png' | relative_url }}" 
        alt="Kadir Has University Logo" 
        style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
 </div>
@@ -62,7 +62,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Published in <em>Optics Communications (2023)</em> for advancements in <strong>visible-light communication-based localization</strong>.</li>
     </ul>
   </div>
-  <img src="{{ '/images/kadirhas.png' | relative_url }}" 
+  <img src="{{ '/images/khas.png' | relative_url }}" 
        alt="Kadir Has University Logo" 
        style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
 </div>
@@ -81,7 +81,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <li>Results published in <em>Adaptive Behavior (2024)</em>.</li>
     </ul>
   </div>
-  <img src="{{ '/images/kadirhas.png' | relative_url }}" 
+  <img src="{{ '/images/khas.png' | relative_url }}" 
        alt="Kadir Has University Logo" 
        style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
 </div>
