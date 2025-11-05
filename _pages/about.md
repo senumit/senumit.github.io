@@ -59,7 +59,6 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
      <a><a href="https://2023.worldhaptics.org/wp-content/uploads/2023/06/1065-doc.pdf" target="_blank" rel="noopener noreferrer">World Haptics 23</a>
      </a>
     </p>
-    </ul>
   </div>
   <img src="{{ '/images/khas.png' | relative_url }}" 
        alt="Kadir Has University Logo" 
