@@ -172,11 +172,30 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 
 
 <h1 style="font-size:1.8em; margin-bottom:25px;">Talks & Presentations</h1>
+
+
+<hr>
+
+<!-- UMass Research Seminar -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+    <h2 style="margin:0; font-size:1.3em;">Lightning Talk — College of Engineering, UMass Amherst </h2>
+    <em>Amherst, MA · 2025</em>
+    <p style="margin-top:10px;">
+      Delivered a 90-seconds talk and presented a poster on <strong>snake-inspired soft robotic locomotion</strong>. 
+      Selected to deliver the talk from a group of 50 engineering graduate students who were also invited to present posters.
+    </p>
+  </div>
+  <img src="{{ '/images/umass.png' | relative_url }}" 
+       alt="UMass Amherst Logo" 
+       style="width:120px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
+  
+</div>
 <!-- IEEE World Haptics Conference -->
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h2 style="margin:0; font-size:1.3em;">Poster Presentation — IEEE World Haptics Conference</h2>
-    <em>San Francisco, CA · 2023</em>
+    <h2 style="margin:0; font-size:1.3em;">Poster Presentation — 2023 IEEE World Haptics Conference</h2>
+    <em>Delft, Netherlands · 2023</em>
     <p style="margin-top:10px;">
       Presented research on a <strong>wrist-worn haptic interface</strong> using a custom <strong>voice-coil actuator</strong> for tactile feedback applications.  
       Discussed actuator design, embedded control, and user study results during the IEEE World Haptics Conference.
@@ -186,23 +205,4 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
        alt="IEEE Logo" 
        style="width:120px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
 </div>
-
-<hr>
-
-<!-- UMass Research Seminar -->
-<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
-  <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h2 style="margin:0; font-size:1.3em;">Research Seminar — University of Massachusetts Amherst</h2>
-    <em>Amherst, MA · 2025</em>
-    <p style="margin-top:10px;">
-      Delivered a seminar on <strong>snake-inspired soft robotic locomotion</strong>, focusing on  
-      <strong>surface anisotropy design</strong> and <strong>bioinspired actuation strategies</strong> for friction-adaptive movement.  
-      Hosted by the Department of Mechanical and Industrial Engineering at the University of Massachusetts Amherst.
-    </p>
-  </div>
-  <img src="{{ '/images/umass.png' | relative_url }}" 
-       alt="UMass Amherst Logo" 
-       style="width:120px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
-</div>
-
 
