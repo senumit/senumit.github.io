@@ -14,9 +14,17 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 
 ## 🧠 Soft Robotic Snake Design & Locomotion  
 
-<img src="{{ '/images/umass.png' | relative_url }}" 
-     alt="University of Massachusetts Amherst" 
-     style="width:90px; vertical-align:middle; margin-right:10px;">
+<div style="display:flex; align-items:center; margin-bottom:15px;">
+  <img src="{{ '/images/logos/umass.svg' | relative_url }}" 
+       alt="UMass Amherst Logo" 
+       style="width:80px; margin-right:15px;">
+  <div>
+    <strong>University of Massachusetts Amherst</strong><br>
+    <em>Ph.D. Researcher in Mechanical Engineering</em><br>
+    <span>2024 – Present</span><br>
+    Working on snake-inspired soft robotic locomotion using engineered anisotropic materials and soft actuation systems.
+  </div>
+</div>
 
 _Ph.D. Research · University of Massachusetts Amherst (2024 – Present)_  
 **Advisor:** Assist. Prof. Gina Olson  
