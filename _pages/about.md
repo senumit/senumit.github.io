@@ -29,8 +29,8 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
     </ul>
     <!-- Paper links (no title) -->
     <ul style="margin-top:5px; list-style-type:none; padding-left:0;">
-      <li><a href="https://doi.org/10.xxxx/softrobotics.paper1" target="_blank" rel="noopener noreferrer">Paper 1</a></li>
-      <li><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Paper 2</a></li>
+      <a><a href="https://doi.org/10.xxxx/softrobotics.paper1" target="_blank" rel="noopener noreferrer">Paper 1</a><a> | 
+      <a><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Paper 2</a></a>
     </ul>
   </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
