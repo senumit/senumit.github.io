@@ -97,7 +97,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
     <h2 style="margin:0; font-size:1.3em;">Robert and Deanna Hagerty Scholarship</h2>
     <em>University of Massachusetts Amherst · 2025</em>
     <p style="margin-top:10px;">
-      $3,000 <strong>merit based</strong>strong> award given for an interest or excellence in the field of Robotics through coursework, research and/or extracurricular activities.
+      $3,000 <strong>merit based</strong> award given for an interest or excellence in the field of Robotics through coursework, research and/or extracurricular activities.
     </p>
   </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
