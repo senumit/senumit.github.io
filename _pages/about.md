@@ -20,7 +20,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
     <span>2024 – Present</span><br>
     Working on snake-inspired soft robotic locomotion using engineered anisotropic materials and soft actuation systems.
   </div>
-  <img src="{{ '/images/logos/umass.png' | relative_url }}" 
+  <img src="{{ '/images/umass.png' | relative_url }}" 
        alt="UMass Amherst Logo" 
        style="width:80px; margin-left:15px;">
 </div>
