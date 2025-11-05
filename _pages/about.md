@@ -6,70 +6,50 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 # Research
 
-I am broadly interested in:
-
-- **Area 1** – short description.
-- **Area 2** – short description.
-- **Area 3** – short description.
-
-## Selected Projects
-
-- **Project Title 1**  
-  _[Year – Lab / Group]_  
-  One-sentence summary of what you did and why it matters.  
-  - Optional bullet: key contribution or result.
-  - Optional bullet: link: [Paper](#) · [Code](#) · [Video](#)
-
-- **Project Title 2**  
-  _[Year – Lab / Group]_  
-  One-sentence summary.  
-  - Optional bullet: key contribution.
-  - Optional bullet: link: [Project page](#)
-
-[See all publications →](/publications/)  
-[See more projects →](/portfolio/)
+My research focuses on **soft robotics**, particularly **snake-inspired locomotion**, **haptic interfaces**, and **multi-robot coordination**. I design systems that merge mechanical design, material science, and control algorithms to achieve adaptive and bioinspired motion.
 
 ---
 
-# Work Experience
+## 🧠 Soft Robotic Snake Design & Locomotion  
+_Ph.D. Research · University of Massachusetts Amherst (2024 – Present)_  
+**Advisor:** Assist. Prof. Gina Olson  
 
-- **Job Title / Role**, _Organization_  
-  _Location · Start Year – End Year (or Present)_  
-  - 1–2 bullets with concrete, measurable responsibilities or outcomes.
-  - Optional bullet focusing on tools/technologies (e.g., Python, ROS, SolidWorks).
-
-- **Job Title / Role**, _Organization_  
-  _Location · Start Year – End Year_  
-  - 1–2 bullets summarizing your main impact.
-  - Optional bullet highlighting collaboration / leadership.
+- Developing a **soft robotic snake** capable of achieving **snake-like locomotion** through **frictional anisotropy**.  
+- Fabricating **pneumatic McKibben actuators** and designing **bioinspired robotic skins** via elastomer molding and FDM-based thermoplastic printing.  
+- Conducting **friction experiments** to correlate surface anisotropy with locomotion efficiency.  
+- Awarded **two competitive fellowships** for research excellence in the first year of the Ph.D. program.
 
 ---
 
-# Awards
+## ✋ Wrist-Worn Haptic Device  
+_Senior Thesis · Kadir Has University (2022 – 2023)_  
+**Advisor:** Assist. Prof. Mine Sarac Stroppa  
 
-- **Award Name**, _Institution / Organization_ — Year  
-  One short phrase: reason or context (optional).
-
-- **Award Name**, _Institution / Organization_ — Year  
-  Short phrase.
-
-- **Scholarship / Fellowship Name**, Year  
-  Very brief description (e.g., “Merit-based scholarship for X students in Y program”).
+- Designed and built a **wrist-worn haptic interface** using a custom **voice-coil actuator**.  
+- Developed an **embedded control board** and 3D-printed the mechanical casing.  
+- Validated system performance via **user studies**, resulting in a **poster presentation at the 2023 IEEE World Haptics Conference**.  
+- Led to **multiple IEEE journal publications** on haptic actuation and human-machine interaction.
 
 ---
 
-# Talks
+## 💡 Visible-Light Positioning  
+_Undergraduate Research Assistant · Kadir Has University (2021 – 2022)_  
+**Advisors:** Emeritus Prof. Erdal Panayirci and Assoc. Prof. Taner Arsan  
 
-- **Talk Title**  
-  _Event / Conference · Location · Year_  
-  One short sentence describing the topic or audience focus.  
-  - Optional link: [Slides](#) · [Recording](#)
+- Simulated **spatial-modulation-based 3D indoor positioning** algorithms using MATLAB.  
+- Performed Monte Carlo-based data analysis and parameter optimization.  
+- Published in **_Optics Communications_ (2023)** for advancements in **visible-light communication-based localization**.
 
-- **Talk Title**  
-  _Seminar / Workshop · Year_  
-  One-line summary (e.g., “Invited talk on …”).
+---
 
-[More talks →](/talks/)
+## 🤖 Robot Swarm Coordination  
+_Undergraduate Researcher Assistant · Kadir Has University (2020 – 2022)_  
+**Advisor:** Prof. Feza Kerestecioglu  
+
+- Investigated **communication-free swarm coordination** using **local cost-minimization strategies**.  
+- Designed cost functions enabling **circular group formation** and tested them through MATLAB simulations.  
+- Results published in **_Adaptive Behavior_ (2024)**.
+
+
