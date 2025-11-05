@@ -179,7 +179,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <!-- UMass Research Seminar -->
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h2 style="margin:0; font-size:1.3em;">Lightning Talk — College of Engineering, UMass Amherst </h2>
+    <h2 style="margin:0; font-size:1.3em;">Lightning Talk — College of Engineering </h2>
     <em>Amherst, MA · 2025</em>
     <p style="margin-top:10px;">
       Delivered a 90-seconds talk and presented a poster on <strong>snake-inspired soft robotic locomotion</strong>. 
@@ -202,7 +202,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
     </p>
   </div>
   <img src="{{ '/images/whc23.png' | relative_url }}" 
-       alt="IEEE Logo" 
+       alt="WHC23 Logo" 
        style="width:120px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
 </div>
 
