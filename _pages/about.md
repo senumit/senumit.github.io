@@ -31,8 +31,8 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
     <p style="margin-top:5px; list-style-type:none; padding-left:0;">
       <a><a href="https://doi.org/10.xxxx/softrobotics.paper1" target="_blank" rel="noopener noreferrer">Paper 1</a><a> | 
       <a><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Paper 2</a></a>
-    </ul>
-  </div>
+    </p>
+      </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
        alt="UMass Amherst Logo" 
        style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
@@ -57,7 +57,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       <a><a href="https://doi.org/10.xxxx/softrobotics.paper1" target="_blank" rel="noopener noreferrer">IEEE ToH</a></a> |
       <a><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">IEEE RA-L</a></a> |
      <a><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">World Haptics 23</a></li>
-
+    </p>
     </ul>
   </div>
   <img src="{{ '/images/khas.png' | relative_url }}" 
@@ -80,9 +80,9 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
     </ul>
    <!-- Paper links (no title) -->
     <p style="margin-top:5px; list-style-type:none; padding-left:0;">
-       <li><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Optics Communications</a></li>
-
-    </ul>
+       <a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Optics Communications</a>
+    </p>
+  
   </div>
   <img src="{{ '/images/khas.png' | relative_url }}" 
        alt="Kadir Has University Logo" 
@@ -105,8 +105,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
   <!-- Paper links (no title) -->
     <p style="margin-top:5px; list-style-type:none; padding-left:0;">
             <li><a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Adaptive Behavior</a></li>
-
-    </ul>
+    </p>
   </div>
   <img src="{{ '/images/khas.png' | relative_url }}" 
        alt="Kadir Has University Logo" 
