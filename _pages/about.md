@@ -12,7 +12,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 
 ---
 
-## 🧠 Soft Robotic Snake Design & Locomotion  
+## Soft Robotic Snake Design & Locomotion  
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:15px;">
   <div style="max-width:85%;">
     <strong>University of Massachusetts Amherst</strong><br>
@@ -35,7 +35,7 @@ _Ph.D. Research · University of Massachusetts Amherst (2024 – Present)_
 
 ---
 
-## ✋ Wrist-Worn Haptic Device  
+## Wrist-Worn Haptic Device  
 _Senior Thesis · Kadir Has University (2022 – 2023)_  
 **Advisor:** Assist. Prof. Mine Sarac Stroppa  
 
@@ -46,7 +46,7 @@ _Senior Thesis · Kadir Has University (2022 – 2023)_
 
 ---
 
-## 💡 Visible-Light Positioning  
+## Visible-Light Positioning  
 _Undergraduate Research Assistant · Kadir Has University (2021 – 2022)_  
 **Advisors:** Emeritus Prof. Erdal Panayirci and Assoc. Prof. Taner Arsan  
 
@@ -56,7 +56,7 @@ _Undergraduate Research Assistant · Kadir Has University (2021 – 2022)_
 
 ---
 
-## 🤖 Robot Swarm Coordination  
+## Robot Swarm Coordination  
 _Undergraduate Researcher Assistant · Kadir Has University (2020 – 2022)_  
 **Advisor:** Prof. Feza Kerestecioglu  
 
