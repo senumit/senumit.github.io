@@ -14,7 +14,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <!-- UMass Amherst -->
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h3 style="margin:0;">Soft Robotic Snake Design & Locomotion</h3>
+    <h3 style="margin:0; font-size:1.4em;">Soft Robotic Snake Design & Locomotion</h3>
     <em>Ph.D. Research · University of Massachusetts Amherst (2024 – Present)</em><br>
     <strong>Advisor:</strong> Assist. Prof. Gina Olson
     <ul>
@@ -34,7 +34,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <!-- Wrist-Worn Haptic Device -->
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h3 style="margin:0;">Wrist-Worn Haptic Device</h3>
+    <h3 style="margin:0; font-size:1.4em;">Wrist-Worn Haptic Device</h3>
     <em>Senior Thesis · Kadir Has University (2022 – 2023)</em><br>
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
     <ul>
@@ -54,7 +54,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <!-- Visible-Light Positioning -->
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h3 style="margin:0;">Visible-Light Positioning</h3>
+    <h3 style="margin:0; font-size:1.4em;">Visible-Light Positioning</h3>
     <em>Undergraduate Research Assistant · Kadir Has University (2021 – 2022)</em><br>
     <strong>Advisors:</strong> Emeritus Prof. Erdal Panayirci and Assoc. Prof. Taner Arsan
     <ul>
@@ -73,7 +73,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <!-- Robot Swarm Coordination -->
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h3 style="margin:0;">Robot Swarm Coordination</h3>
+    <h3 style="margin:0; font-size:1.4em;">Robot Swarm Coordination</h3>
     <em>Undergraduate Research Assistant · Kadir Has University (2020 – 2022)</em><br>
     <strong>Advisor:</strong> Prof. Feza Kerestecioglu
     <ul>
