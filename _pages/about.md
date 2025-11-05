@@ -201,7 +201,7 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
       Discussed actuator design, embedded control, and user study results during the IEEE World Haptics Conference.
     </p>
   </div>
-  <img src="{{ '/images/WHC23.png' | relative_url }}" 
+  <img src="{{ '/images/whc23.png' | relative_url }}" 
        alt="IEEE Logo" 
        style="width:120px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
 </div>
