@@ -272,11 +272,12 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
 <!-- Prototyping & Hardware -->
 <h2 style="margin:10px 0 5px 0; font-size:1.3em;">Prototyping & Hardware</h2>
 <ul style="margin-top:5px;">
-  <li><strong>3D Printing (FDM)</strong> — applied to fabricate robotic skins and structural parts for soft robotic snake prototypes.</li>
-  <li><strong>Silicone Molding & Casting</strong> — used in the development of pneumatic actuators and bioinspired skins.</li>
-  <li><strong>SolidWorks & Fusion 360</strong> — utilized for modeling robotic assemblies, actuator housings, and experimental test rigs.</li>
-  <li><strong>Sensor Integration & Circuit Design</strong> — implemented for haptic device feedback systems and soft actuator pressure sensing.</li>
-  <li><strong>Material Testing</strong> — performed friction and deformation characterization of elastomers for robotics research.</li>
+<li><strong>3D Printing (FDM)</strong> — gained through fabricating vertebrae for soft robotic snake, snake scales, and mechanical components for a wrist-worn haptic interface.</li>
+  <li><strong>Silicone Molding & Casting</strong> — used in the development of pneumatic McKibben actuators, bioinspired soft snake skins.</li>
+  <li><strong>SolidWorks & Fusion 360</strong> — utilized for all design elements produced for research.</li>
+  <li><strong>Sensor Integration & Circuit Design</strong> — implemented for wrist-worn haptic device controller board and soft robot actuation</li>
+  <li><strong>Material Testing</strong> — conducted bonding and tensile tests of elastomers using a universal testing machine.</li>
+  <li><strong>Experiment & User Study Design</strong> — designed and performed friction and locomotion experiments for soft robots, and user studies for wearable haptic devices.</li>
 </ul>
 
 <!-- Software -->
