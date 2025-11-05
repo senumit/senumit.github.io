@@ -266,3 +266,27 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
        style="width:120px; margin-left:25px; margin-top:10px; margin-bottom:10px;">
 </div>
 
+
+<h1 style="font-size:1.8em; margin-bottom:25px;">Skills</h1>
+
+<!-- Prototyping & Hardware -->
+<h2 style="margin:10px 0 5px 0; font-size:1.3em;">Prototyping & Hardware</h2>
+<ul style="margin-top:5px;">
+  <li><strong>3D Printing (FDM)</strong> — applied to fabricate robotic skins and structural parts for soft robotic snake prototypes.</li>
+  <li><strong>Silicone Molding & Casting</strong> — used in the development of pneumatic actuators and bioinspired skins.</li>
+  <li><strong>SolidWorks & Fusion 360</strong> — utilized for modeling robotic assemblies, actuator housings, and experimental test rigs.</li>
+  <li><strong>Sensor Integration & Circuit Design</strong> — implemented for haptic device feedback systems and soft actuator pressure sensing.</li>
+  <li><strong>Material Testing</strong> — performed friction and deformation characterization of elastomers for robotics research.</li>
+</ul>
+
+<!-- Software -->
+<h2 style="margin:15px 0 5px 0; font-size:1.3em;">Software</h2>
+<ul style="margin-top:5px;">
+  <li><strong>MATLAB & Simulink</strong> — used for system modeling, swarm behavior simulation, and signal analysis.</li>
+  <li><strong>Python</strong> — applied for data analysis, automation of experimental workflows, and numerical modeling of soft actuators.</li>
+  <li><strong>ROS (Robot Operating System)</strong> — used to control and coordinate multi-actuator robotic systems.</li>
+  <li><strong>Arduino & MicroPython</strong> — programmed for embedded control of soft actuators and haptic interfaces.</li>
+  <li><strong>ANSYS</strong> — employed for structural simulation of elastomer-based designs under pressure and strain.</li>
+</ul>
+
+
