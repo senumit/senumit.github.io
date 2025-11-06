@@ -109,34 +109,59 @@ author_profile: true
     <li>Validated real-time control through pick-and-place tasks with delay measurements derived from frame-by-frame video analysis.</li>
   </ul>
 
-  <!-- Image grid: 4 images (2x2) -->
-  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-top:20px;">
+<!-- Image grid: 2 rows, 2 images per row with explanations -->
+<div style="display:flex; flex-direction:column; align-items:center; gap:20px; margin-top:20px;">
+
+  <!-- Row 1 -->
+  <div style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap;">
     <img src="{{ '/images/controller1.png' | relative_url }}" 
          alt="Controller Arm" 
          style="width:500px; max-width:100%; border-radius:10px;">
-    <img src="{{ '/images/controller2.png | relative_url }}" 
-         alt="Teleoperated Arm" 
+    <img src="{{ '/images/controller2.png' | relative_url }}" 
+         alt="Controller Arm Close-up" 
          style="width:500px; max-width:100%; border-radius:10px;">
+  </div>
+  <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
+    <strong>Controller Arm:</strong> 3D-printed design and assembly of the master arm used to control the teleoperated manipulator. 
+    Potentiometers are integrated into each joint for angular position sensing and signal transmission through ROS.
+  </p>
+
+  <!-- Row 2 -->
+  <div style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap;">
     <img src="{{ '/images/teleoperated1.png' | relative_url }}" 
-         alt="ROS Communication Visualization" 
+         alt="Teleoperated Arm" 
          style="width:500px; max-width:100%; border-radius:10px;">
     <img src="{{ '/images/teleoperated2.png' | relative_url }}" 
          alt="Teleoperation Experiment" 
          style="width:500px; max-width:100%; border-radius:10px;">
   </div>
+  <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
+    <strong>Teleoperated Arm:</strong> Replica arm executing the controller’s movements in real time.
+    Demonstrations include pick-and-place tasks with measured communication delays of 0.3–0.53 s determined via frame-by-frame video analysis.
+  </p>
 
-  <!-- Single image below -->
-  <div style="text-align:center; margin-top:20px;">
-    <img src="{{ '/images/architecture.png' | relative_url }}" 
-         alt="System Overview" 
-         style="width:500px; max-width:100%; border-radius:10px;">
-  </div>
+</div>
+
+
+ <!-- Single image below -->
+<div style="text-align:center; margin-top:20px;">
+  <img src="{{ '/images/architecture.png' | relative_url }}" 
+       alt="System Overview" 
+       style="width:500px; max-width:100%; border-radius:10px;">
+  <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
+    <strong>System Architecture:</strong> Overview of the teleoperation framework showing the data flow between the 
+    controller and teleoperated arms through the ROS publisher–subscriber architecture. Each joint angle is acquired 
+    via potentiometers and transmitted to replicate movement on the teleoperated side. The setup enables low-cost, 
+    real-time control with measured delays of 0.3–0.53 s under wireless operation.
+  </p>
+</div>
+
 
   <!-- Embedded video (local .mp4) -->
   <div style="margin-top:25px; text-align:center;">
     <p style="margin-bottom:8px;"><strong>Demonstration Video</strong></p>
     <video width="700" controls>
-      <source src="{{ '/videos/Demo.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/images/Demo.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
