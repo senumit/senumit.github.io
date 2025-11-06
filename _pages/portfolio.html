@@ -113,14 +113,20 @@ author_profile: true
 <div style="display:flex; flex-direction:column; align-items:center; gap:20px; margin-top:20px;">
 
   <!-- Row 1 -->
-  <div style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap;">
+ <!-- Row with two images side by side -->
+<div style="width:100%; text-align:center; margin-top:20px;">
+  <div style="display:inline-block; vertical-align:top; margin:5px;">
     <img src="{{ '/images/controller1.png' | relative_url }}" 
          alt="Controller Arm" 
-         style="width:500px; max-width:100%; border-radius:10px;">
+         style="width:500px; border-radius:10px;">
+  </div>
+
+  <div style="display:inline-block; vertical-align:top; margin:5px;">
     <img src="{{ '/images/controller2.png' | relative_url }}" 
          alt="Controller Arm Close-up" 
-         style="width:500px; max-width:100%; border-radius:10px;">
+         style="width:500px; border-radius:10px;">
   </div>
+</div>
   <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
     <strong>Controller Arm:</strong> 3D-printed design and assembly of the master arm used to control the teleoperated manipulator. 
     Potentiometers are integrated into each joint for angular position sensing and signal transmission through ROS.
