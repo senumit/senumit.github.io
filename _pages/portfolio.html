@@ -258,26 +258,28 @@ author_profile: true
 <div style="width:100%; text-align:center; margin-top:20px;">
 
   <div style="margin-bottom:20px;">
-    <img src="{{ '/images/hyperloop1.png' | relative_url }}" 
+    <img src="{{ '/images/lasersensors.png' | relative_url }}" 
          alt="Pod Navigation Setup" 
          style="width:500px; max-width:100%; border-radius:10px;">
     <p style="font-size:0.9em; color:#555;">Navigation test setup showing reflector detection system and laser sensor alignment.</p>
   </div>
 
   <div style="margin-bottom:20px;">
-    <img src="{{ '/images/hyperloop2.png' | relative_url }}" 
+    <img src="{{ '/images/navigation system.png' | relative_url }}" 
          alt="Sensor Integration" 
          style="width:500px; max-width:100%; border-radius:10px;">
     <p style="font-size:0.9em; color:#555;">Integration of IMU, laser modules, and IR sensors on the pod’s electronics chassis.</p>
   </div>
 
- <!-- Two images side by side -->
-  <div style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap; margin-bottom:20px;">
-    <div style="text-align:center;">
-      <img src="{{ '/images/hyperloop3a.png' | relative_url }}" 
-           alt="Pod Testing Setup" 
-           style="width:500px; max-width:100%; border-radius:10px;">
-      <p style="font-size:0.9em; color:#555;">Pod testing setup during tunnel simulation.</p>
-    </div>
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:20px; margin-bottom:10px;">
+  <img src="{{ '/images/realPod1.png' | relative_url }}" alt="Control Board" style="width:500px; border-radius:10px;">
+  <img src="{{ '/images/realPod2.png' | relative_url }}" alt="Additional Board View" style="width:400px; border-radius:10px;">
+</div>
+  <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
+    <strong>Teleoperated Arm:</strong> Replica arm executing the controller’s movements in real time.
+    Demonstrations include pick-and-place tasks with measured communication delays of 0.3–0.53 s determined via frame-by-frame video analysis.
+  </p>
+
+</div>
 
 </div>
