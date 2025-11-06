@@ -83,3 +83,68 @@ author_profile: true
     <p style="margin-top:5px; font-size:0.95em;">Compact two-layer board integrating control, sensing, and actuation electronics for precise real-time performance.</p>
   </div>
 </div>
+
+
+
+<!-- Robotic Teleoperation System -->
+<div style="margin-bottom:50px;">
+
+  <h2 style="margin:0; font-size:1.3em;">Robotic Teleoperation System</h2>
+  <em>Low-cost dual-arm teleoperation platform using ROS and Arduino</em>
+
+  <!-- Summary paragraph -->
+  <p style="margin-top:10px;">
+    This project involves a low-cost robotic teleoperation system composed of a controller arm
+    and a teleoperated arm, both fully designed and 3D-printed. Joint angles are measured using
+    potentiometers and transmitted via ROS to replicate the controller arm’s motion on the
+    teleoperated arm. The system demonstrates real-time position mapping and basic pick-and-place
+    tasks with modest communication delay, showing that effective teleoperation is possible with
+    inexpensive hardware.
+  </p>
+
+  <!-- Bullet points -->
+  <ul style="margin-top:10px;">
+    <li>Designed and 3D-printed two kinematically similar robotic arms (controller and teleoperated) using low-cost SG90 servos.</li>
+    <li>Used potentiometers as joint angle sensors to minimize cost while maintaining sufficient position feedback accuracy.</li>
+    <li>Implemented a ROS-based publisher–subscriber architecture with Arduino boards for wireless teleoperation.</li>
+    <li>Validated the system through teleoperated pick-and-place tasks, measuring communication delays on the order of a few hundred milliseconds.</li>
+  </ul>
+
+  <!-- Image grid: 4 images, 2 side by side per row -->
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-top:20px;">
+
+    <!-- Row 1 -->
+    <img src="{{ '/images/teleop1.png' | relative_url }}" 
+         alt="Controller arm prototype" 
+         style="width:500px; max-width:100%; border-radius:10px;">
+    <img src="{{ '/images/teleop2.png' | relative_url }}" 
+         alt="Teleoperated arm prototype" 
+         style="width:500px; max-width:100%; border-radius:10px;">
+
+    <!-- Row 2 -->
+    <img src="{{ '/images/teleop3.png' | relative_url }}" 
+         alt="ROS communication and joint mapping" 
+         style="width:500px; max-width:100%; border-radius:10px;">
+    <img src="{{ '/images/teleop4.png' | relative_url }}" 
+         alt="Pick-and-place teleoperation experiment" 
+         style="width:500px; max-width:100%; border-radius:10px;">
+
+  </div>
+
+  <!-- Video placeholder -->
+  <div style="margin-top:25px; text-align:center;">
+    <p style="margin-bottom:8px;"><strong>Project Video</strong></p>
+    <!-- Replace VIDEO_ID with your actual YouTube video ID, or replace the iframe with a link -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/VIDEO_ID"
+      title="Robotic Teleoperation System Video"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</div>
+
