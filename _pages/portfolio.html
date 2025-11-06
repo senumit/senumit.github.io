@@ -133,14 +133,20 @@ author_profile: true
   </p>
 
   <!-- Row 2 -->
-  <div style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap;">
+  <!-- Row with two images side by side -->
+<div style="width:100%; text-align:center; margin-top:20px;">
+  <div style="display:inline-block; vertical-align:top; margin:5px;">
     <img src="{{ '/images/teleoperated1.png' | relative_url }}" 
-         alt="Teleoperated Arm" 
-         style="width:500px; max-width:100%; border-radius:10px;">
-    <img src="{{ '/images/teleoperated2.png' | relative_url }}" 
-         alt="Teleoperation Experiment" 
-         style="width:500px; max-width:100%; border-radius:10px;">
+         alt="Controller Arm" 
+         style="width:500px; border-radius:10px;">
   </div>
+
+  <div style="display:inline-block; vertical-align:top; margin:5px;">
+    <img src="{{ '/images/teleoperated2.png' | relative_url }}" 
+         alt="Controller Arm Close-up" 
+         style="width:500px; border-radius:10px;">
+  </div>
+</div>
   <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
     <strong>Teleoperated Arm:</strong> Replica arm executing the controller’s movements in real time.
     Demonstrations include pick-and-place tasks with measured communication delays of 0.3–0.53 s determined via frame-by-frame video analysis.
