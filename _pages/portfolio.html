@@ -227,3 +227,55 @@ author_profile: true
 </div>
 
 
+<hr>
+
+<!-- Pod Design for Hyperloop Competition -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+    <h2 style="margin:0; font-size:1.3em;">Pod Design for Hyperloop Competition</h2>
+    <em>National Hyperloop Competition · 2022</em>
+
+    <p style="margin-top:10px;">
+      This project was developed for a <strong>national Hyperloop competition</strong>, where our team received the 
+      <strong>Best Technical Design Report Award</strong>. I worked as part of the 
+      <strong>Navigation and Electronics Team</strong>, focusing on the design and testing of the systems that guided and monitored 
+      the pod’s movement inside the tunnel. My main goal was to build a reliable and accurate navigation setup that could 
+      work at high speeds using multiple sensors and Arduino-based control systems.
+    </p>
+
+    <ul style="margin-top:10px;">
+      <li>Designed a <strong>reflector-based navigation system</strong> using <strong>Waveshare Laser Sensors</strong> and <strong>Arduino Due</strong> to detect tunnel reflectors at speeds up to <strong>26 m/s</strong>.</li>
+      <li>Wrote and tested <strong>Arduino scripts</strong> to calculate velocity and displacement from reflector detection intervals.</li>
+      <li>Helped design a <strong>redundant sensor layout</strong> with five laser modules to reduce error through majority voting logic.</li>
+      <li>Developed a <strong>backup tachometer system</strong> using <strong>TCRT5000 IR sensors</strong> to track wheel rotation when laser sensors failed.</li>
+      <li>Integrated <strong>MPU6050 IMU</strong> and <strong>height IR sensors</strong> to measure acceleration, tilt, and levitation height of the pod.</li>
+      <li>Maintained signal accuracy by matching sampling rates to the <strong>Nyquist criterion</strong> for the laser module frequency.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Image placeholders -->
+<div style="width:100%; text-align:center; margin-top:20px;">
+
+  <div style="margin-bottom:20px;">
+    <img src="{{ '/images/hyperloop1.png' | relative_url }}" 
+         alt="Pod Navigation Setup" 
+         style="width:500px; max-width:100%; border-radius:10px;">
+    <p style="font-size:0.9em; color:#555;">Navigation test setup showing reflector detection system and laser sensor alignment.</p>
+  </div>
+
+  <div style="margin-bottom:20px;">
+    <img src="{{ '/images/hyperloop2.png' | relative_url }}" 
+         alt="Sensor Integration" 
+         style="width:500px; max-width:100%; border-radius:10px;">
+    <p style="font-size:0.9em; color:#555;">Integration of IMU, laser modules, and IR sensors on the pod’s electronics chassis.</p>
+  </div>
+
+  <div style="margin-bottom:20px;">
+    <img src="{{ '/images/hyperloop3.png' | relative_url }}" 
+         alt="Team Testing" 
+         style="width:500px; max-width:100%; border-radius:10px;">
+    <p style="font-size:0.9em; color:#555;">System validation and data collection during high-speed tunnel test session.</p>
+  </div>
+
+</div>
