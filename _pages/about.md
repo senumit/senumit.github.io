@@ -54,9 +54,10 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
     <ul>
       <li>Designed and built a <strong>wrist-worn haptic interface</strong> using a custom <strong>voice-coil actuator</strong>.</li>
-      <li>Developed an <strong>embedded control board</strong> and 3D-printed mechanical housing.</li>
-      <li>Validated system performance via <strong>user studies</strong>, leading to a <strong>poster presentation at the 2023 IEEE World Haptics Conference</strong>.</li>
-      <li>Contributed to <strong>multiple IEEE publications</strong> on haptic actuation and human–machine interaction.</li>
+      <<li>Developed an <strong>embedded electronics board</strong> and wrote the <strong>firmware</strong> to drive the actuator.</li>
+        <li>Designed an <strong>ergonomic actuator hardware</strong> to enhance user comfort and ensure consistent transmission of haptic feedback.</li>
+      <li>Validated system performance via <strong>user studies</strong>, leading to a <strong>poster presentation at the 2023 IEEE World Haptics Conference</strong>.</li> 
+        <li>Integrated the device with <strong>Unity3D</strong> to provide real-time <strong>haptic feedback</strong> during virtual interactions in a VR environment.</li>
     </ul>
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
       <a href="https://ieeexplore.ieee.org/abstract/document/10417076" target="_blank" rel="noopener noreferrer">IEEE RA-L</a> |
