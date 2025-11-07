@@ -78,8 +78,8 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; margin-bottom:40px;">
   <div style="flex:3; min-width:300px; margin-right:20px;">
     <h3 style="margin:0; font-size:1.3em;">Haptic Game Interface Design</h3>
-    <em>Research Project · Kadir Has University (2023)</em><br>
-    <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
+    <em>Research Project · Kadir Has University, Cornell University, WSU Pullman, UCLA</em><br>
+    <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa; <strong>Collaborators:</strong> Assist. Prof. Cara Nunez, Assist. Prof. Kyle Yoshida, Assist. Prof. Fabio Stroppa
     <ul>
       <li>Developed in <strong>Unity</strong> for iOS, maintaining 30 FPS with optimized haptic rendering.</li>
       <li>Created an <strong>endless runner</strong> gameplay system with on-screen controls.</li>
