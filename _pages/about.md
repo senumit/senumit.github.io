@@ -42,6 +42,9 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 
 <hr>
 
+<!-- Haptics Section -->
+<h2 style="font-size:1.8em; margin-bottom:25px;">Haptics</h2>
+
 <!-- Wrist-Worn Haptic Device -->
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
@@ -54,16 +57,35 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
       <li>Validated system performance via <strong>user studies</strong>, resulting in a <strong>poster presentation at the 2023 IEEE World Haptics Conference</strong>.</li>
       <li>Led to <strong>multiple IEEE journal publications</strong> on haptic actuation and human-machine interaction.</li>
     </ul>
-  <!-- Paper links (no title) -->
+    <!-- Paper links (no title) -->
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
-      <a><a href="https://ieeexplore.ieee.org/abstract/document/10858406" target="_blank" rel="noopener noreferrer">IEEE ToH</a></a> |
-      <a><a href="https://ieeexplore.ieee.org/abstract/document/10417076" target="_blank" rel="noopener noreferrer">IEEE RA-L</a></a> |
-     <a><a href="https://2023.worldhaptics.org/wp-content/uploads/2023/06/1065-doc.pdf" target="_blank" rel="noopener noreferrer">World Haptics 23</a>
-     </a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10858406" target="_blank" rel="noopener noreferrer">IEEE ToH</a> |
+      <a href="https://ieeexplore.ieee.org/abstract/document/10417076" target="_blank" rel="noopener noreferrer">IEEE RA-L</a> |
+      <a href="https://2023.worldhaptics.org/wp-content/uploads/2023/06/1065-doc.pdf" target="_blank" rel="noopener noreferrer">World Haptics 23</a>
     </p>
   </div>
   <img src="{{ '/images/khas.png' | relative_url }}" 
        alt="Kadir Has University Logo" 
+       style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
+</div>
+
+<hr>
+
+<!-- Haptic Game Interface Design -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+    <h3 style="margin:0; font-size:1.3em;">Haptic Game Interface Design</h3>
+    <em>Research Project · Kadir Has University (2023)</em><br>
+    <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
+    <ul>
+      <li>Developed a <strong>smartphone-based haptic game</strong> to study human perception and tactile response during gameplay.</li>
+      <li>Integrated <strong>vibration feedback</strong> and <strong>adaptive haptic cues</strong> using Unity’s haptic libraries.</li>
+      <li>Created a <strong>psychophysical test environment</strong> that merges gaming and sensory research.</li>
+      <li>Currently preparing results for submission to an <strong>IEEE Haptics Symposium</strong>.</li>
+    </ul>
+  </div>
+  <img src="{{ '/images/haptic_game.png' | relative_url }}" 
+       alt="Haptic Game Interface" 
        style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
 </div>
 
