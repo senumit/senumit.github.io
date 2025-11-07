@@ -79,7 +79,8 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
   <div style="flex:3; min-width:300px; margin-right:20px;">
     <h3 style="margin:0; font-size:1.3em;">Haptic Game Interface Design</h3>
     <em>Research Project · Kadir Has University, Cornell University, WSU Pullman, UCLA</em><br>
-    <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa; <strong>Collaborators:</strong> Assist. Prof. Cara Nunez, Assist. Prof. Kyle Yoshida, Assist. Prof. Fabio Stroppa
+    <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa 
+    <strong>Collaborators:</strong> Assist. Prof. Cara Nunez, Assist. Prof. Kyle Yoshida, Assist. Prof. Fabio Stroppa
     <ul>
       <li>Aimed to translate <strong>psychophysical experimentation</strong> into an engaging and accessible format through interactive mobile gameplay.</li>
       <li>Developed the game in <strong>Unity</strong> for iOS, with optimized haptic rendering.</li>
