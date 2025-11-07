@@ -12,7 +12,7 @@ My name is Umit, and currently I am a PhD student at the <a href="https://www.um
 
 # Research
 
-My research focuses on **soft robotics**, particularly **snake-inspired soft robot design and locomotion**. I aim to understand how snakes exploit frictional anisotropy to achieve locomotion, and how this principle can be replicated through soft robotic systems using engineered materials and compliant structures. Previously, I contributed journal papers on **haptic interfaces & wearable haptic device design**, **multi-robot coordination**, and **visible light positioning**.
+My research focuses on **soft robotics**, particularly snake-inspired soft robot design and locomotion. I aim to understand how snakes exploit frictional anisotropy to achieve locomotion, and how this principle can be replicated through soft materials and compliant structures. Previously, I contributed journal papers on **haptic interfaces & wearable haptic device design**, **multi-robot coordination**, and **visible light positioning**.
 
 ---
 <!-- UMass Amherst -->
@@ -22,16 +22,16 @@ My research focuses on **soft robotics**, particularly **snake-inspired soft rob
     <em>Ph.D. Research · University of Massachusetts Amherst (2024 – Present)</em><br>
     <strong>Advisor:</strong> Assist. Prof. Gina Olson
     <ul>
-      <li>Developing a <strong>soft robotic snake</strong> capable of achieving <strong>snake-like locomotion</strong> through <strong>frictional anisotropy</strong>.</li>
-      <li>Fabricating <strong>pneumatic McKibben actuators</strong> and designing <strong>bioinspired robotic skins</strong> via elastomer molding and FDM-based thermoplastic printing.</li>
-      <li>Performing <strong>experimental design</strong> and <strong>data analysis</strong> to assess how surface properties affect locomotion efficiency.</li>
+      <li>Developing a soft robotic snake capable of achieving snake-like locomotion through frictional anisotropy.</li>
+      <li>Fabricating pneumatic McKibben actuators and designing bioinspired robotic skins via elastomer molding and FDM-based thermoplastic printing.</li>
+      <li>Performing experimental design and data analysis to assess how surface properties affect locomotion efficiency.</li>
       <li>Awarded <strong>two merit-based fellowships</strong> for research in the first year of the Ph.D. program.</li>
     </ul>
     <!-- Paper links (no title) -->
-    <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
-      <a><a href="https://ieeexplore.ieee.org/abstract/document/10858406" target="_blank" rel="noopener noreferrer">arXiv</a></a> |
-      <a><a href="https://ieeexplore.ieee.org/abstract/document/10417076" target="_blank" rel="noopener noreferrer">arXiv</a></a> |
-    </p>
+   <ul>
+      <li>Paper submitted to RoboSoft 2026. Excluded due to double-blind review.</li>
+      <li>Y. Nandwana„ <strong>U. Sen</strong>, G.Olson, "A Highly Articulated Backbone for Soft Snake Robots" in Living Machines, Sheffield, UK, 2025. [Accepted]</li>
+    </ul>
       </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
        alt="UMass Amherst Logo" 
