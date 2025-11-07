@@ -323,7 +323,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <h2 style="margin:15px 0 5px 0; font-size:1.3em;">Software</h2>
 <ul style="margin-top:5px;">
 <li><strong>MATLAB & Simulink</strong> — <strong></strong>extensive experience</strong> through full-time control design engineering work, robot swarm and visible-light positioning simulations, data analysis for research.</li>
-<li><strong>Embedded Programming (C/C++, MicroPython)</strong> — developed firmware for <strong>STM32</strong>, <strong>Raspberry Pi Pico</strong>, and <strong>Arduino-based controllers</strong> used in class projects and research on haptic devices and soft robotic actuators.</li>
+<li><strong>Embedded Programming (C/C++, MicroPython)</strong> — developed firmware for STM32, Raspberry Pi Pico, and Arduino-based controllers used in class projects and research on haptic devices and soft robotic actuators.</li>
 <li><strong>C# & Unity3D</strong> — used in <strong>VR applications</strong> for haptic research and interactive system design in course projects.</li>
 <li><strong>ANSYS</strong> — used for structural simulations of elastomer-based designs under pressure and strain in graduate-level courses.</li>
 <li><strong>Python</strong> — applied for multiple course projects on data analysis; strengthened through online Machine Learning courses.</li>
