@@ -168,13 +168,12 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 
 <hr>
 
-<!-- Teaching Assistant -->
 <div style="margin-bottom:40px;">
   <h2 style="margin:0; font-size:1.3em;">Engineering Intern</h2>
   <em><a href="https://www.tusas.com" rel="noopener noreferrer">Turkish Aerospace Industries</a>· Ankara, Türkiye · 08/2022 - 09/2022</em>
   <ul style="margin-top:10px;">
-    <li>..</li>
-    <li>...</li>
+     <li>Gained hands-on experience in developing <strong>aviation-grade electronic systems</strong> for embedded applications.</li>
+    <li>Worked on <strong>Bills of Materials (BOM)</strong> for electronic components, checking their availability and suitability for the intended application</li>
   </ul>
 </div>
 
@@ -243,8 +242,8 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <h2 style="margin:0; font-size:1.3em;">Lightning Talk — College of Engineering </h2>
     <em>Amherst, MA · 2025</em>
     <p style="margin-top:10px;">
-     <li>  Delivered a 90-seconds talk and presented a poster on <strong>snake-inspired soft robotic locomotion</strong>. </li>
-     <li> Selected to deliver the talk from a group of 50 engineering graduate students who were also invited to present posters.</li>
+     <li>Selected to participate in the <strong>90-second research talk competition</strong>, presenting work on <strong>snake-inspired soft          robotic locomotion</strong>.</li>
+    <li>Delivered both an oral and poster presentation as one of 50 engineering graduate students chosen to showcase their research.</li>
     </p>
   </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
@@ -259,7 +258,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <em>Delft, Netherlands · 2023</em>
     <p style="margin-top:10px;">
      <li> Presented research on a <strong>wrist-worn haptic interface</strong> using a custom <strong>voice-coil actuator</strong> for tactile feedback applications. </li> 
-     <li> Discussed actuator design, embedded control, and user study results during the IEEE World Haptics Conference.</li>
+    <li>Served as a <strong>student volunteer</strong>, assisting with conference organization, session coordination, and speaker support.</li>
     </p>
   </div>
   <img src="{{ '/images/whc23.png' | relative_url }}" 
