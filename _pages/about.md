@@ -42,7 +42,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 
 <hr>
 
-<!-- Haptics Section -->
+<!-- HAPTICS SECTION -->
 <h2 style="font-size:1.8em; margin-bottom:25px;">Haptics</h2>
 
 <!-- Wrist-Worn Haptic Device -->
@@ -54,22 +54,25 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <ul>
       <li>Designed and built a <strong>wrist-worn haptic interface</strong> using a custom <strong>voice-coil actuator</strong>.</li>
       <li>Developed an <strong>embedded control board</strong> and 3D-printed the mechanical casing.</li>
-      <li>Validated system performance via <strong>user studies</strong>, resulting in a <strong>poster presentation at the 2023 IEEE World Haptics Conference</strong>.</li>
-      <li>Led to <strong>multiple IEEE journal publications</strong> on haptic actuation and human-machine interaction.</li>
+      <li>Validated performance through <strong>user studies</strong>, leading to a <strong>poster at the 2023 IEEE World Haptics Conference</strong>.</li>
+      <li>Produced <strong>multiple IEEE journal publications</strong> on haptic actuation and human-machine interaction.</li>
     </ul>
-    <!-- Paper links (no title) -->
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
-      <a href="https://ieeexplore.ieee.org/abstract/document/10858406" target="_blank" rel="noopener noreferrer">IEEE ToH</a> |
       <a href="https://ieeexplore.ieee.org/abstract/document/10417076" target="_blank" rel="noopener noreferrer">IEEE RA-L</a> |
       <a href="https://2023.worldhaptics.org/wp-content/uploads/2023/06/1065-doc.pdf" target="_blank" rel="noopener noreferrer">World Haptics 23</a>
     </p>
   </div>
-  <img src="{{ '/images/khas.png' | relative_url }}" 
-       alt="Kadir Has University Logo" 
-       style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
+  <img src="{{ '/images/wrist_haptic.png' | relative_url }}" 
+       alt="Wrist-Worn Haptic Device" 
+       style="width:120px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
 </div>
 
-<hr>
+<!-- Centered Kadir Has University Logo -->
+<div style="text-align:center; margin:30px 0;">
+  <img src="{{ '/images/khas.png' | relative_url }}" 
+       alt="Kadir Has University Logo" 
+       style="width:120px; border-radius:10px;">
+</div>
 
 <!-- Haptic Game Interface Design -->
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
@@ -78,15 +81,19 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <em>Research Project · Kadir Has University (2023)</em><br>
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
     <ul>
-      <li>Developed a <strong>smartphone-based haptic game</strong> to study human perception and tactile response during gameplay.</li>
-      <li>Integrated <strong>vibration feedback</strong> and <strong>adaptive haptic cues</strong> using Unity’s haptic libraries.</li>
-      <li>Created a <strong>psychophysical test environment</strong> that merges gaming and sensory research.</li>
-      <li>Currently preparing results for submission to an <strong>IEEE Haptics Symposium</strong>.</li>
+      <li>Developed in <strong>Unity</strong> for iOS, maintaining 30 FPS with optimized haptic rendering.</li>
+      <li>Created an <strong>endless runner</strong> controlled via on-screen arrows for navigation and obstacle avoidance.</li>
+      <li>Implemented three <strong>haptic feedback modes</strong> using Interhaptics Composer: collision, adaptive, and predictive cues.</li>
+      <li>Used <strong>procedural path generation</strong> with variable wall angles for dynamic gameplay.</li>
+      <li>Recorded <strong>real-time player data</strong>—collisions, inputs, and haptic transitions—for analysis.</li>
     </ul>
+    <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
+      <a href="https://ieeexplore.ieee.org/abstract/document/10858406" target="_blank" rel="noopener noreferrer">IEEE ToH</a>
+    </p>
   </div>
   <img src="{{ '/images/haptic_game.png' | relative_url }}" 
        alt="Haptic Game Interface" 
-       style="width:110px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
+       style="width:120px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
 </div>
 
 <hr>
