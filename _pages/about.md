@@ -82,7 +82,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa; <strong>Collaborators:</strong> Assist. Prof. Cara Nunez, Assist. Prof. Kyle Yoshida, Assist. Prof. Fabio Stroppa
     <ul>
       <li>Aimed to translate <strong>psychophysical experimentation</strong> into an engaging and accessible format through interactive mobile gameplay.</li>
-      <li>Developed the game in <strong>Unity</strong> for iOS, maintaining 30 FPS with optimized haptic rendering.</li>
+      <li>Developed the game in <strong>Unity</strong> for iOS, with optimized haptic rendering.</li>
       <li>Implemented three <strong>haptic feedback modes</strong> using Interhaptics Composer: collision, adaptive, and predictive cues.</li>
       <li>Used <strong>procedural path generation</strong> for dynamic and unpredictable play.</li>
       <li>Enabled <strong>real-time data collection</strong> for psychophysical analysis.</li>
