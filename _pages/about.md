@@ -158,8 +158,8 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
   <em><a href="https://www.aselsan.com/en" rel="noopener noreferrer">ASELSAN</a> · Ankara, Türkiye · Full-Time Engineer · 08/2023 - 08/2024</em>
   <ul style="margin-top:10px;">
   <li>Conducted system identification, controller design, and validation of control laws for satcom antenna systems.</li>
-  <li>Worked on software control architectures using Model-Based Design</strong> in Simulink.</li>
-  <li>Performed rapid prototyping and <strong>hardware-in-the-loop (HIL) testing using Speedgoat real-time computers integrated with Simulink.</li>
+  <li>Worked on software control architectures using Model-Based Design in Simulink.</li>
+  <li>Performed rapid prototyping and hardware-in-the-loop (HIL) testing using Speedgoat real-time computers integrated with Simulink.</li>
   <li>Built MATLAB App Designer interfaces for control development, system monitoring, and data analysis.</li>
   <li>Developed frequency-domain algorithms to automate and optimize the controller design process.</li>
 </ul>
