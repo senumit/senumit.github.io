@@ -54,8 +54,8 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
     <ul>
       <li>Designed and built a <strong>wrist-worn haptic interface</strong> using a custom <strong>voice-coil actuator</strong>.</li>
-      <<li>Developed an <strong>embedded electronics board</strong> and wrote the <strong>firmware</strong> to drive the actuator.</li>
-        <li>Designed an <strong>ergonomic actuator hardware</strong> to enhance user comfort and ensure consistent transmission of haptic feedback.</li>
+      <li>Developed an <strong>embedded electronics board</strong> and wrote the <strong>firmware</strong> to drive the actuator.</li>
+      <li>Designed an <strong>ergonomic actuator hardware</strong> to enhance user comfort and ensure consistent transmission of haptic feedback.</li>
       <li>Validated system performance via <strong>user studies</strong>, leading to a <strong>poster presentation at the 2023 IEEE World Haptics Conference</strong>.</li> 
         <li>Integrated the device with <strong>Unity3D</strong> to provide real-time <strong>haptic feedback</strong> during virtual interactions in a VR environment.</li>
     </ul>
@@ -81,8 +81,8 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <em>Research Project · Kadir Has University, Cornell University, WSU Pullman, UCLA</em><br>
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa; <strong>Collaborators:</strong> Assist. Prof. Cara Nunez, Assist. Prof. Kyle Yoshida, Assist. Prof. Fabio Stroppa
     <ul>
-      <li>Developed in <strong>Unity</strong> for iOS, maintaining 30 FPS with optimized haptic rendering.</li>
-      <li>Created an <strong>endless runner</strong> gameplay system with on-screen controls.</li>
+      <li>Aimed to translate <strong>psychophysical experimentation</strong> into an engaging and accessible format through interactive mobile gameplay.</li>
+      <li>Developed the game in <strong>Unity</strong> for iOS, maintaining 30 FPS with optimized haptic rendering.</li>
       <li>Implemented three <strong>haptic feedback modes</strong> using Interhaptics Composer: collision, adaptive, and predictive cues.</li>
       <li>Used <strong>procedural path generation</strong> for dynamic and unpredictable play.</li>
       <li>Enabled <strong>real-time data collection</strong> for psychophysical analysis.</li>
