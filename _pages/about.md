@@ -45,55 +45,51 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <!-- HAPTICS SECTION -->
 <h2 style="font-size:1.8em; margin-bottom:25px;">Haptics</h2>
 
-<!-- Wrist-Worn Haptic Device -->
-<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
-  <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h3 style="margin:0; font-size:1.3em;">Wrist-Worn Haptic Device</h3>
-    <em>Senior Thesis · Kadir Has University (2022 – 2023)</em><br>
-    <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
-    <ul>
-      <li>Designed and built a <strong>wrist-worn haptic interface</strong> using a custom <strong>voice-coil actuator</strong>.</li>
-      <li>Developed an <strong>embedded control board</strong> and 3D-printed the mechanical casing.</li>
-      <li>Validated performance through <strong>user studies</strong>, leading to a <strong>poster at the 2023 IEEE World Haptics Conference</strong>.</li>
-      <li>Produced <strong>multiple IEEE journal publications</strong> on haptic actuation and human-machine interaction.</li>
-    </ul>
-    <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
-      <a href="https://ieeexplore.ieee.org/abstract/document/10417076" target="_blank" rel="noopener noreferrer">IEEE RA-L</a> |
-      <a href="https://2023.worldhaptics.org/wp-content/uploads/2023/06/1065-doc.pdf" target="_blank" rel="noopener noreferrer">World Haptics 23</a>
-    </p>
-  </div>
-  <img src="{{ '/images/wrist_haptic.png' | relative_url }}" 
-       alt="Wrist-Worn Haptic Device" 
-       style="width:120px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
-</div>
+<div style="display:flex; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; margin-bottom:40px;">
+  <div style="flex:3; min-width:300px; margin-right:20px;">
+    <!-- Wrist-Worn Haptic Device -->
+    <div style="margin-bottom:30px;">
+      <h3 style="margin:0; font-size:1.3em;">Wrist-Worn Haptic Device</h3>
+      <em>Senior Thesis · Kadir Has University (2022 – 2023)</em><br>
+      <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
+      <ul>
+        <li>Designed and built a <strong>wrist-worn haptic interface</strong> using a custom <strong>voice-coil actuator</strong>.</li>
+        <li>Developed an <strong>embedded control board</strong> and 3D-printed the mechanical casing.</li>
+        <li>Validated performance through <strong>user studies</strong>, leading to a <strong>poster at the 2023 IEEE World Haptics Conference</strong>.</li>
+        <li>Produced <strong>multiple IEEE journal publications</strong> on haptic actuation and human-machine interaction.</li>
+      </ul>
+      <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10417076" target="_blank" rel="noopener noreferrer">IEEE RA-L</a> |
+        <a href="https://2023.worldhaptics.org/wp-content/uploads/2023/06/1065-doc.pdf" target="_blank" rel="noopener noreferrer">World Haptics 23</a>
+      </p>
+    </div>
 
-<!-- Centered Kadir Has University Logo -->
-<div style="text-align:center; margin:30px 0;">
-  <img src="{{ '/images/khas.png' | relative_url }}" 
-       alt="Kadir Has University Logo" 
-       style="width:120px; border-radius:10px;">
-</div>
+    <hr style="margin:20px 0; border:none; border-top:1px solid #ccc;">
 
-<!-- Haptic Game Interface Design -->
-<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
-  <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h3 style="margin:0; font-size:1.3em;">Haptic Game Interface Design</h3>
-    <em>Research Project · Kadir Has University (2023)</em><br>
-    <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
-    <ul>
-      <li>Developed in <strong>Unity</strong> for iOS, maintaining 30 FPS with optimized haptic rendering.</li>
-      <li>Created an <strong>endless runner</strong> controlled via on-screen arrows for navigation and obstacle avoidance.</li>
-      <li>Implemented three <strong>haptic feedback modes</strong> using Interhaptics Composer: collision, adaptive, and predictive cues.</li>
-      <li>Used <strong>procedural path generation</strong> with variable wall angles for dynamic gameplay.</li>
-      <li>Recorded <strong>real-time player data</strong>—collisions, inputs, and haptic transitions—for analysis.</li>
-    </ul>
-    <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
-      <a href="https://ieeexplore.ieee.org/abstract/document/10858406" target="_blank" rel="noopener noreferrer">IEEE ToH</a>
-    </p>
+    <!-- Haptic Game Interface Design -->
+    <div>
+      <h3 style="margin:0; font-size:1.3em;">Haptic Game Interface Design</h3>
+      <em>Research Project · Kadir Has University (2023)</em><br>
+      <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
+      <ul>
+        <li>Developed in <strong>Unity</strong> for iOS, maintaining 30 FPS with optimized haptic rendering.</li>
+        <li>Created an <strong>endless runner</strong> controlled via on-screen arrows for navigation and obstacle avoidance.</li>
+        <li>Implemented three <strong>haptic feedback modes</strong> using Interhaptics Composer: collision, adaptive, and predictive cues.</li>
+        <li>Used <strong>procedural path generation</strong> with variable wall angles for dynamic gameplay.</li>
+        <li>Recorded <strong>real-time player data</strong>—collisions, inputs, and haptic transitions—for analysis.</li>
+      </ul>
+      <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10858406" target="_blank" rel="noopener noreferrer">IEEE ToH</a>
+      </p>
+    </div>
   </div>
-  <img src="{{ '/images/haptic_game.png' | relative_url }}" 
-       alt="Haptic Game Interface" 
-       style="width:120px; margin-left:20px; margin-top:10px; margin-bottom:10px;">
+
+  <!-- Right-side centered logo -->
+  <div style="flex:1; display:flex; justify-content:center; align-items:center;">
+    <img src="{{ '/images/khas.png' | relative_url }}" 
+         alt="Kadir Has University Logo" 
+         style="width:120px; border-radius:10px;">
+  </div>
 </div>
 
 <hr>
