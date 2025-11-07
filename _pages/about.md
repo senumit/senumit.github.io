@@ -116,7 +116,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     </ul>
    <!-- Paper links (no title) -->
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
-       <a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Optics Communications</a>
+       <a href="https://www.sciencedirect.com/science/article/pii/S0030401822007386" target="_blank" rel="noopener noreferrer">Optics Communications</a>
     </p>
   
   </div>
@@ -140,7 +140,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     </ul>
   <!-- Paper links (no title) -->
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
-     <a href="https://doi.org/10.xxxx/anisotropy.paper2" target="_blank" rel="noopener noreferrer">Adaptive Behavior</a>
+     <a href="https://journals.sagepub.com/doi/full/10.1177/10597123231204627" target="_blank" rel="noopener noreferrer">Adaptive Behavior</a>
     </p>
   </div>
   <img src="{{ '/images/khas.png' | relative_url }}" 
@@ -157,8 +157,14 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
   <h2 style="margin:0; font-size:1.3em;">Control Design Engineer</h2>
   <em><a href="https://www.aselsan.com/en" rel="noopener noreferrer">ASELSAN</a> · Ankara, Türkiye · Full-Time Engineer · 08/2023 - 08/2024</em>
   <ul style="margin-top:10px;">
-    <li>...</li>
-    <li>...</li>
+   <ul>
+  <li>Conducted <strong>system identification</strong>, controller design, and validation of control laws for <strong>satcom antenna systems</strong>.</li>
+  <li>Worked on <strong>software control architectures</strong> using <strong>Model-Based Design</strong> in Simulink.</li>
+  <li>Performed <strong>rapid prototyping</strong> and <strong>hardware-in-the-loop (HIL) testing</strong> using <strong>Speedgoat real-time computers</strong> integrated with Simulink.</li>
+  <li>Built <strong>MATLAB App Designer interfaces</strong> for control development, system monitoring, and data analysis.</li>
+  <li>Developed <strong>frequency-domain algorithms</strong> to automate and optimize the controller design process.</li>
+</ul>
+
   </ul>
 </div>
 
