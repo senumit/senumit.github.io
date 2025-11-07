@@ -311,10 +311,10 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <!-- Prototyping & Hardware -->
 <h2 style="margin:10px 0 5px 0; font-size:1.3em;">Prototyping & Hardware</h2>
 <ul style="margin-top:5px;">
-<li><strong>3D Printing (FDM)</strong> — gained through fabricating vertebrae for soft robotic snake, snake scales, and mechanical components for a wrist-worn haptic interface.</li>
+<li><strong>3D Printing (FDM)</strong> — used to prototype and fabricate soft robotic snake components, mechanical parts for a wrist-worn haptic interface, and custom fixtures for experimental testing.</li>
   <li><strong>Silicone Molding & Casting</strong> — used in the development of pneumatic McKibben actuators, bioinspired soft snake skins.</li>
   <li><strong>SolidWorks & Fusion 360</strong> — utilized for all design elements produced for research&classes.</li>
- <li><strong>Sensor Integration & Circuit Design</strong> — implemented for wrist-worn haptic device controller boards, soft robot actuation systems, and electronic subsystems in engineering competition projects.</li>
+<li><strong>Sensor Integration & Circuit Design</strong> — implemented for wrist-worn haptic device controller boards, pneumatic soft robot actuation systems using air pumps and valves, and electronic navigation subsystems in engineering competition projects.</li>
   <li><strong>Material Testing</strong> — conducted bonding and tensile tests of elastomers using a universal testing machine.</li>
   <li><strong>Experiment & User Study Design</strong> — designed and performed friction and locomotion experiments for soft robots, and user studies for wearable haptic devices.</li>
 </ul>
@@ -322,7 +322,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <!-- Software -->
 <h2 style="margin:15px 0 5px 0; font-size:1.3em;">Software</h2>
 <ul style="margin-top:5px;">
-<li><strong>MATLAB & Simulink</strong> — extensive experience through full-time control design engineering work, robot swarm and visible-light positioning simulations, data analysis for research.</li>
+<li><strong>MATLAB & Simulink</strong> — <strong></strong>extensive experience</strong> through full-time control design engineering work, robot swarm and visible-light positioning simulations, data analysis for research.</li>
 <li><strong>Embedded Programming (C/C++, MicroPython)</strong> — developed firmware for <strong>STM32</strong>, <strong>Raspberry Pi Pico</strong>, and <strong>Arduino-based controllers</strong> used in class projects and research on haptic devices and soft robotic actuators.</li>
 <li><strong>C# & Unity3D</strong> — used in <strong>VR applications</strong> for haptic research and interactive system design in course projects.</li>
 <li><strong>ANSYS</strong> — used for structural simulations of elastomer-based designs under pressure and strain in graduate-level courses</li>
