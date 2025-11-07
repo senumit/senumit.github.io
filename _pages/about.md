@@ -152,12 +152,11 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 
 <h1 style="font-size:1.8em; margin-bottom:25px;">Work Experience</h1>
 
-<!-- ASELSAN Internship -->
+<!-- ASELSAN -->
 <div style="margin-bottom:40px;">
   <h2 style="margin:0; font-size:1.3em;">Control Design Engineer</h2>
   <em><a href="https://www.aselsan.com/en" rel="noopener noreferrer">ASELSAN</a> · Ankara, Türkiye · Full-Time Engineer · 08/2023 - 08/2024</em>
   <ul style="margin-top:10px;">
-   <ul>
   <li>Conducted <strong>system identification</strong>, controller design, and validation of control laws for <strong>satcom antenna systems</strong>.</li>
   <li>Worked on <strong>software control architectures</strong> using <strong>Model-Based Design</strong> in Simulink.</li>
   <li>Performed <strong>rapid prototyping</strong> and <strong>hardware-in-the-loop (HIL) testing</strong> using <strong>Speedgoat real-time computers</strong> integrated with Simulink.</li>
@@ -165,7 +164,6 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
   <li>Developed <strong>frequency-domain algorithms</strong> to automate and optimize the controller design process.</li>
 </ul>
 
-  </ul>
 </div>
 
 <hr>
