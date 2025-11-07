@@ -43,7 +43,6 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <hr>
 
 <!-- HAPTICS SECTION -->
-<!-- HAPTICS SECTION -->
 <h2 style="font-size:1.8em; margin-bottom:20px;">Haptics</h2>
 
 <!-- Wrist-Worn Haptic Device -->
@@ -112,7 +111,8 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <ul>
       <li>Simulated <strong>spatial-modulation-based 3D indoor positioning</strong> algorithms using MATLAB.</li>
       <li>Performed <strong>Monte Carlo-based data analysis</strong> and parameter optimization.</li>
-      <li>Published in <em>Optics Communications (2023)</em> for advancements in <strong>visible-light communication-based localization</strong>.</li>
+      <li>Designed experimental trajectories to systematically evaluate and optimize the performance of the proposed VLP algorithm.</li>
+      <li>Led to my first first-author publication in <em>Optics Communications</em> (2023).</li>
     </ul>
    <!-- Paper links (no title) -->
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
