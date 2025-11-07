@@ -27,11 +27,13 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
       <li>Performing experimental design and data analysis to assess how surface properties affect locomotion efficiency.</li>
       <li>Awarded <strong>two merit-based fellowships</strong> for research in the first year of the Ph.D. program.</li>
     </ul>
-    <!-- Paper links (no title) -->
-   <ul>
-      <li>Paper submitted to RoboSoft 2026. Excluded due to double-blind review.</li>
-      <li>Y. Nandwana„ <strong>U. Sen</strong>, G.Olson, "A Highly Articulated Backbone for Soft Snake Robots" in Living Machines, Sheffield, UK, 2025. [Accepted]</li>
-    </ul>
+    
+  <h3 style="margin-top:20px; margin-bottom:10px;">Papers</h3>
+<ul>
+  <li>Manuscript submitted to <em>RoboSoft 2026</em>; authorship details withheld due to double-blind review policy.</li>
+  <li>Y. Nandwana, <strong>U. Sen</strong>, G. Olson, “A Highly Articulated Backbone for Soft Snake Robots,” in <em>Living Machines</em>, Sheffield, UK, 2025. [Accepted]</li>
+</ul>
+
       </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
        alt="UMass Amherst Logo" 
