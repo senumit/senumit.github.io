@@ -242,7 +242,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <h2 style="margin:0; font-size:1.3em;">Lightning Talk — College of Engineering </h2>
     <em>Amherst, MA · 2025</em>
     <p style="margin-top:10px;">
-     <li>Selected to participate in the 90-second research talk competition, presenting work on <strong>snake-inspired soft robotic locomotion.</li>
+     <li>Selected to participate in the 90-second research talk competition, presenting work on snake-inspired soft robotic locomotion.</li>
     <li>Delivered both an oral and poster presentation as one of 50 engineering graduate students chosen to showcase their research.</li>
     </p>
   </div>
