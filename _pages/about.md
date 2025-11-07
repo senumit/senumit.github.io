@@ -325,10 +325,10 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <li><strong>MATLAB & Simulink</strong> — <strong></strong>extensive experience</strong> through full-time control design engineering work, robot swarm and visible-light positioning simulations, data analysis for research.</li>
 <li><strong>Embedded Programming (C/C++, MicroPython)</strong> — developed firmware for <strong>STM32</strong>, <strong>Raspberry Pi Pico</strong>, and <strong>Arduino-based controllers</strong> used in class projects and research on haptic devices and soft robotic actuators.</li>
 <li><strong>C# & Unity3D</strong> — used in <strong>VR applications</strong> for haptic research and interactive system design in course projects.</li>
-<li><strong>ANSYS</strong> — used for structural simulations of elastomer-based designs under pressure and strain in graduate-level courses</li>
-<li><strong>Python</strong> — applied for multiple course projects on data analysis; strengthened through online Machine Learning courses</li>
-<li><strong>Machine Learning Specialization</strong> — completed Andrew Ng’s Machine Learning Specialization on Coursera</li>
-<li><strong>ROS (Robot Operating System)</strong> — implemented a wireless teleoperation system for two robotic arms via a ROS server in a class project.</li>
+<li><strong>ANSYS</strong> — used for structural simulations of elastomer-based designs under pressure and strain in graduate-level courses.</li>
+<li><strong>Python</strong> — applied for multiple course projects on data analysis; strengthened through online Machine Learning courses.</li>
+<li><strong>Machine Learning Specialization</strong> — completed Andrew Ng’s Machine Learning course.</li>
+<li><strong>ROS (Robot Operating System)</strong> — used for class projects, notably, implemented a wireless teleoperation system for two robotic arms via a ROS server in a class project.</li>
 
 </ul>
 
