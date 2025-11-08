@@ -26,5 +26,4 @@ date: 2025-07-13
 venue: 'Living Machines 2025'
 citation: 'Y. Nandwana, <strong>U. Sen</strong>, G. Olson, “A Highly Articulated Backbone for Soft Snake Robots,” in Living Machines, Sheffield, UK, 2025. [Accepted]'
 ---
-<a href="https://2023.worldhaptics.org/wp-content/uploads/2023/06/1065-doc.pdf">Paper Link</a>
 
