@@ -106,7 +106,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
     <h3 style="margin:0; font-size:1.3em;">Visible-Light Positioning</h3>
-    <em>Undergraduate Research Assistant · Kadir Has University (2021 – 2022)</em><br>
+    <em>Undergraduate Research Assistant · Kadir Has University</em><br>
     <strong>Advisors:</strong> Emeritus Prof. Erdal Panayirci and Assoc. Prof. Taner Arsan
     <ul>
       <li>Simulated spatial-modulation-based 3D indoor positioning algorithms using MATLAB.</li>
@@ -131,7 +131,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
     <h3 style="margin:0; font-size:1.3em;">Robot Swarm Coordination</h3>
-    <em>Undergraduate Research Assistant · Kadir Has University (2020 – 2022)</em><br>
+    <em>Undergraduate Research Assistant · Kadir Has University</em><br>
     <strong>Advisor:</strong> Prof. Feza Kerestecioglu
     <ul>
       <li>Worked on communication-free swarm coordination using local cost-minimization strategies.</li>
