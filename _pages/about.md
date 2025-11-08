@@ -53,10 +53,10 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
     <ul>
       <li>Designed and built a wrist-worn haptic interface using a custom voice-coil actuator.</li>
-      <li>Developed an embedded electronics boardand wrote the firmware to drive the actuator.</li>
-      <li>Designed an <strong>ergonomic actuator hardware</strong> to enhance user comfort and ensure consistent transmission of haptic feedback.</li>
-      <li>Validated system performance via user studies, leading to a poster presentation at the 2023 IEEE World Haptics Conference.</li> 
-        <li>Integrated the device with Unity3D to provide real-time haptic feedback during virtual interactions in a VR environment.</li>
+      <li>Developed an embedded electronics board and developed a firmware for actuator control and sensor integration.</li>
+      <li>Designed an ergonomic actuator hardware to enhance user comfort and ensure consistent transmission of haptic feedback.</li>
+      <li>Validated system performance via user studies.</li> 
+      <li>Integrated the device with Unity3D to provide real-time haptic feedback during virtual interactions in a VR environment.</li>
     </ul>
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
       <a href="https://ieeexplore.ieee.org/abstract/document/10417076" target="_blank" rel="noopener noreferrer">IEEE RA-L</a> |
@@ -79,12 +79,12 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <h3 style="margin:0; font-size:1.3em;">Haptic Game Interface Design</h3>
     <em>Research Project · Kadir Has University, Cornell University, WSU Pullman, UCLA</em><br>
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa <br>
-    <strong>Collaborators:</strong> Assist. Prof. Cara Nunez, Assist. Prof. Kyle Yoshida, Assist. Prof. Fabio Stroppa
+    <strong>Collaborators:</strong>Assist. Prof. Fabio Stroppa, Assist. Prof. Cara Nunez, Assist. Prof. Kyle Yoshida
     <ul>
-      <li>Aimed to translate <strong>psychophysical experimentation</strong> into an engaging and accessible format through interactive mobile gameplay.</li>
-      <li>Developed the game in Unity for iOS, with optimized haptic rendering.</li>
-      <li>Implemented three haptic feedback modes using Interhaptics Composer: collision, adaptive, and predictive cues.</li>
-      <li>Used procedural path generation for dynamic and unpredictable play.</li>
+      <li>Aimed to translate psychophysical experimentation into an engaging and accessible format through interactive mobile gameplay.</li>
+      <li>Developed the game in Unity for iOS, with haptic rendering mechanism.</li>
+      <li>Implemented three haptic feedback modes: collision, adaptive, and predictive cues.</li>
+      <li>Used procedural path generation for dynamic play.</li>
       <li>Enabled real-time data collection for psychophysical analysis.</li>
     </ul>
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
@@ -134,7 +134,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <em>Undergraduate Research Assistant · Kadir Has University (2020 – 2022)</em><br>
     <strong>Advisor:</strong> Prof. Feza Kerestecioglu
     <ul>
-      <li>Investigated communication-free swarm coordination using local cost-minimization strategies.</li>
+      <li>Worked on communication-free swarm coordination using local cost-minimization strategies.</li>
       <li>Designed cost functions enabling circular group formation</strong> and tested them through MATLAB simulations.</li>
       <li>Results published in <em>Adaptive Behavior (2024)</em>.</li>
     </ul>
@@ -159,8 +159,8 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
   <ul style="margin-top:10px;">
   <li>Conducted system identification, controller design, and validation of control laws for satcom antenna systems.</li>
   <li>Worked on software control architectures using Model-Based Design in Simulink.</li>
-  <li>Performed rapid prototyping and hardware-in-the-loop (HIL) testing using Speedgoat real-time computers integrated with Simulink.</li>
-  <li>Built MATLAB App Designer interfaces for control development, system monitoring, and data analysis.</li>
+  <li>Performed rapid prototyping and hardware-in-the-loop (HIL) testing using Speedgoat real-time computers that are integrated with Simulink.</li>
+  <li>Built MATLAB App Designer interfaces for control development, and data analysis.</li>
   <li>Developed frequency-domain algorithms to automate and optimize the controller design process.</li>
 </ul>
 
