@@ -110,6 +110,69 @@ author_profile: true
 
 
 
+
+<!-- Haptic Game Development -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+    <h2 style="margin:0; font-size:1.3em;">Haptic Game Development</h2>
+    <em>Kadir Has University · 2023</em>
+
+    <p style="margin-top:10px;">
+      This project introduced a <strong>smartphone-based endless runner game</strong> developed in 
+      <strong>Unity (v.2022.3.11f1)</strong> to investigate how varying forms of 
+      <strong>haptic feedback</strong> affect user interaction and engagement. 
+      The objective was to build a <strong>gamified psychophysical testing platform</strong>, offering 
+      a more engaging alternative to traditional tactile perception experiments. 
+      By integrating <strong>vibration-based feedback</strong> through smartphone actuators, the game allows systematic 
+      exploration of tactile response and sensory interaction within an enjoyable mobile gaming environment. 
+      This work bridges the gap between <strong>human perception research</strong> and 
+      <strong>interactive game design</strong>, demonstrating how smartphone haptics can serve both 
+      scientific and entertainment purposes.
+    </p>
+
+    <ul style="margin-top:10px;">
+      <li>Developed in <strong>Unity</strong> for <strong>iOS</strong> platforms, maintaining stable <strong>30 FPS performance</strong> with optimized haptic rendering.</li>
+      <li>Designed an <strong>endless runner gameplay system</strong>, where players navigate paths and avoid obstacles using on-screen arrow controls.</li>
+      <li>Implemented <strong>three haptic feedback modes</strong> with <strong>Interhaptics Composer</strong>, ranging from collision-based cues to predictive haptic guidance before wall contact.</li>
+      <li>Employed <strong>procedural path generation</strong> with dynamically varying wall angles to ensure continuous, unpredictable gameplay for testing user adaptability.</li>
+      <li>Enabled <strong>real-time data collection</strong> of user actions — collisions, inputs, and transitions between haptic regions — to support psychophysical analysis.</li>
+      <li>Aimed to create a <strong>fun, accessible, and research-driven tool</strong> for studying multisensory interaction and human response under mobile gaming conditions.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Image placeholders -->
+<div style="width:100%; text-align:center; margin-top:20px;">
+
+  <div style="margin-bottom:20px;">
+    <img src="{{ '/images/haptic_walls.png' | relative_url }}" 
+         alt="Haptic Game Interface" 
+         style="width:500px; max-width:100%; border-radius:10px;">
+   <p style="font-size:0.9em; color:#555;">
+  Screenshots of the mobile game during a playthrough. The player (a white ball) appears at the bottom of the screen, navigating a path bordered by brown walls. 
+  Movement along the x-axis is controlled via on-screen arrow buttons, while progression along the y-axis occurs automatically. 
+  The images show: (a) the start of the game, (b) a collision with the left wall, and (c) recovery back to the center path.
+</p>
+
+  </div>
+
+  <div style="margin-bottom:20px;">
+    <img src="{{ '/images/FeedbackLevel.png' | relative_url }}" 
+         alt="Unity Game Environment" 
+         style="width:500px; max-width:100%; border-radius:10px;">
+<p style="font-size:0.9em; color:#555;">
+  Representation of three haptic feedback modes: (i) fixed feedback triggered only on collision, 
+  (ii) variable feedback intensity based on the ball’s penetration depth into the wall, and 
+  (iii) predictive haptic guidance that increases in strength as the ball approaches and contacts the wall.
+</p>  </div>
+
+</div>
+
+
+
+
+
+
 <!-- Robotic Teleoperation System -->
 <div style="margin-bottom:50px;">
 
@@ -193,62 +256,6 @@ author_profile: true
 
 <hr>
 
-<!-- Haptic Game Development -->
-<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
-  <div style="flex:1; min-width:250px; margin-right:20px;">
-    <h2 style="margin:0; font-size:1.3em;">Haptic Game Development</h2>
-    <em>Kadir Has University · 2023</em>
-
-    <p style="margin-top:10px;">
-      This project introduced a <strong>smartphone-based endless runner game</strong> developed in 
-      <strong>Unity (v.2022.3.11f1)</strong> to investigate how varying forms of 
-      <strong>haptic feedback</strong> affect user interaction and engagement. 
-      The objective was to build a <strong>gamified psychophysical testing platform</strong>, offering 
-      a more engaging alternative to traditional tactile perception experiments. 
-      By integrating <strong>vibration-based feedback</strong> through smartphone actuators, the game allows systematic 
-      exploration of tactile response and sensory interaction within an enjoyable mobile gaming environment. 
-      This work bridges the gap between <strong>human perception research</strong> and 
-      <strong>interactive game design</strong>, demonstrating how smartphone haptics can serve both 
-      scientific and entertainment purposes.
-    </p>
-
-    <ul style="margin-top:10px;">
-      <li>Developed in <strong>Unity</strong> for <strong>iOS</strong> platforms, maintaining stable <strong>30 FPS performance</strong> with optimized haptic rendering.</li>
-      <li>Designed an <strong>endless runner gameplay system</strong>, where players navigate paths and avoid obstacles using on-screen arrow controls.</li>
-      <li>Implemented <strong>three haptic feedback modes</strong> with <strong>Interhaptics Composer</strong>, ranging from collision-based cues to predictive haptic guidance before wall contact.</li>
-      <li>Employed <strong>procedural path generation</strong> with dynamically varying wall angles to ensure continuous, unpredictable gameplay for testing user adaptability.</li>
-      <li>Enabled <strong>real-time data collection</strong> of user actions — collisions, inputs, and transitions between haptic regions — to support psychophysical analysis.</li>
-      <li>Aimed to create a <strong>fun, accessible, and research-driven tool</strong> for studying multisensory interaction and human response under mobile gaming conditions.</li>
-    </ul>
-  </div>
-</div>
-
-<!-- Image placeholders -->
-<div style="width:100%; text-align:center; margin-top:20px;">
-
-  <div style="margin-bottom:20px;">
-    <img src="{{ '/images/haptic_walls.png' | relative_url }}" 
-         alt="Haptic Game Interface" 
-         style="width:500px; max-width:100%; border-radius:10px;">
-   <p style="font-size:0.9em; color:#555;">
-  Screenshots of the mobile game during a playthrough. The player (a white ball) appears at the bottom of the screen, navigating a path bordered by brown walls. 
-  Movement along the x-axis is controlled via on-screen arrow buttons, while progression along the y-axis occurs automatically. 
-  The images show: (a) the start of the game, (b) a collision with the left wall, and (c) recovery back to the center path.
-</p>
-
-  </div>
-
-  <div style="margin-bottom:20px;">
-    <img src="{{ '/images/FeedbackLevel.png' | relative_url }}" 
-         alt="Unity Game Environment" 
-         style="width:500px; max-width:100%; border-radius:10px;">
-<p style="font-size:0.9em; color:#555;">
-  Representation of three haptic feedback modes: (i) fixed feedback triggered only on collision, 
-  (ii) variable feedback intensity based on the ball’s penetration depth into the wall, and 
-  (iii) predictive haptic guidance that increases in strength as the ball approaches and contacts the wall.
-</p>  </div>
-
-</div>
 
 
 <hr>
