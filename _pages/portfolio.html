@@ -244,29 +244,33 @@ author_profile: true
 
 
 
-
 <!-- Robotic Teleoperation System -->
 <div style="margin-bottom:50px;">
 
-  <h2 style="margin:0; font-size:1.3em;">Robotic Teleoperation System</h2>
-  <em>Class Project · Low-cost dual-arm teleoperation platform using ROS and Arduino · 2023</em>
+  <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+    <div style="flex:1; min-width:250px; margin-right:20px;">
 
-  <!-- Summary paragraph -->
-  <p style="margin-top:10px;">
-    This class project presents a low-cost robotic teleoperation system composed of a controller arm
-    and a teleoperated arm, both designed and 3D-printed. Joint angles are measured using
-    potentiometers and transmitted via ROS to replicate the controller arm’s motion on the teleoperated
-    arm. The system demonstrates real-time position mapping and reliable pick-and-place tasks, with a
-    measured communication delay of <strong>0.3–0.5 seconds</strong> observed through video analysis.
-  </p>
+      <h2 style="margin:0; font-size:1.3em;">Robotic Teleoperation System</h2>
+      <em>Class Project · Low-cost dual-arm teleoperation platform using ROS and Arduino · 2023</em>
 
-  <!-- Bullet points -->
-  <ul style="margin-top:10px;">
-    <li>Designed and fabricated two kinematically similar robotic arms using SG90 servos and 3D-printed PLA components.</li>
-    <li>Used potentiometers as joint sensors, minimizing cost while maintaining accurate position feedback</li>
-    <li>Implemented a ROS-based publisher–subscriber system for wireless bidirectional teleoperation.</li>
-    <li>Validated real-time control through pick-and-place tasks (very light objects due to SG90 servo performance) with delay measurements derived from frame-by-frame video analysis.</li>
-  </ul>
+      <!-- Summary paragraph -->
+      <p style="margin-top:10px;">
+        This class project presents a low-cost robotic teleoperation system composed of a controller arm
+        and a teleoperated arm, both designed and 3D-printed. Joint angles are measured using
+        potentiometers and transmitted via ROS to replicate the controller arm’s motion on the teleoperated
+        arm. The system demonstrates real-time position mapping and reliable pick-and-place tasks, with a
+        measured communication delay of <strong>0.3–0.5 seconds</strong> observed through video analysis.
+      </p>
+
+      <!-- Bullet points -->
+      <ul style="margin-top:10px;">
+        <li>Designed and fabricated two kinematically similar robotic arms using SG90 servos and 3D-printed PLA components.</li>
+        <li>Used potentiometers as joint sensors, minimizing cost while maintaining accurate position feedback.</li>
+        <li>Implemented a ROS-based publisher–subscriber system for wireless bidirectional teleoperation.</li>
+        <li>Validated real-time control through pick-and-place tasks (very light objects due to SG90 servo performance) with delay measurements derived from frame-by-frame video analysis.</li>
+      </ul>
+    </div>
+  </div>
 
   <!-- Image grid: 2 rows, 2 images per row with explanations -->
   <div style="display:flex; flex-direction:column; align-items:center; gap:20px; margin-top:20px;">
@@ -279,13 +283,13 @@ author_profile: true
 
     <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
       <strong>Controller Arm:</strong> 3D-printed design and assembly of the master arm used to control the teleoperated manipulator. 
-      Potentiometers are integrated into each joint for angular position sensing and transmission via ROS interface
+      Potentiometers are integrated into each joint for angular position sensing and transmission via ROS interface.
     </p>
 
     <!-- Row with two images side by side -->
     <div style="display:flex; justify-content:center; align-items:flex-start; gap:20px; margin-bottom:10px;">
-      <img src="{{ '/images/teleoperated1.png' | relative_url }}" alt="Control Board" style="width:500px; border-radius:10px;">
-      <img src="{{ '/images/teleoperated2.png' | relative_url }}" alt="Additional Board View" style="width:400px; border-radius:10px;">
+      <img src="{{ '/images/teleoperated1.png' | relative_url }}" alt="Teleoperated Arm" style="width:500px; border-radius:10px;">
+      <img src="{{ '/images/teleoperated2.png' | relative_url }}" alt="Teleoperation Experiment" style="width:400px; border-radius:10px;">
     </div>
 
     <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
@@ -317,5 +321,3 @@ author_profile: true
   </div>
 
 </div>
-
-
