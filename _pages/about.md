@@ -23,14 +23,14 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <strong>Advisor:</strong> Assist. Prof. Gina Olson
     <ul>
       <li>Developing a soft robotic snake capable of achieving snake-like locomotion through frictional anisotropy.</li>
-      <li>Fabricating pneumatic McKibben actuators and designing bioinspired robotic skins via elastomer molding and FDM-based thermoplastic printing.</li>
+      <li>Fabricating pneumatic McKibben actuators and designing bioinspired robotic skins via elastomer molding and FDM-based 3D printing.</li>
       <li>Performing experimental design and data analysis to assess how surface properties affect locomotion efficiency.</li>
       <li>Awarded <strong>two merit-based fellowships</strong> for research in the first year of the Ph.D. program.</li>
     </ul>
     
   <h3 style="margin-top:20px; margin-bottom:10px;">Papers</h3>
 <ul>
-  <li>Manuscript submitted to <em>RoboSoft 2026</em>; authorship details withheld due to double-blind review policy.</li>
+  <li>Manuscript submitted to <em>RoboSoft 2026</em>; authorship details withheld due to double-blind review.</li>
   <li>Y. Nandwana, <strong>U. Sen</strong>, G. Olson, “A Highly Articulated Backbone for Soft Snake Robots,” in <em>Living Machines</em>, Sheffield, UK, 2025. [Accepted]</li>
 </ul>
 
@@ -53,10 +53,10 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
     <ul>
       <li>Designed and built a wrist-worn haptic interface using a custom voice-coil actuator.</li>
-      <li>Developed an embedded electronics board and developed a firmware for actuator control and sensor integration.</li>
+      <li>Developed an embedded electronics board and implemented a firmware for actuator control and sensor integration.</li>
       <li>Designed an ergonomic actuator hardware to enhance user comfort and ensure consistent transmission of haptic feedback.</li>
       <li>Validated system performance via user studies.</li> 
-      <li>Integrated the device with Unity3D to provide real-time haptic feedback during virtual interactions in a VR environment.</li>
+      <li>Integrated the device with Unity3D via UART protocol to provide real-time haptic feedback during virtual interactions in a VR environment.</li>
     </ul>
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
       <a href="https://ieeexplore.ieee.org/abstract/document/10417076" target="_blank" rel="noopener noreferrer">IEEE RA-L</a> |
@@ -77,14 +77,13 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; margin-bottom:40px;">
   <div style="flex:3; min-width:300px; margin-right:20px;">
     <h3 style="margin:0; font-size:1.3em;">Haptic Game Interface Design</h3>
-    <em>Research Project · Kadir Has University, Cornell University, WSU Pullman, UCLA · 2024</em><br>
+    <em>Research Project · Kadir Has University, Cornell University, WSU, UCLA · 2024</em><br>
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa <br>
-    <strong>Collaborators:</strong>Assist. Prof. Fabio Stroppa, Assist. Prof. Cara Nunez, Assist. Prof. Kyle Yoshida
+    <strong>Collaborators:</strong> Assist. Prof. Fabio Stroppa, Assist. Prof. Cara Nunez, Assist. Prof. Kyle Yoshida
     <ul>
-      <li>Aimed to translate psychophysical experimentation into an engaging and accessible format through interactive mobile gameplay.</li>
+      <li>Aimed to translate psychophysical experimentation into an engaging and accessible format through interactive mobile games.</li>
       <li>Developed the game in Unity for iOS, with haptic rendering mechanism.</li>
       <li>Implemented three haptic feedback modes: collision, adaptive, and predictive cues.</li>
-      <li>Used procedural path generation for dynamic play.</li>
       <li>Enabled real-time data collection for psychophysical analysis.</li>
     </ul>
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
@@ -158,10 +157,10 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
   <em><a href="https://www.aselsan.com/en" rel="noopener noreferrer">ASELSAN</a> · Ankara, Türkiye · Full-Time Engineer · 08/2023 - 08/2024</em>
   <ul style="margin-top:10px;">
   <li>Conducted system identification, controller design, and validation of control laws for satcom antenna systems.</li>
-  <li>Worked on software control architectures using Model-Based Design in Simulink.</li>
-  <li>Performed rapid prototyping and hardware-in-the-loop (HIL) testing using Speedgoat real-time computers that are integrated with Simulink.</li>
-  <li>Built MATLAB App Designer interfaces for control development, and data analysis.</li>
   <li>Developed frequency-domain algorithms to automate and optimize the controller design process.</li>
+  <li>Worked on control architectures using Model-Based Design in Simulink.</li>
+  <li>Performed hardware-in-the-loop (HIL) testing using Speedgoat real-time computers that are integrated with Simulink.</li>
+  <li>Built MATLAB App Designer interfaces for control development, and data analysis.</li>
 </ul>
 
 </div>
@@ -173,7 +172,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
   <em><a href="https://www.tusas.com" rel="noopener noreferrer">Turkish Aerospace Industries</a>· Ankara, Türkiye · 08/2022 - 09/2022</em>
   <ul style="margin-top:10px;">
      <li>Gained hands-on experience in developing aviation-grade electronic systems for embedded applications.</li>
-    <li>Worked on Bills of Materials (BOM) for electronic components, checking their availability and suitability for the intended application</li>
+     <li>Worked on Bills of Materials (BOM) for electronic components, checking their availability and suitability for the intended application</li>
   </ul>
 </div>
 
@@ -257,7 +256,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <h2 style="margin:0; font-size:1.3em;">Poster Presentation — 2023 IEEE World Haptics Conference</h2>
     <em>Delft, Netherlands · 2023</em>
     <p style="margin-top:10px;">
-     <li> Presented research on a wrist-worn haptic interface using a custom voice-coil actuator for tactile feedback applications. </li> 
+     <li> Presented research on a wrist-worn haptic device. </li> 
     <li>Served as a <strong>student volunteer</strong>, assisting with conference organization, session coordination, and speaker support.</li>
     </p>
   </div>
@@ -323,10 +322,10 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <h2 style="margin:15px 0 5px 0; font-size:1.3em;">Software</h2>
 <ul style="margin-top:5px;">
 <li><strong>MATLAB & Simulink</strong> — <strong>extensive experience</strong> through full-time control design engineering work, robot swarm and visible-light positioning simulations, data analysis for research.</li>
-<li><strong>Embedded Programming (C/C++, MicroPython)</strong> — developed firmware for STM32, Raspberry Pi Pico, and Arduino-based controllers used in class projects and research on haptic devices and soft robotic actuators.</li>
+<li><strong>Embedded Programming (C/C++, MicroPython)</strong> — developed firmware for STM32, Raspberry Pi Pico, and Arduino-based controllers for class & competition projects and for research on haptic devices & soft robotic actuators.</li>
 <li><strong>C# & Unity3D</strong> — used in VR applications for haptic research and game design in course projects.</li>
 <li><strong>ANSYS</strong> — used for structural simulations of soft and rigid systems in graduate-level courses.</li>
-<li><strong>Python</strong> — applied for multiple course projects on data analysis</li>
+<li><strong>Python</strong> — applied for multiple course projects for data analysis</li>
 <li><strong>Machine Learning Specialization</strong> — completed Andrew Ng’s Machine Learning course.</li>
 <li><strong>ROS (Robot Operating System)</strong> — used for class projects, notably, implemented a wireless teleoperation system for two robotic arms via a ROS server</li>
 
