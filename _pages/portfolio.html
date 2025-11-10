@@ -234,3 +234,75 @@ author_profile: true
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+<!-- Robotic Teleoperation System -->
+<div style="margin-bottom:50px;">
+  <h2 style="margin:0; font-size:1.3em;">Robotic Teleoperation System</h2>
+  <em>Class Project · Low-cost dual-arm teleoperation platform using ROS and Arduino · 2023</em>
+  <!-- Summary paragraph -->
+  <p style="margin-top:10px;">
+    This class project presents a low-cost robotic teleoperation system composed of a controller arm
+    and a teleoperated arm, both designed and 3D-printed. Joint angles are measured using
+    potentiometers and transmitted via ROS to replicate the controller arm’s motion on the teleoperated
+    arm. The system demonstrates real-time position mapping and reliable pick-and-place tasks, with a
+    measured communication delay of <strong>0.3–0.5 seconds</strong> observed through video analysis.
+  </p>
+  <!-- Bullet points -->
+  <ul style="margin-top:10px;">
+    <li>Designed and fabricated two kinematically similar robotic arms using SG90 servos and 3D-printed PLA components.</li>
+    <li>Used potentiometers as joint sensors, minimizing cost while maintaining accurate position feedback</li>
+    <li>Implemented a ROS-based publisher–subscriber system for wireless bidirectional teleoperation.</li>
+    <li>Validated real-time control through pick-and-place tasks (very light objects due to SG90 servo performance) with delay measurements derived from frame-by-frame video analysis.</li>
+  </ul>
+<!-- Image grid: 2 rows, 2 images per row with explanations -->
+<div style="display:flex; flex-direction:column; align-items:center; gap:20px; margin-top:20px;">
+ <!-- Row with two images side by side -->
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:20px; margin-bottom:10px;">
+  <img src="{{ '/images/controller1.png' | relative_url }}" alt="Control Board" style="width:500px; border-radius:10px;">
+  <img src="{{ '/images/controller2.png' | relative_url }}" alt="Additional Board View" style="width:500px; border-radius:10px;">
+</div>
+  <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
+    <strong>Controller Arm:</strong> 3D-printed design and assembly of the master arm used to control the teleoperated manipulator. 
+    Potentiometers are integrated into each joint for angular position sensing and transmission via ROS interface
+  </p>
+  <!-- Row with two images side by side -->
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:20px; margin-bottom:10px;">
+  <img src="{{ '/images/teleoperated1.png' | relative_url }}" alt="Control Board" style="width:500px; border-radius:10px;">
+  <img src="{{ '/images/teleoperated2.png' | relative_url }}" alt="Additional Board View" style="width:400px; border-radius:10px;">
+</div>
+  <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
+    <strong>Teleoperated Arm:</strong> Replicated arm executing the controller’s movements in real time.
+  </p>
+</div>
+ <!-- Single image below -->
+<div style="text-align:center; margin-top:20px;">
+  <img src="{{ '/images/architecture.png' | relative_url }}" 
+       alt="System Overview" 
+       style="width:500px; max-width:100%; border-radius:10px;">
+  <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
+    <strong>System Architecture:</strong> Overview of the teleoperation framework showing the data flow between the 
+    controller and teleoperated arms through the ROS publisher–subscriber system. Each joint angle is obtained 
+    via potentiometers and transmitted to replicate movement on the teleoperated side. The setup enables low-cost, 
+    real-time wireless control.
+  </p>
+</div>
+  <!-- Embedded video (local .mp4) -->
+  <div style="margin-top:25px; text-align:center;">
+    <p style="margin-bottom:8px;"><strong>Demonstration Video</strong></p>
+    <video width="700" controls>
+      <source src="{{ '/images/Demo4.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
