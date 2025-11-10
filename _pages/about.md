@@ -9,6 +9,10 @@ redirect_from:
 # About Me
 My name is Umit, and currently I am a PhD student at the <a href="https://www.umass.edu/" rel="noopener noreferrer">University of Massachusetts Amherst</a>. Previously, I was a full-time engineer at  <a href="https://www.aselsan.com/en" rel="noopener noreferrer">ASELSAN</a> , and an undergraduate student & researcher at  <a href="https://www.khas.edu.tr/en/" rel="noopener noreferrer">Kadir Has University</a> .
 
+ <br>
+ 
+<strong>Email:</strong>: umitsen@umass.edu 
+
 
 # Research
 
