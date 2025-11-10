@@ -11,7 +11,7 @@ My name is Umit, and currently I am a PhD student at the <a href="https://www.um
 
  <br>
  
-<strong>Email:</strong>: umitsen@umass.edu 
+<strong>Email:</strong> umitsen@umass.edu 
 
 
 # Research
