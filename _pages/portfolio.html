@@ -15,18 +15,19 @@ author_profile: true
     <h2 style="margin:0; font-size:1.3em;">Soft Robotic Snake Robot</h2>
     <em>University of Massachusetts Amherst · 2024 – Present</em>
       <p style="margin-top:10px;">
-     Snakes are capable of traversing various substrates by employing distinct locomotor gaits, including lateral undulation, 
-     concertina locomotion, and sidewinding. Applying this versatility to robotic systems holds potential for various applications, 
+     Snakes are capable of traversing various substrates by employing distinct locomotion gaits, including lateral undulation, 
+     concertina, and sidewinding. Implementing this versatility to robotic systems has the potential for various applications, 
      including search and rescue operations, environmental surveying, and other field tasks. Earlier studies proposed that snakes rely
      on push points to generate forward propulsion (Gray, 1946); however, recent studies indicate that anisotropic friction created by ventral snake scales
-     plays a more significant role in snake locomotion (Hu, 2009), which generate more friction in backward direction than in the forward direction. Therefore, the motivation of this study is to develop a snake-inspired soft robot capable of utilizing friction to generate locomotion. The design of the  vertebrae, 
+     plays a more significant role in snake locomotion (Hu, 2009), which generate more friction in backward direction than in the forward direction. 
+        Therefore, the motivation of this study is to develop a snake-inspired soft robot capable of utilizing friction to generate locomotion. The design of the  vertebrae, 
     ribs and scales were inspired by biological snakes. McKibben pneumatic muscle actuators are also used to mimic snake muscles; iliocostalis and the semispinalis.
 <hr>
     These project involves:
 <ul>
   <li>Designing snake-inspired components in SolidWorks and fabricating prototypes using 3D printing.</li>
   <li>Elastomer molding to create and evaluate bioinspired scale structures for frictional anisotropy.</li>
-  <li>Designing and executing locomotion experiments to assess performance on various surface conditions.</li>
+  <li>Designing and executing locomotion & friction experiments to assess performance on various surface conditions.</li>
   <li>Performing material testing to analyze bonding performance between elastomers and thermoplastics.</li>
 
 </ul>     
@@ -75,15 +76,17 @@ author_profile: true
     <h2 style="margin:0; font-size:1.3em;">Wrist-Worn Haptic Device</h2>
     
     This project involved the design and implementation of a wrist-worn haptic interface capable of delivering tactile feedback through a custom voice-coil actuator. 
-    The goal was to transfer haptic feedback from the fingertip to the wrist, enabling freer fingertip movement for interactions in virtual reality environments.
-    The system was developed as part of a senior thesis and integrates mechanical, electronic, and software subsystems into a compact wearable platform. 
+    The goal was to transfer haptic feedback from the fingertip to the wrist, enabling more free fingertip movement for interactions in virtual and augmented reality (VR & AR) environments.
+    The system was developed as part of a senior thesis and integrates mechanical, electronic, and software subsystems. 
     The custom voice-coil actuator consists of a magnet and a wire coil wound around a cylindrical core. Its feedback intensity and frequency can be tuned by adjusting design parameters such as coil height, wire thickness, coil diameter, and magnet strength.
     Through extensive prototyping and user evaluation, the device demonstrated reliable actuation performance and was validated through user studies on stiffness discrimination, leading to two publications at IEEE World Haptics 2023.
 
 <ul style="margin-top:10px;"> <li>Developed a custom voice-coil actuator using neodymium magnets and optimized coil geometry for enhanced force output.</li> 
-  <li>Designed and fabricated a wrist-worn mechanical case through iterative 3D printing (10+ prototypes) ensuring stability and ergonomics.</li> 
+  <li>Designed and fabricated a wrist-worn mechanical case through iterative 3D printing (10+ prototypes) ensuring consistent haptic feedback and ergonomics.</li> 
   <li>Implemented embedded control firmware enabling real-time actuation and sensor feedback via Unity3D-based control interface</li> 
   <li>Conducted user studies confirming the system’s ability to convey tactile cues with adjustable force profiles.</li> </ul>
+  <li>Implemented actuation parameters such as duty cycle and frequency to control the intensity of the feedback for different interactions.</li> </ul>
+
   </div>
 </div>
 
@@ -92,17 +95,17 @@ author_profile: true
   <div style="text-align:center;">
     <img src="{{ '/images/ww1.png' | relative_url }}" alt="Device Design" style="width:500px; border-radius:10px;">
     <p style="margin-top:5px; font-size:0.95em;">
-     Demonstrates the actuator’s operation and force response under varying voltages, showing linear and stable performance.
+     Demonstrates the actuator’s operation and force response under varying duty cycles.
      (From: DOI: 10.1109/LRA.2024.3360815)</p>
   </div>
   <div style="text-align:center;">
     <img src="{{ '/images/ww2.png' | relative_url }}" alt="Electronics Assembly" style="width:500px; border-radius:10px;">
-    <p style="margin-top:5px; font-size:0.95em;">Shows user discrimination accuracy across actuator duty cycles, with higher sensitivity at moderate actuation levels. (From: DOI: 10.1109/LRA.2024.3360815)
+    <p style="margin-top:5px; font-size:0.95em;">Shows user discrimination accuracy across actuator duty cycles. (From: DOI: 10.1109/LRA.2024.3360815)
 </p>
   </div>
   <div style="text-align:center;">
     <img src="{{ '/images/ww3.png' | relative_url }}" alt="Testing Setup" style="width:500px; border-radius:10px;">
-    <p style="margin-top:5px; font-size:0.95em;">Soft satin fabric ensures comfortable and stable contact while maintaining consistent force transmission during wear.</p>
+    <p style="margin-top:5px; font-size:0.95em;">Soft satin fabric ensures comfortable and stable contact while maintaining consistent force transmission.</p>
   </div>
   <div style="text-align:center;">
     
@@ -111,7 +114,7 @@ author_profile: true
   <img src="{{ '/images/ww4.png' | relative_url }}" alt="Control Board" style="width:500px; border-radius:10px;">
   <img src="{{ '/images/ww5.png' | relative_url }}" alt="Additional Board View" style="width:500px; border-radius:10px;">
 </div>
-    <p style="margin-top:5px; font-size:0.95em;">Compact two-layer board integrating control, sensing, and actuation electronics for precise real-time performance.</p>
+    <p style="margin-top:5px; font-size:0.95em;">Compact two-layer board that integrates control, sensing, and actuation electronics.</p>
   </div>
 </div>
 
@@ -125,24 +128,21 @@ author_profile: true
     <em>Kadir Has University · 2024</em>
 
     <p style="margin-top:10px;">
-      This project introduced a smartphone-based endless runner game developed in 
-      Unity (v.2022.3.11f1) to investigate how varying forms of 
-      haptic feedback affect user interaction and engagement. 
+      This project introduced a smartphone-based game developed in 
+      Unity3D to investigate how varying forms of 
+      haptic feedback affect user performance and engagement. 
       The objective was to build a gamified psychophysical testing platform, offering 
       a more engaging alternative to traditional tactile perception experiments. 
       By integrating vibration-based feedback through smartphone actuators, the game allows systematic 
-      exploration of tactile response and sensory interaction within an enjoyable mobile gaming environment. 
-      This work bridges the gap between human perception research and 
-      interactive game design, demonstrating how smartphone haptics can serve both 
-      scientific and entertainment purposes.
+      exploration of tactile response within an enjoyable mobile gaming environment. 
     </p>
 
     <ul style="margin-top:10px;">
-      <li>Developed in Unity for iOS platforms, maintaining stable 30 FPS performance with optimized haptic rendering.</li>
-      <li>Designed an endless runner gameplay system, where players navigate paths and avoid obstacles using on-screen arrow controls.</li>
+      <li>Developed in Unity for iOS platforms with optimized haptic rendering.</li>
+      <li>Designed an endless runner gameplay system, where the player navigate paths and avoid obstacles using on-screen arrow controls.</li>
       <li>Implemented three haptic feedback modes with Interhaptics Composer, ranging from collision-based cues to predictive haptic guidance before wall contact.</li>
-      <li>Employed procedural path generation with dynamically varying wall angles to ensure continuous, unpredictable gameplay for testing user adaptability.</li>
-      <li>Enabled real-time data collection of user actions — collisions, inputs, and transitions between haptic regions — to support psychophysical analysis.</li>
+      <li>Employed procedural path generation with dynamically varying wall angles to ensure continuous, unpredictable gameplay for testing user adaptability and response time performance.</li>
+      <li>Enabled real-time data collection of user actions — collisions, inputs, and transitions between haptic regions — for psychophysical analysis.</li>
       <li>Aimed to create a fun, accessible, and research-driven tool for studying multisensory interaction and human response under mobile gaming conditions.</li>
     </ul>
   </div>
@@ -193,15 +193,15 @@ author_profile: true
     and a teleoperated arm, both designed and 3D-printed. Joint angles are measured using
     potentiometers and transmitted via ROS to replicate the controller arm’s motion on the teleoperated
     arm. The system demonstrates real-time position mapping and reliable pick-and-place tasks, with a
-    measured communication delay of <strong>0.3–0.53 seconds</strong> determined through video analysis.
+    measured communication delay of <strong>0.3–0.5 seconds</strong> observed through video analysis.
   </p>
 
   <!-- Bullet points -->
   <ul style="margin-top:10px;">
-    <li>Designed and fabricated two kinematically similar robotic arms using SG90 servos and 3D-printed components.</li>
-    <li>Used potentiometers as joint sensors, minimizing cost while maintaining accurate position feedback.</li>
-    <li>Implemented a ROS-based publisher–subscriber framework for wireless bidirectional teleoperation.</li>
-    <li>Validated real-time control through pick-and-place tasks with delay measurements derived from frame-by-frame video analysis.</li>
+    <li>Designed and fabricated two kinematically similar robotic arms using SG90 servos and 3D-printed PLA components.</li>
+    <li>Used potentiometers as joint sensors, minimizing cost while maintaining accurate position feedback</li>
+    <li>Implemented a ROS-based publisher–subscriber system for wireless bidirectional teleoperation.</li>
+    <li>Validated real-time control through pick-and-place tasks (very light objects due to SG90 servo performance) with delay measurements derived from frame-by-frame video analysis.</li>
   </ul>
 
 <!-- Image grid: 2 rows, 2 images per row with explanations -->
@@ -215,7 +215,7 @@ author_profile: true
 </div>
   <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
     <strong>Controller Arm:</strong> 3D-printed design and assembly of the master arm used to control the teleoperated manipulator. 
-    Potentiometers are integrated into each joint for angular position sensing and signal transmission through ROS.
+    Potentiometers are integrated into each joint for angular position sensing and transmission via ROS interface
   </p>
 
   <!-- Row 2 -->
@@ -225,8 +225,7 @@ author_profile: true
   <img src="{{ '/images/teleoperated2.png' | relative_url }}" alt="Additional Board View" style="width:400px; border-radius:10px;">
 </div>
   <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
-    <strong>Teleoperated Arm:</strong> Replica arm executing the controller’s movements in real time.
-    Demonstrations include pick-and-place tasks with measured communication delays of 0.3–0.53 s determined via frame-by-frame video analysis.
+    <strong>Teleoperated Arm:</strong> Replicated arm executing the controller’s movements in real time.
   </p>
 
 </div>
@@ -239,9 +238,9 @@ author_profile: true
        style="width:500px; max-width:100%; border-radius:10px;">
   <p style="text-align:center; font-size:0.95em; max-width:1000px; margin-top:8px;">
     <strong>System Architecture:</strong> Overview of the teleoperation framework showing the data flow between the 
-    controller and teleoperated arms through the ROS publisher–subscriber architecture. Each joint angle is acquired 
+    controller and teleoperated arms through the ROS publisher–subscriber system. Each joint angle is obtained 
     via potentiometers and transmitted to replicate movement on the teleoperated side. The setup enables low-cost, 
-    real-time control with measured delays of 0.3–0.53 s under wireless operation.
+    real-time wireless control.
   </p>
 </div>
 
@@ -275,9 +274,9 @@ author_profile: true
     <em>National Hyperloop Competition · 2022</em>
 
     <p style="margin-top:10px;">
-      This project was developed for a <strong>national Hyperloop competition</strong>, where our team received the 
+      This project was developed for a <strong>national (Türkiye) Hyperloop competition</strong>, where our team received the 
       <strong>Best Technical Design Report Award</strong>. I worked as part of the 
-      <strong>Navigation and Electronics Team</strong>, focusing on the design and testing of the systems that guided and monitored 
+      <strong>Navigation and Electronics Team</strong>, and focused on the design and testing of the systems that guided and monitored 
       the pod’s movement inside the tunnel. My main goal was to build a reliable and accurate navigation setup that could 
       work at high speeds using multiple sensors and Arduino-based control systems.
     </p>
@@ -285,10 +284,10 @@ author_profile: true
     <ul style="margin-top:10px;">
       <li>Designed a reflector-based navigation system using laser sensors and Arduino Due to detect tunnel reflectors at speeds up to 26 m/s.</li>
       <li>Wrote and tested Arduino scripts to calculate velocity and displacement from reflector detection intervals.</li>
-      <li>Helped design a redundant sensor layout with five laser modules to reduce error through majority voting logic.</li>
+      <li>Contributed to design of a redundant sensor layout with five laser modules to reduce error through majority voting logic.</li>
       <li>Developed a backup tachometer system using TCRT5000 IR sensors to track wheel rotation when laser sensors failed.</li>
       <li>Integrated MPU6050 IMU and height IR sensors to measure acceleration, tilt, and levitation height of the pod.</li>
-      <li>Matched sampling frequencies and designed an optimized signal flow between sensors and the main computer to ensure flawless data transmission.</li>    </ul>
+      <li>Matched sampling frequencies and designed an optimized signal flow between sensors and the main computer to ensure realiable data transmission.</li>    </ul>
   </div>
 </div>
 
