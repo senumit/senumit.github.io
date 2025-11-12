@@ -138,7 +138,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <strong>Advisor:</strong> Prof. Feza Kerestecioglu
     <ul>
       <li>Worked on communication-free swarm coordination using local cost-minimization strategies.</li>
-      <li>Designed cost functions enabling circular group formation</strong> and tested them through MATLAB simulations.</li>
+      <li>Designed cost functions enabling circular group formation and tested them through MATLAB simulations.</li>
       <li>Results published in <em>Adaptive Behavior (2024)</em>.</li>
     </ul>
   <!-- Paper links (no title) -->
