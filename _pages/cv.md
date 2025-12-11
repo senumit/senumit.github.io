@@ -11,7 +11,7 @@ redirect_from:
 
 <div style="height: 90vh;">
   <iframe
-    src="{{ '/files/CV.pdf' | relative_url }}"
+    src="{{ '/files/CV_Umit_Sen.pdf' | relative_url }}"
     style="width: 100%; height: 100%; border: none;"
   >
     This browser does not support embedded PDFs.  
