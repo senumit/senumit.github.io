@@ -7,11 +7,9 @@ redirect_from:
   - /about.html
 ---
 # About Me
-My name is Umit, and currently I am a PhD student at the <a href="https://www.umass.edu/" rel="noopener noreferrer">University of Massachusetts Amherst</a>. Previously, I was a full-time engineer at  <a href="https://www.aselsan.com/en" rel="noopener noreferrer">ASELSAN</a> , and an undergraduate student & researcher at  <a href="https://www.khas.edu.tr/en/" rel="noopener noreferrer">Kadir Has University</a> .
+My name is Ümit, and currently I am a PhD student at the <a href="https://www.umass.edu/" rel="noopener noreferrer">University of Massachusetts Amherst</a>. Previously, I was a full-time engineer at  <a href="https://www.aselsan.com/en" rel="noopener noreferrer">ASELSAN</a> , and an undergraduate student & researcher at  <a href="https://www.khas.edu.tr/en/" rel="noopener noreferrer">Kadir Has University</a> .
 
  <br>
- 
-<strong>Email:</strong> umitsen@umass.edu 
 
 
 # Research
@@ -35,7 +33,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
   <h3 style="margin-top:20px; margin-bottom:10px;">Papers</h3>
 <ul>
   <li>Manuscript submitted to <em>RoboSoft 2026</em>; authorship details withheld due to double-blind review.</li>
-  <li>Y. Nandwana, <strong>U. Sen</strong>, G. Olson, “A Highly Articulated Backbone for Soft Snake Robots,” in <em>Living Machines</em>, Sheffield, UK, 2025. [Accepted]</li>
+  <li>Y. Nandwana, <strong>U. Sen</strong>strong>, and G. Olson, “A Highly Articulated Backbone for Soft Snake Robots,” in Biomimetic and Biohybrid Systems, vol. 15582, pp. 234–246. doi: 10.1007/978-3-032-07448-5\_20.</li>
 </ul>
 
       </div>
