@@ -23,17 +23,11 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <h3 style="margin:0; font-size:1.4em;">Soft Robotic Snake Design & Locomotion</h3>
     <em>Ph.D. Research · University of Massachusetts Amherst (2024 – Present)</em><br>
     <strong>Advisor:</strong> Assist. Prof. Gina Olson
-    <ul>
-      <li>Developing a soft robotic snake capable of achieving snake-like locomotion through frictional anisotropy.</li>
-      <li>Fabricating pneumatic McKibben actuators and designing bioinspired robotic skins via elastomer molding and FDM-based 3D printing.</li>
-      <li>Performing experimental design and data analysis to assess how surface properties affect locomotion efficiency.</li>
-      <li>Awarded <strong>two merit-based fellowships</strong> for research in the first year of the Ph.D. program.</li>
-    </ul>
+  <p>Developing a soft robotic snake to achieve bio-inspired locomotion on heterogeneous surfaces. Fabricated 2+ generations of McKibben actuators to improve pneumatic actuation quality and tested 5+ bio-inspired skin designs through elastomer molding and FDM-based thermoplastic printing. Demonstrated soft robotic snake locomotion on 5 different heterogeneous surfaces and correlated locomotion performance to friction test results — the first study to establish this link. Findings revealed that anisotropic friction alone does not determine locomotion performance, motivating ongoing work on mechanics of surface-snake scale interplay. First-year results published at RoboSoft 2026.</p>
     
   <h3 style="margin-top:20px; margin-bottom:10px;">Papers</h3>
 <ul>
-  <li>Manuscript submitted to <em>RoboSoft 2026</em>; authorship details withheld due to double-blind review.</li>
-  <li>Y. Nandwana, <strong>U. Sen</strong>strong>, and G. Olson, “A Highly Articulated Backbone for Soft Snake Robots,” in Biomimetic and Biohybrid Systems, vol. 15582, pp. 234–246. doi: 10.1007/978-3-032-07448-5\_20.</li>
+<li><strong>U. Sen</strong>, A. Mahegan, and G. Olson, "Characterization and Correlation of Robotic Snake Scale Friction and Locomotion Speed," in <em>9th IEEE-RAS International Conference on Soft Robotics (RoboSoft)</em>, 2026. <a href="https://arxiv.org/abs/2603.03735">arXiv:2603.03735</a></li>  <li>Y. Nandwana, <strong>U. Sen</strong>strong>, and G. Olson, “A Highly Articulated Backbone for Soft Snake Robots,” in Biomimetic and Biohybrid Systems, vol. 15582, pp. 234–246. doi: 10.1007/978-3-032-07448-5\_20.</li>
 </ul>
 
       </div>
@@ -53,13 +47,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <h3 style="margin:0; font-size:1.3em;">Wrist-Worn Haptic Device</h3>
     <em>Senior Thesis · Kadir Has University (2022 – 2023)</em><br>
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa
-    <ul>
-      <li>Designed and built a wrist-worn haptic interface using a custom voice-coil actuator.</li>
-      <li>Developed an embedded electronics board and implemented a firmware for actuator control and sensor integration.</li>
-      <li>Designed an ergonomic actuator hardware to enhance user comfort and ensure consistent transmission of haptic feedback.</li>
-      <li>Validated system performance via user studies.</li> 
-      <li>Integrated the device with Unity3D via UART protocol to provide real-time haptic feedback during virtual interactions in a VR environment.</li>
-    </ul>
+<p>Designed a wrist-worn haptic interface that relocates tactile feedback from fingertip to wrist for freer VR/AR interaction. Built a custom voice-coil actuator with optimized neodymium magnet and coil geometry, iterated through 10+ 3D-printed case prototypes, and implemented embedded firmware for real-time actuation with tunable intensity. Validated through user studies on stiffness discrimination. Two publications: IEEE World Haptics 2023, IEEE RA-L 2024.</p>
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
       <a href="https://ieeexplore.ieee.org/abstract/document/10417076" target="_blank" rel="noopener noreferrer">IEEE RA-L</a> |
       <a href="https://2023.worldhaptics.org/wp-content/uploads/2023/06/1065-doc.pdf" target="_blank" rel="noopener noreferrer">World Haptics 23</a>
@@ -82,12 +70,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <em>Research Project · Kadir Has University, Cornell University, WSU, UCLA · 2024</em><br>
     <strong>Advisor:</strong> Assist. Prof. Mine Sarac Stroppa <br>
     <strong>Collaborators:</strong> Assist. Prof. Fabio Stroppa, Assist. Prof. Cara Nunez, Assist. Prof. Kyle Yoshida
-    <ul>
-      <li>Aimed to translate psychophysical experimentation into an engaging and accessible format through interactive mobile games.</li>
-      <li>Developed the game in Unity for iOS, with haptic rendering mechanism.</li>
-      <li>Implemented three haptic feedback modes: collision, adaptive, and predictive cues.</li>
-      <li>Enabled real-time data collection for psychophysical analysis.</li>
-    </ul>
+   <p>Developed a Unity3D smartphone game as a gamified psychophysical testing platform replacing traditional tactile experiments. Implemented procedural path generation and three haptic feedback modes via Interhaptics Composer with real-time data collection of user responses. Published in IEEE Transactions on Haptics 2025.</p>
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
       <a href="https://ieeexplore.ieee.org/abstract/document/10858406" target="_blank" rel="noopener noreferrer">IEEE ToH</a>
     </p>
@@ -109,12 +92,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <h3 style="margin:0; font-size:1.3em;">Visible-Light Positioning</h3>
     <em>Undergraduate Research Assistant · Kadir Has University</em><br>
     <strong>Advisors:</strong> Emeritus Prof. Erdal Panayirci and Assoc. Prof. Taner Arsan
-    <ul>
-      <li>Simulated spatial-modulation-based 3D indoor positioning algorithms using MATLAB.</li>
-      <li>Performed Monte Carlo-based data analysis and parameter optimization.</li>
-      <li>Designed experimental trajectories to systematically evaluate and optimize the performance of the proposed VLP algorithm.</li>
-      <li>Led to my first first-author publication in <em>Optics Communications</em> (2023).</li>
-    </ul>
+   <p>Contributed to the development of a spatial modulation-based 3D indoor visible light positioning (VLP) algorithm that achieved positioning errors an order of magnitude smaller than conventional RSS-based techniques. Designed and executed MATLAB simulations including user trajectory modeling, SNR-dependent pilot selection, and Monte Carlo-based error analysis across indoor environments. Published in Optics Communications 2023.</p>
    <!-- Paper links (no title) -->
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
        <a href="https://www.sciencedirect.com/science/article/pii/S0030401822007386" target="_blank" rel="noopener noreferrer">Optics Communications</a>
@@ -134,11 +112,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <h3 style="margin:0; font-size:1.3em;">Robot Swarm Coordination</h3>
     <em>Undergraduate Research Assistant · Kadir Has University</em><br>
     <strong>Advisor:</strong> Prof. Feza Kerestecioglu
-    <ul>
-      <li>Worked on communication-free swarm coordination using local cost-minimization strategies.</li>
-      <li>Designed cost functions enabling circular group formation and tested them through MATLAB simulations.</li>
-      <li>Results published in <em>Adaptive Behavior (2024)</em>.</li>
-    </ul>
+   <p>Contributed to developing local cost-minimization strategies for circular formation of autonomous robot groups operating without communication, relying solely on sensor-based relative positioning of nearby members. Designed cost functions and simulation parameters that achieved arc, arc-triangle, and circle formations maintainable during navigation. Published in Adaptive Behavior 2024.</p>
   <!-- Paper links (no title) -->
     <p style="margin-top:5px; list-style-type:none; padding-left:0; margin-left:22px;">
      <a href="https://journals.sagepub.com/doi/full/10.1177/10597123231204627" target="_blank" rel="noopener noreferrer">Adaptive Behavior</a>
@@ -157,13 +131,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <div style="margin-bottom:40px;">
   <h2 style="margin:0; font-size:1.3em;">Control Design Engineer</h2>
   <em><a href="https://www.aselsan.com/en" rel="noopener noreferrer">ASELSAN</a> · Ankara, Türkiye · Full-Time Engineer · 08/2023 - 08/2024</em>
-  <ul style="margin-top:10px;">
-  <li>Conducted system identification, controller design, and validation of control laws for satcom antenna systems.</li>
-  <li>Developed frequency-domain algorithms to automate and optimize the controller design process.</li>
-  <li>Worked on control architectures using Model-Based Design in Simulink.</li>
-  <li>Performed hardware-in-the-loop (HIL) testing using Speedgoat real-time computers that are integrated with Simulink.</li>
-  <li>Built MATLAB App Designer interfaces for control development, and data analysis.</li>
-</ul>
+ <p style="margin-top:10px;">Designed and tuned controllers for 2-DoF and 3-DoF antenna systems using frequency domain analysis in MATLAB/Simulink. Performed system identification to characterize dynamic behavior, reducing identification duration and accelerating the overall design cycle. Deployed and debugged control architectures on industrial-grade hardware and conducted hardware-in-the-loop (HIL) validation using Speedgoat real-time computers. Built MATLAB App Builder tools to streamline and automate repetitive steps in the control design workflow.</p>
 
 </div>
 
@@ -172,10 +140,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <div style="margin-bottom:40px;">
   <h2 style="margin:0; font-size:1.3em;">Engineering Intern</h2>
   <em><a href="https://www.tusas.com" rel="noopener noreferrer">Turkish Aerospace Industries</a>· Ankara, Türkiye · 08/2022 - 09/2022</em>
-  <ul style="margin-top:10px;">
-     <li>Gained hands-on experience in developing aviation-grade electronic systems for embedded applications.</li>
-     <li>Worked on Bills of Materials (BOM) for electronic components, checking their availability and suitability for the intended application</li>
-  </ul>
+<p style="margin-top:10px;">Gained hands-on experience in aviation-grade electronic systems and embedded hardware, including component selection and Bill of Materials (BOM) management for flight-ready subsystems.</p>
 </div>
 
 
@@ -242,10 +207,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
   <div style="flex:1; min-width:250px; margin-right:20px;">
     <h2 style="margin:0; font-size:1.3em;">Lightning Talk — College of Engineering </h2>
     <em>Amherst, MA · 2025</em>
-    <p style="margin-top:10px;">
-     <li>Selected to participate in the 90-second research talk competition, presenting work on snake-inspired soft robotic locomotion.</li>
-    <li>Delivered both an oral and poster presentation as one of 50 engineering graduate students chosen to showcase their research.</li>
-    </p>
+   <p style="margin-top:10px;">Selected to present snake-inspired soft robotic locomotion research as one of 50 engineering graduate students in a 90-second lightning talk competition. Delivered both an oral and poster presentation.</p>
   </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
        alt="UMass Amherst Logo" 
@@ -327,9 +289,9 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <li><strong>Embedded Programming (C/C++, MicroPython)</strong> — developed firmware for STM32, Raspberry Pi Pico, and Arduino-based controllers for class & competition projects and for research on haptic devices & soft robotic actuators.</li>
 <li><strong>C# & Unity3D</strong> — used in VR applications for haptic research and game design in course projects.</li>
 <li><strong>ANSYS</strong> — used for structural simulations of soft and rigid systems in graduate-level courses.</li>
-<li><strong>Python</strong> — applied for multiple course projects for data analysis</li>
+<li><strong>Python</strong> — applied for data analysis in research and coursework, including sensor data processing and experimental analysis.</li>
 <li><strong>Machine Learning Specialization</strong> — completed Andrew Ng’s Machine Learning course.</li>
-<li><strong>ROS (Robot Operating System)</strong> — used for class projects, notably, implemented a wireless teleoperation system for two robotic arms via a ROS server</li>
+<li><strong>ROS (Robot Operating System)</strong> — used for research and class projects; notably, implemented a wireless teleoperation system for two robotic arms via a ROS server.</li>
 
 </ul>
 
