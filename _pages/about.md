@@ -26,9 +26,8 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
   <p>Developing a soft robotic snake to achieve bio-inspired locomotion on heterogeneous surfaces. Fabricated 2+ generations of McKibben actuators to improve pneumatic actuation quality and tested 5+ bio-inspired skin designs through elastomer molding and FDM-based thermoplastic printing. Demonstrated soft robotic snake locomotion on 5 different heterogeneous surfaces and correlated locomotion performance to friction test results — the first study to establish this link. Findings revealed that anisotropic friction alone does not determine locomotion performance, motivating ongoing work on mechanics of surface-snake scale interplay. First-year results published at RoboSoft 2026.</p>
     
   <h3 style="margin-top:20px; margin-bottom:10px;">Papers</h3>
-<ul>
-<li><strong>U. Sen</strong>, A. Mahegan, and G. Olson, "Characterization and Correlation of Robotic Snake Scale Friction and Locomotion Speed," in <em>9th IEEE-RAS International Conference on Soft Robotics (RoboSoft)</em>, 2026. <a href="https://arxiv.org/abs/2603.03735">arXiv:2603.03735</a></li>  <li>Y. Nandwana, <strong>U. Sen</strong>strong>, and G. Olson, “A Highly Articulated Backbone for Soft Snake Robots,” in Biomimetic and Biohybrid Systems, vol. 15582, pp. 234–246. doi: 10.1007/978-3-032-07448-5\_20.</li>
-</ul>
+
+<a href="https://arxiv.org/abs/2603.03735">RoboSoft 2026</a> | <a href="https://link.springer.com/chapter/10.1007/978-3-032-07448-5_20">Living Machines 2025</a>
 
       </div>
   <img src="{{ '/images/umass.png' | relative_url }}" 
