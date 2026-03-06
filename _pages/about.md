@@ -219,8 +219,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
     <h2 style="margin:0; font-size:1.3em;">Poster Presentation — 2023 IEEE World Haptics Conference</h2>
     <em>Delft, Netherlands · 2023</em>
     <p style="margin-top:10px;">
-     <li> Presented research on a wrist-worn haptic device. </li> 
-    <li>Served as a <strong>student volunteer</strong>, assisting with conference organization, session coordination, and speaker support.</li>
+    <p style="margin-top:10px;">Presented research on a wrist-worn haptic device. Served as a student volunteer, assisting with conference organization, session coordination, and speaker support.</p>
     </p>
   </div>
   <img src="{{ '/images/whc23.png' | relative_url }}" 
@@ -275,7 +274,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
 <ul style="margin-top:5px;">
 <li><strong>3D Printing (FDM)</strong> — used to prototype and fabricate soft robotic snake components, mechanical parts for a wrist-worn haptic interface, and custom fixtures for experimental testing.</li>
   <li><strong>Silicone Molding & Casting</strong> — used in the development of pneumatic McKibben actuators, bioinspired soft snake skins.</li>
-  <li><strong>SolidWorks & Fusion 360</strong> — utilized for all design elements produced for research&classes.</li>
+  <li><strong>SolidWorks & Fusion 360</strong> — utilized for all design elements produced for research & classes.</li>
 <li><strong>Sensor Integration & Circuit Design</strong> — implemented for wrist-worn haptic device controller boards, pneumatic soft robot actuation systems using air pumps and valves, and electronic navigation subsystems in engineering competition projects.</li>
   <li><strong>Material Testing</strong> — conducted bonding and tensile tests of elastomers using a universal testing machine.</li>
   <li><strong>Experiment & User Study Design</strong> — designed and performed friction and locomotion experiments for soft robots, and user studies for wearable haptic devices.</li>
