@@ -218,9 +218,7 @@ My research focuses on **soft robotics**, particularly snake-inspired soft robot
   <div style="flex:1; min-width:250px; margin-right:20px;">
     <h2 style="margin:0; font-size:1.3em;">Poster Presentation — 2023 IEEE World Haptics Conference</h2>
     <em>Delft, Netherlands · 2023</em>
-    <p style="margin-top:10px;">
     <p style="margin-top:10px;">Presented research on a wrist-worn haptic device. Served as a student volunteer, assisting with conference organization, session coordination, and speaker support.</p>
-    </p>
   </div>
   <img src="{{ '/images/whc23.png' | relative_url }}" 
        alt="WHC23 Logo" 
