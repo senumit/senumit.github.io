@@ -22,7 +22,7 @@ author_profile: true
 
     <p>In this phase, we focused on understanding how scale angle and surface type affect friction and locomotion speed. We developed a modular scale system, ran systematic friction tests, and measured locomotion performance across different conditions.</p>
 
-    <h4 style="margin-top:20px; margin-bottom:8px;">Modular Scale Design</h4>
+    <h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Modular Scale Design</h4>
     <p>We designed a three-part scale structure that attaches to the robot's ribs:</p>
     <ul>
       <li><strong>Primary unit</strong> — connects to the ribs or to adjacent scale structures through a mechanical interlock. Inspired by a train track toy for easy, modular assembly.</li>
@@ -31,7 +31,22 @@ author_profile: true
     </ul>
     <p>Two elastomer cords run through the scale structures to add passive elasticity. The full robot has 22 scale structures. All rigid parts are 3D printed from PETG, and the elastomer cords are molded from Ecoflex 00-30.</p>
 
-    <h4 style="margin-top:20px; margin-bottom:8px;">Friction Testing</h4>
+  </div>
+</div>
+
+<!-- Modular Scale Design figure -->
+<div style="display:flex; flex-direction:column; align-items:center; gap:25px; margin-bottom:40px;">
+  <div style="text-align:center;">
+    <img src="{{ '/images/scale_structure.png' | relative_url }}" alt="Three-part modular scale structure showing primary, secondary, and tertiary units" style="width:600px; border-radius:10px;">
+    <p style="margin-top:5px; font-size:0.95em;">Designed scale design with three units</p>
+  </div>
+</div>
+
+<!-- Friction Testing -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+
+    <h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Friction Testing</h4>
     <p>We measured forward, backward, and lateral friction coefficients at four scale angles (15°, 25°, 35°, 45°) on four surfaces (grass, bark, smooth surface, carpet). Tests were done with a universal testing machine (Instron) and a custom pulley setup. Each condition was repeated 5 times.</p>
     <ul>
       <li>On grass, bark, and carpet, backward friction was consistently higher than forward friction, especially at lower scale angles — this is the anisotropy needed for locomotion.</li>
@@ -40,7 +55,22 @@ author_profile: true
       <li>Lateral friction was generally lower than or comparable to forward friction, which may explain the sideways drift we observed during locomotion.</li>
     </ul>
 
-    <h4 style="margin-top:20px; margin-bottom:8px;">Locomotion Testing</h4>
+  </div>
+</div>
+
+<!-- Friction Testing figure -->
+<div style="display:flex; flex-direction:column; align-items:center; gap:25px; margin-bottom:40px;">
+  <div style="text-align:center;">
+    <img src="{{ '/images/friction_setup.png' | relative_url }}" alt="Friction test setup with Instron machine and pulley mechanism" style="width:600px; border-radius:10px;">
+    <p style="margin-top:5px; font-size:0.95em;">Experimental Test Setup</p>
+  </div>
+</div>
+
+<!-- Locomotion Testing -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+
+    <h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Locomotion Testing</h4>
     <p>For locomotion tests, we used a simple open-loop gait: all actuators on one side inflate for 3.5 seconds, then deflate, followed by the other side. Each trial lasted 5 minutes (2.5 minutes on bark, since the robot moved off the surface faster). We recorded displacement in both x (forward) and y (lateral) directions.</p>
     <ul>
       <li>The robot achieved the highest speed on bark at 25° scale angle.</li>
@@ -49,7 +79,23 @@ author_profile: true
       <li>On the smooth surface, displacement was negligible in all directions — consistent with the near-zero friction anisotropy measured.</li>
     </ul>
 
-    <h4 style="margin-top:20px; margin-bottom:8px;">Key Findings</h4>
+  </div>
+</div>
+
+<!-- Locomotion Testing video — UPDATE THE FILE NAME BELOW with your actual video file -->
+<div style="margin-top:25px; text-align:center; margin-bottom:50px;">
+  <p style="margin-bottom:8px;"><strong>Locomotion Video — Version 2</strong></p>
+  <video width="700" controls>
+    <source src="{{ '/images/snake_v2_video.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<!-- Key Findings -->
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px; margin-right:20px;">
+
+    <h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Key Findings</h4>
     <p>While friction ratios clearly depended on scale angle, we could not find a consistent relationship between friction ratios and locomotion speed across all surfaces. For example, carpet had slightly higher friction ratios than grass, but the robot moved faster on grass. Bark and carpet had similar ratios, but locomotion was much faster on bark. We concluded that friction coefficients alone are not enough to predict how fast or in which direction a snake robot will move. The mechanics of how scales interact with surface features — catching, stick-slip behavior, fiber alignment — likely play a significant role that standard friction measurements do not capture. The best-performing scale angles (15°–25°) align with the range observed in biological snakes (20°–30°).</p>
 
     <p style="margin-top:10px; font-style:italic;">
@@ -57,35 +103,6 @@ author_profile: true
     </p>
 
   </div>
-</div>
-
-<!-- Version 2 images — UPDATE THE FILE NAMES BELOW with your actual image files -->
-<div style="display:flex; flex-direction:column; align-items:center; gap:25px; margin-bottom:40px;">
-  <div style="text-align:center;">
-    <img src="{{ '/images/scale_structure.png' | relative_url }}" alt="Three-part modular scale structure showing primary, secondary, and tertiary units" style="width:600px; border-radius:10px;">
-    <p style="margin-top:5px; font-size:0.95em;">Modular scale structure: primary unit attaches to the ribs, secondary unit sets the scale angle, tertiary unit is the scale itself.</p>
-  </div>
-  <div style="text-align:center;">
-    <img src="{{ '/images/friction_setup.png' | relative_url }}" alt="Friction test setup with Instron machine and pulley mechanism" style="width:600px; border-radius:10px;">
-    <p style="margin-top:5px; font-size:0.95em;">Friction test setup: forward/backward (left) and lateral (right) measurements using a universal testing machine and pulley mechanism.</p>
-  </div>
-  <div style="text-align:center;">
-    <img src="{{ '/images/friction_boxplots.png' | relative_url }}" alt="Boxplots of forward backward and lateral friction coefficients across scale angles and surfaces" style="width:600px; border-radius:10px;">
-    <p style="margin-top:5px; font-size:0.95em;">Friction coefficients (forward, backward, lateral) for each scale angle and surface combination.</p>
-  </div>
-  <div style="text-align:center;">
-    <img src="{{ '/images/velocity_friction_ratios.png' | relative_url }}" alt="Velocity speed and friction ratio plots for each surface and scale angle" style="width:600px; border-radius:10px;">
-    <p style="margin-top:5px; font-size:0.95em;">Velocity, speed, and friction ratios for each scale angle and surface. Higher friction ratios did not consistently lead to higher locomotion speed.</p>
-  </div>
-</div>
-
-<!-- Version 2 video — UPDATE THE FILE NAME BELOW with your actual video file -->
-<div style="margin-top:25px; text-align:center; margin-bottom:50px;">
-  <p style="margin-bottom:8px;"><strong>Locomotion Video — Version 2</strong></p>
-  <video width="700" controls>
-    <source src="{{ '/images/snake_v2_video.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
 </div>
 
 <hr style="margin:40px 0;">
@@ -136,7 +153,6 @@ author_profile: true
     Your browser does not support the video tag.
   </video>
 </div>
-
 <hr>
 
 <!-- Wrist-Worn Haptic Device -->
