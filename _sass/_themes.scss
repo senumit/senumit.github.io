@@ -74,6 +74,13 @@ $susy: (
     global-box-sizing: border-box,
 );
 
+/* Bold and standout style for PORTFOLIO nav link */
+.greedy-nav a[href*="portfolio"] {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 /* ==========================================================================
    BRAND COLORS
    ========================================================================== */
