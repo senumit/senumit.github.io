@@ -320,24 +320,18 @@ author_profile: true
     <div style="flex:1; min-width:250px; margin-right:20px;">
 
       <h2 style="margin:0; font-size:1.3em;">Robotic Teleoperation System</h2>
-      <em>Class Project · Low-cost dual-arm teleoperation platform using ROS and Arduino · 2023</em>
+<em>Class Project · Low-cost dual-arm teleoperation platform using ROS and Arduino · 2023</em>
 
-      <!-- Summary paragraph -->
-      <p style="margin-top:10px;">
-        This class project presents a low-cost robotic teleoperation system composed of a controller arm
-        and a teleoperated arm, both designed and 3D-printed. Joint angles are measured using
-        potentiometers and transmitted via ROS to replicate the controller arm’s motion on the teleoperated
-        arm. The system demonstrates real-time position mapping and reliable pick-and-place tasks, with a
-        measured communication delay of <strong>0.3–0.5 seconds</strong> observed through video analysis.
-      </p>
+<p style="margin-top:10px;">
+  For this class project, I built a low-cost teleoperation system using two 3D-printed robotic arms — one as the controller and one as the teleoperated arm. The idea is simple: I move the controller arm by hand, potentiometers read the joint angles, and those angles get sent over ROS to the other arm, which mirrors the motion. It works well enough for basic pick-and-place tasks, with about 0.3–0.5 seconds of delay based on frame-by-frame video analysis.
+</p>
 
-      <!-- Bullet points -->
-      <ul style="margin-top:10px;">
-        <li>Designed and fabricated two kinematically similar robotic arms using SG90 servos and 3D-printed PLA components.</li>
-        <li>Used potentiometers as joint sensors, minimizing cost while maintaining accurate position feedback</li>
-        <li>Implemented a ROS-based publisher–subscriber system for wireless bidirectional teleoperation.</li>
-        <li>Validated real-time control through pick-and-place tasks (very light objects due to SG90 servo performance) with delay measurements derived from frame-by-frame video analysis.</li>
-      </ul>
+<ul style="margin-top:10px;">
+  <li>Designed and 3D printed both arms from PLA, using SG90 servos for actuation.</li>
+  <li>Used potentiometers at each joint for position sensing — cheap but accurate enough for this setup.</li>
+  <li>Set up a ROS publisher-subscriber system for wireless communication between the two arms.</li>
+  <li>Tested with pick-and-place tasks (only light objects — SG90 servos don't have much torque).</li>
+</ul>
 
     </div> <!-- closes inner flex column -->
   </div> <!-- closes flex row -->
