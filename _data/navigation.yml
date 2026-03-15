@@ -9,12 +9,14 @@
 
 main:
 
+- title: "**PORTFOLIO**"
+  url: /portfolio/
 
+  
 - title: "Publications"
   url: /publications/
    
-- title: "Projects in Detail"
-  url: /portfolio/
+
 
 - title: "CV"
   url: /cv/
