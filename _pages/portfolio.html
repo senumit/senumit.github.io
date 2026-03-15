@@ -147,18 +147,21 @@ author_profile: true
 <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; min-width:250px; margin-right:20px;">
     <h2 style="margin:0; font-size:1.3em;">Wrist-Worn Haptic Device</h2>
+    <em>Kadir Has University · 2022 – 2023</em>
     
-    This project involved the design and implementation of a wrist-worn haptic interface capable of delivering tactile feedback through a custom voice-coil actuator. 
-    The goal was to transfer haptic feedback from the fingertip to the wrist, enabling more free fingertip movement for interactions in virtual and augmented reality (VR & AR) environments.
-    The system was developed as part of a senior thesis and integrates mechanical, electronic, and software subsystems. 
-    The custom voice-coil actuator consists of a magnet and a wire coil wound around a cylindrical core. Its feedback intensity and frequency can be tuned by adjusting design parameters such as coil height, wire thickness, coil diameter, and magnet strength.
-    Through extensive prototyping and user evaluation, the device demonstrated reliable actuation performance and was validated through user studies on stiffness discrimination, leading to two publications at IEEE World Haptics 2023.
+    <p style="margin-top:10px;">
+      For my senior thesis, I designed a wrist-worn haptic device that moves tactile feedback from the fingertip to the wrist. The idea is to free up the fingers for VR/AR interaction while still giving the user useful touch feedback. The core of the device is a custom voice-coil actuator — a magnet and coil setup where you can tune the force output by changing parameters like coil height, wire thickness, and magnet strength.
+    </p>
 
-<ul style="margin-top:10px;"> <li>Developed a custom voice-coil actuator using neodymium magnets and optimized coil geometry for enhanced force output.</li> 
-  <li>Designed and fabricated a wrist-worn mechanical case through iterative 3D printing (10+ prototypes) ensuring consistent haptic feedback and ergonomics.</li> 
-  <li>Implemented embedded control firmware enabling real-time actuation and sensor feedback via Unity3D-based control interface</li> 
-  <li>Conducted user studies confirming the system’s ability to convey tactile cues with adjustable force profiles.</li> </ul>
-  <li>Implemented actuation parameters such as duty cycle and frequency to control the intensity of the feedback for different interactions.</li> </ul>
+    <ul style="margin-top:10px;">
+      <li>Built a custom voice-coil actuator with neodymium magnets and optimized coil geometry.</li>
+      <li>Went through 10+ 3D-printed case prototypes to get the fit, comfort, and force transmission right.</li>
+      <li>Wrote embedded firmware for real-time actuation with tunable intensity via duty cycle and frequency control.</li>
+      <li>Built a Unity3D interface for controlling and testing the device.</li>
+      <li>Ran user studies on stiffness discrimination to validate that the device can reliably convey different tactile cues.</li>
+    </ul>
+
+    <p style="margin-top:10px;">This work led to two publications: one at IEEE World Haptics 2023 and one in IEEE Robotics and Automation Letters (RA-L) 2024.</p>
 
   </div>
 </div>
@@ -201,22 +204,15 @@ author_profile: true
     <em>Kadir Has University · 2024</em>
 
     <p style="margin-top:10px;">
-      This project introduced a smartphone-based game developed in 
-      Unity3D to investigate how varying forms of 
-      haptic feedback affect user performance and engagement. 
-      The objective was to build a gamified psychophysical testing platform, offering 
-      a more engaging alternative to traditional tactile perception experiments. 
-      By integrating vibration-based feedback through smartphone actuators, the game allows systematic 
-      exploration of tactile response within an enjoyable mobile gaming environment. 
+      We built a smartphone game in Unity3D as a way to run tactile perception experiments without boring the participants. Instead of a traditional psychophysical test, users play an endless runner — navigating a ball through a path with walls — while the phone delivers different types of haptic feedback. This lets us collect data on how people respond to touch cues in a setting that's actually engaging.
     </p>
 
     <ul style="margin-top:10px;">
-      <li>Developed in Unity for iOS platforms with optimized haptic rendering.</li>
-      <li>Designed an endless runner gameplay system, where the player navigate paths and avoid obstacles using on-screen arrow controls.</li>
-      <li>Implemented three haptic feedback modes with Interhaptics Composer, ranging from collision-based cues to predictive haptic guidance before wall contact.</li>
-      <li>Employed procedural path generation with dynamically varying wall angles to ensure continuous, unpredictable gameplay for testing user adaptability and response time performance.</li>
-      <li>Enabled real-time data collection of user actions — collisions, inputs, and transitions between haptic regions — for psychophysical analysis.</li>
-      <li>Aimed to create a fun, accessible, and research-driven tool for studying multisensory interaction and human response under mobile gaming conditions.</li>
+      <li>Developed for iOS with optimized haptic rendering.</li>
+      <li>The player controls a ball moving through a path with walls, using on-screen arrow buttons.</li>
+      <li>Implemented three haptic feedback modes using Interhaptics Composer: feedback on collision only, feedback that scales with how far into the wall the ball goes, and predictive feedback that kicks in before the ball even hits the wall.</li>
+      <li>Paths are procedurally generated with varying wall angles, so gameplay stays unpredictable across sessions.</li>
+      <li>The game logs all user actions in real time — collisions, inputs, transitions between haptic zones — for analysis.</li>
     </ul>
   </div>
 </div>
