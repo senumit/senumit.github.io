@@ -17,13 +17,10 @@ author_profile: true
 
     <p>Snakes move across many different surfaces — rock, grass, bark, carpet — using different gaits and the frictional properties of their belly scales. These scales create anisotropic friction, meaning they resist motion more in one direction than another, which helps the snake push forward. The goal of this project is to build a soft robotic snake that uses the same principle: bio-inspired vertebrae, ribs, scales, and McKibben pneumatic muscle actuators working together to generate locomotion through friction.</p>
 
-    <!-- ============ VERSION 2 ============ -->
-    <h3 style="margin-top:30px; margin-bottom:10px; font-size:1.1em;">Version 2 — Scale Design, Friction Characterization &amp; Locomotion Correlation</h3>
+  <!-- ============ VERSION 2 ============ -->
+<h3 style="margin-top:30px; margin-bottom:10px; font-size:1.1em;">Version 2 — Scale Design, Friction Characterization &amp; Locomotion Correlation</h3>
 
-    <p>In this phase, we focused on understanding how scale angle and surface type affect friction and locomotion speed. We developed a modular scale system, ran systematic friction tests, and measured locomotion performance across different conditions.</p>
-
-  </div>
-</div>
+<p>In this phase, we wanted to understand whether the frictional properties of our scales actually predict how fast the robot moves — and on which surfaces. To do this, we built a modular scale system that lets us swap scale angles quickly, then ran friction and locomotion tests across multiple surfaces.</p>
 
 <!-- Figure directly under Version 2 intro paragraph — UPDATE FILE NAME -->
 <div style="display:flex; flex-direction:column; align-items:center; gap:25px; margin-bottom:40px;">
@@ -33,21 +30,14 @@ author_profile: true
   </div>
 </div>
 
-<!-- Modular Scale Design -->
-<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
-  <div style="flex:1; min-width:250px; margin-right:20px;">
-
-    <h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Modular Scale Design</h4>
-    <p>We designed a three-part scale structure that attaches to the robot's ribs:</p>
-    <ul>
-      <li><strong>Primary unit</strong> — connects to the ribs or to adjacent scale structures through a mechanical interlock. Inspired by a train track toy for easy, modular assembly.</li>
-      <li><strong>Secondary unit</strong> — interlocks with the primary unit and sets the scale angle (θ). Swapping this part is enough to change the angle without removing anything else.</li>
-      <li><strong>Tertiary unit</strong> — the scale itself, 0.5 mm thick, which slides into a groove in the secondary unit.</li>
-    </ul>
-    <p>Two elastomer cords run through the scale structures to add passive elasticity. The full robot has 22 scale structures. All rigid parts are 3D printed from PETG, and the elastomer cords are molded from Ecoflex 00-30.</p>
-
-  </div>
-</div>
+<h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Modular Scale Design</h4>
+<p>We designed a three-part scale structure that clips onto the robot's ribs:</p>
+<ul>
+  <li><strong>Primary unit</strong> — attaches directly to the ribs or to neighboring scale structures through a mechanical interlock. The connection mechanism was inspired by a train track toy.</li>
+  <li><strong>Secondary unit</strong> — snaps into the primary unit and defines the scale angle (θ). To change the angle, we just replace this piece.</li>
+  <li><strong>Tertiary unit</strong> — the actual scale, 0.5 mm thick, which slides into a groove on the secondary unit.</li>
+</ul>
+<p>Elastomer cords run through the structures to keep things flexible. In total, the robot carries 22 scale structures. Rigid parts are 3D printed from PETG, and the cords are molded from Ecoflex 00-30.</p>
 
 <!-- Modular Scale Design figure -->
 <div style="display:flex; flex-direction:column; align-items:center; gap:25px; margin-bottom:40px;">
@@ -57,21 +47,14 @@ author_profile: true
   </div>
 </div>
 
-<!-- Friction Testing -->
-<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
-  <div style="flex:1; min-width:250px; margin-right:20px;">
-
-    <h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Friction Testing</h4>
-    <p>We measured forward, backward, and lateral friction coefficients at four scale angles (15°, 25°, 35°, 45°) on four surfaces (grass, bark, smooth surface, carpet). Tests were done with a universal testing machine (Instron) and a custom pulley setup. Each condition was repeated 5 times.</p>
-    <ul>
-      <li>On grass, bark, and carpet, backward friction was consistently higher than forward friction, especially at lower scale angles — this is the anisotropy needed for locomotion.</li>
-      <li>On the smooth surface, friction was nearly equal in all directions regardless of scale angle, meaning the scales could not generate useful anisotropy without surface features to interact with.</li>
-      <li>Both backward-to-forward (µ<sub>b/f</sub>) and lateral-to-forward (µ<sub>l/f</sub>) friction ratios decreased as scale angle increased on carpet, bark, and grass.</li>
-      <li>Lateral friction was generally lower than or comparable to forward friction, which may explain the sideways drift we observed during locomotion.</li>
-    </ul>
-
-  </div>
-</div>
+<h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Friction Testing</h4>
+<p>We measured forward, backward, and lateral friction at four scale angles (15°, 25°, 35°, 45°) on four surfaces: grass, bark, smooth surface, and carpet. We used an Instron universal testing machine with a custom pulley setup, repeating each condition 5 times.</p>
+<ul>
+  <li>Backward friction was consistently higher than forward friction on grass, bark, and carpet — especially at lower scale angles. This is the anisotropy that drives locomotion.</li>
+  <li>On the smooth surface, friction was basically the same in all directions no matter the scale angle. Without surface texture, the scales can't generate useful anisotropy.</li>
+  <li>Both the backward-to-forward (µ<sub>b/f</sub>) and lateral-to-forward (µ<sub>l/f</sub>) ratios dropped as we increased the scale angle.</li>
+  <li>Lateral friction tended to be lower than forward friction, which probably explains the sideways drift we kept seeing in locomotion tests.</li>
+</ul>
 
 <!-- Friction Testing figure -->
 <div style="display:flex; flex-direction:column; align-items:center; gap:25px; margin-bottom:40px;">
@@ -81,21 +64,14 @@ author_profile: true
   </div>
 </div>
 
-<!-- Locomotion Testing -->
-<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
-  <div style="flex:1; min-width:250px; margin-right:20px;">
-
-    <h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Locomotion Testing</h4>
-    <p>For locomotion tests, we used a simple open-loop gait: all actuators on one side inflate for 3.5 seconds, then deflate, followed by the other side. Each trial lasted 5 minutes (2.5 minutes on bark, since the robot moved off the surface faster). We recorded displacement in both x (forward) and y (lateral) directions.</p>
-    <ul>
-      <li>The robot achieved the highest speed on bark at 25° scale angle.</li>
-      <li>On grass, movement was mostly lateral rather than forward at 15° and 25°.</li>
-      <li>On carpet, noticeable locomotion only appeared at 15° and 25°. Higher angles produced little to no movement.</li>
-      <li>On the smooth surface, displacement was negligible in all directions — consistent with the near-zero friction anisotropy measured.</li>
-    </ul>
-
-  </div>
-</div>
+<h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Locomotion Testing</h4>
+<p>We ran locomotion tests with a simple open-loop gait — inflate all actuators on one side for 3.5 seconds, deflate, then switch to the other side. Each trial ran for 5 minutes, except on bark where we cut it to 2.5 minutes because the robot kept moving off the surface. We tracked displacement in both the forward (x) and lateral (y) directions.</p>
+<ul>
+  <li>Highest speed was on bark at a 25° scale angle.</li>
+  <li>On grass at 15° and 25°, the robot moved mostly sideways rather than forward.</li>
+  <li>On carpet, we only saw real locomotion at 15° and 25°. At higher angles, it barely moved.</li>
+  <li>On the smooth surface, almost no displacement in any direction — which makes sense given the friction results.</li>
+</ul>
 
 <!-- Locomotion Testing video — UPDATE THE FILE NAME BELOW with your actual video file -->
 <div style="margin-top:25px; text-align:center; margin-bottom:50px;">
@@ -106,19 +82,12 @@ author_profile: true
   </video>
 </div>
 
-<!-- Key Findings -->
-<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; flex-wrap:wrap;">
-  <div style="flex:1; min-width:250px; margin-right:20px;">
+<h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Key Findings</h4>
+<p>Friction ratios clearly changed with scale angle, but we couldn't find a clean relationship between those ratios and locomotion speed. Carpet had slightly higher ratios than grass, yet the robot moved faster on grass. Bark and carpet had similar ratios, but bark gave much higher speeds. So friction numbers alone don't tell the whole story — things like how the scales catch on surface features, stick-slip effects, and even the alignment of fibers on the surface seem to matter a lot, and those aren't captured by a standard friction test. One positive result is that the scale angles that worked best for us (15°–25°) are close to what's been measured on real snakes (20°–30°).</p>
 
-    <h4 style="margin-top:20px; margin-bottom:8px; font-size:1.1em; font-style:italic;">Key Findings</h4>
-    <p>While friction ratios clearly depended on scale angle, we could not find a consistent relationship between friction ratios and locomotion speed across all surfaces. For example, carpet had slightly higher friction ratios than grass, but the robot moved faster on grass. Bark and carpet had similar ratios, but locomotion was much faster on bark. We concluded that friction coefficients alone are not enough to predict how fast or in which direction a snake robot will move. The mechanics of how scales interact with surface features — catching, stick-slip behavior, fiber alignment — likely play a significant role that standard friction measurements do not capture. The best-performing scale angles (15°–25°) align with the range observed in biological snakes (20°–30°).</p>
-
-    <p style="margin-top:10px; font-style:italic;">
-      <strong>U. Sen</strong>, A. Mahegan, and G. Olson, "Characterization and Correlation of Robotic Snake Scale Friction and Locomotion Speed," in <em>9th IEEE-RAS International Conference on Soft Robotics (RoboSoft)</em>, 2026. <a href="https://arxiv.org/abs/2603.03735">arXiv:2603.03735</a>
-    </p>
-
-  </div>
-</div>
+<p style="margin-top:10px; font-style:italic;">
+  <strong>U. Sen</strong>, A. Mahegan, and G. Olson, "Characterization and Correlation of Robotic Snake Scale Friction and Locomotion Speed," in <em>9th IEEE-RAS International Conference on Soft Robotics (RoboSoft)</em>, 2026. <a href="https://arxiv.org/abs/2603.03735">arXiv:2603.03735</a>
+</p>
 
 <hr style="margin:40px 0;">
 
