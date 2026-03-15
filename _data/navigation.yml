@@ -9,7 +9,7 @@
 
 main:
 
-- title: "**PORTFOLIO**"
+- title: "<strong style='letter-spacing:1px;'>PORTFOLIO</strong>"
   url: /portfolio/
 
   
