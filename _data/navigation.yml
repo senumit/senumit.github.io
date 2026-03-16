@@ -9,7 +9,7 @@
 
 main:
 
-- title: "<strong style='letter-spacing:1px;'>CLICK HERE FOR PORTFOLIO</strong>"
+- title: "<strong style='letter-spacing:1px;'>CLICK FOR PORTFOLIO</strong>"
   url: /portfolio/
 
   
