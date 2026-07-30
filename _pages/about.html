@@ -7,7 +7,7 @@ layout: none
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Your Name</title>
+<title>Ümit Şen</title>
 <style>
   :root {
     --text:  #7a7a7a;
@@ -23,32 +23,34 @@ layout: none
     background: #fff;
     color: var(--text);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.7;
     font-weight: 300;
   }
 
   .wrap {
-    max-width: 720px;
+    max-width: 820px;
     margin: 0 auto;
   }
+
+  /* ---------- header ---------- */
 
   .header {
     display: flex;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 2.5rem;
   }
 
   .header img {
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     object-fit: cover;
     flex-shrink: 0;
   }
 
   .header h1 {
     margin: 0 0 .6rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
     letter-spacing: .01em;
     color: var(--title);
@@ -57,14 +59,18 @@ layout: none
   .bio { margin: 0; }
   .bio p { margin: 0 0 .8rem; }
 
+  /* ---------- divider ---------- */
+
   hr {
     border: 0;
     border-top: 1px solid var(--line);
     margin: 3.5rem 0;
   }
 
+  /* ---------- sections ---------- */
+
   h2 {
-    font-size: .78rem;
+    font-size: .82rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: .14em;
@@ -72,15 +78,17 @@ layout: none
     margin: 0 0 2.5rem;
   }
 
+  h2.later { margin-top: 4.5rem; }
+
   .paper {
     display: flex;
     align-items: flex-start;
-    gap: 2rem;
-    margin-bottom: 2.75rem;
+    gap: 2.5rem;
+    margin-bottom: 3rem;
   }
 
   .paper img {
-    width: 150px;
+    width: 200px;
     flex-shrink: 0;
     border: 1px solid var(--line);
   }
@@ -88,18 +96,26 @@ layout: none
   .paper-title {
     color: var(--title);
     font-weight: 400;
-    margin-bottom: .2rem;
+    margin-bottom: .25rem;
   }
 
-  .authors, .venue { font-size: .92rem; }
+  .authors, .venue { font-size: .95rem; }
   .venue { font-style: italic; }
+  .me { font-weight: 500; color: var(--title); }
 
-  a { color: var(--title); text-decoration: none; border-bottom: 1px solid var(--line); }
-  a:hover { border-bottom-color: var(--title); }
+  .doi {
+    font-size: .88rem;
+    margin-top: .3rem;
+  }
+
+  a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
+  a:hover { color: var(--title); border-bottom-color: var(--title); }
+
+  /* ---------- mobile ---------- */
 
   @media (max-width: 600px) {
     .header, .paper { flex-direction: column; gap: 1.25rem; }
-    .header img, .paper img { width: 130px; }
+    .header img, .paper img { width: 170px; }
   }
 </style>
 </head>
@@ -107,9 +123,9 @@ layout: none
 <div class="wrap">
 
   <div class="header">
-    <img src="/images/profile.jpg" alt="Your Name">
+    <img src="/images/profile.jpg" alt="Ümit Şen">
     <div>
-      <h1>Your Name</h1>
+      <h1>Ümit Şen</h1>
       <div class="bio">
         <p>A sentence or two about who you are — your position, your institution, and the broad area you work in.</p>
         <p>A second paragraph if you want it: research interests, current focus, or anything else worth saying up front.</p>
@@ -119,23 +135,67 @@ layout: none
 
   <hr>
 
-  <h2>Research</h2>
+  <h2>Journal Publications</h2>
 
   <div class="paper">
-    <img src="/images/paper-one.png" alt="">
+    <img src="/images/paper-01.png" alt="">
     <div>
-      <div class="paper-title">Full Title of the First Paper</div>
-      <div class="authors">Your Name, Second Author, Third Author</div>
-      <div class="venue">Journal or Conference Name, 2025</div>
+      <div class="paper-title">Hand Dominance and Congruence for Wrist-Worn Haptics Using Custom Voice-Coil Actuation</div>
+      <div class="authors">A. Adeyemi, <span class="me">U. Sen</span>, S. M. Ercan, and M. Sarac</div>
+      <div class="venue">IEEE Robotics and Automation Letters, vol. 9, no. 4, pp. 3053–3059, Apr. 2024</div>
+      <div class="doi"><a href="https://doi.org/10.1109/LRA.2024.3360815">10.1109/LRA.2024.3360815</a></div>
     </div>
   </div>
 
   <div class="paper">
-    <img src="/images/paper-two.png" alt="">
+    <img src="/images/paper-02.png" alt="">
     <div>
-      <div class="paper-title">Full Title of the Second Paper</div>
-      <div class="authors">Your Name, Another Author</div>
-      <div class="venue">Journal or Conference Name, 2024</div>
+      <div class="paper-title">Gamifying Haptics User Studies: Comparison of Response Times From Smartphone Interfaces</div>
+      <div class="authors">B. Kudsi, D. Xu, <span class="me">U. Sen</span>, K. T. Yoshida, F. Stroppa, C. M. Nunez, and M. Sarac</div>
+      <div class="venue">IEEE Transactions on Haptics, vol. 18, no. 2, pp. 423–429, Apr. 2025</div>
+      <div class="doi"><a href="https://doi.org/10.1109/TOH.2025.3536885">10.1109/TOH.2025.3536885</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <img src="/images/paper-03.png" alt="">
+    <div>
+      <div class="paper-title">3D Indoor Positioning with Spatial Modulation for Visible Light Communications</div>
+      <div class="authors"><span class="me">U. Sen</span>, Y. E. Yesilirmak, I. O. Bayman, T. Arsan, E. Panayirci, and N. Stevens</div>
+      <div class="venue">Optics Communications, vol. 529, p. 129091, Feb. 2023</div>
+      <div class="doi"><a href="https://doi.org/10.1016/j.optcom.2022.129091">10.1016/j.optcom.2022.129091</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <img src="/images/paper-04.png" alt="">
+    <div>
+      <div class="paper-title">Circular Formations of Non-Communicating Robot Groups via Local Strategies</div>
+      <div class="authors">F. Kerestecioğlu, <span class="me">Ü. Şen</span>, Ç. Işıkver, and A. Göktekin</div>
+      <div class="venue">Adaptive Behavior, Aug. 2024</div>
+      <div class="doi"><a href="https://doi.org/10.1177/10597123231204627">10.1177/10597123231204627</a></div>
+    </div>
+  </div>
+
+  <h2 class="later">Conference Publications</h2>
+
+  <div class="paper">
+    <img src="/images/paper-05.png" alt="">
+    <div>
+      <div class="paper-title">Characterization and Correlation of Robotic Snake Scale Friction and Locomotion Speed</div>
+      <div class="authors"><span class="me">Ü. Şen</span>, A. Mahegan, and G. Olson</div>
+      <div class="venue">2026 IEEE 9th International Conference on Soft Robotics (RoboSoft), Kanazawa, Japan, 2026, pp. 786–793</div>
+      <div class="doi"><a href="https://doi.org/10.1109/RoboSoft67810.2026.11522876">10.1109/RoboSoft67810.2026.11522876</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <img src="/images/paper-06.png" alt="">
+    <div>
+      <div class="paper-title">A Highly Articulated Backbone for Soft Snake Robots</div>
+      <div class="authors">Y. Nandwana, <span class="me">U. Sen</span>, and G. Olson</div>
+      <div class="venue">Biomimetic and Biohybrid Systems (Living Machines 2025), Lecture Notes in Computer Science, vol. 15582, Springer, Cham, 2026</div>
+      <div class="doi"><a href="https://doi.org/10.1007/978-3-031-07448-5_20">10.1007/978-3-031-07448-5_20</a></div>
     </div>
   </div>
 
