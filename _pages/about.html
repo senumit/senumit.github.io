@@ -85,6 +85,20 @@ layout: none
     margin: 0 0 2.5rem;
   }
 
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--title);
+    margin: 0 0 1.5rem;
+  }
+
+  h4 {
+    font-size: .95rem;
+    font-weight: 400;
+    color: var(--title);
+    margin: 2.5rem 0 1rem;
+  }
+
   /* ---------- research ---------- */
 
   .paper {
@@ -123,33 +137,27 @@ layout: none
 
   /* ---------- design ---------- */
 
-  .grid {
+  .figures {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2.5rem;
+    gap: 2rem;
   }
 
-  .work img {
+  .figures img {
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
     border: 1px solid var(--line);
     display: block;
-    margin-bottom: .6rem;
+    margin-bottom: .55rem;
   }
 
-  .work-title {
-    color: var(--title);
-    font-weight: 400;
+  .caption {
+    font-size: .88rem;
+    line-height: 1.5;
   }
 
-  .work-desc {
-    font-size: .92rem;
-    line-height: 1.6;
-  }
-
-  a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
-  a:hover { color: var(--title); border-bottom-color: var(--title); }
+  .caption em { font-style: italic; }
 
   /* ---------- mobile ---------- */
 
@@ -157,8 +165,11 @@ layout: none
     .header, .paper { flex-direction: column; gap: 1.25rem; }
     .header img, .paper img { width: 170px; }
     .noimg { display: none; }
-    .grid { grid-template-columns: 1fr; gap: 2rem; }
+    .figures { grid-template-columns: 1fr; gap: 1.75rem; }
   }
+
+  a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
+  a:hover { color: var(--title); border-bottom-color: var(--title); }
 </style>
 </head>
 <body>
@@ -247,30 +258,20 @@ layout: none
 
   <h2>Design</h2>
 
-  <div class="grid">
+  <h3>Bio-inspired Snake Robot Design</h3>
 
-    <div class="work">
-      <img src="/images/design-01.png" alt="">
-      <div class="work-title">Project Name</div>
-      <div class="work-desc">One or two sentences about what this is and what you made.</div>
+  <h4>Mimicking Ventral Scales</h4>
+
+  <div class="figures">
+
+    <div>
+      <img src="/images/ventral-scales-real-1.jpg" alt="Two-headed Sipo">
+      <div class="caption">Two-headed Sipo (<em>Chironius bicarinatus</em>)</div>
     </div>
 
-    <div class="work">
-      <img src="/images/design-02.png" alt="">
-      <div class="work-title">Project Name</div>
-      <div class="work-desc">One or two sentences about what this is and what you made.</div>
-    </div>
-
-    <div class="work">
-      <img src="/images/design-03.png" alt="">
-      <div class="work-title">Project Name</div>
-      <div class="work-desc">One or two sentences about what this is and what you made.</div>
-    </div>
-
-    <div class="work">
-      <img src="/images/design-04.png" alt="">
-      <div class="work-title">Project Name</div>
-      <div class="work-desc">One or two sentences about what this is and what you made.</div>
+    <div>
+      <img src="/images/ventral-scales-real-2.jpg" alt="Green Rat Snake">
+      <div class="caption">Green Rat Snake (<em>Senticolis triaspis</em>)</div>
     </div>
 
   </div>
