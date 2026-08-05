@@ -74,7 +74,7 @@ layout: none
     margin: 3.5rem 0;
   }
 
-  /* ---------- research ---------- */
+  /* ---------- sections ---------- */
 
   h2 {
     font-size: .82rem;
@@ -84,6 +84,8 @@ layout: none
     color: var(--title);
     margin: 0 0 2.5rem;
   }
+
+  /* ---------- research ---------- */
 
   .paper {
     display: flex;
@@ -119,6 +121,33 @@ layout: none
     margin-top: .3rem;
   }
 
+  /* ---------- design ---------- */
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .work img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border: 1px solid var(--line);
+    display: block;
+    margin-bottom: .6rem;
+  }
+
+  .work-title {
+    color: var(--title);
+    font-weight: 400;
+  }
+
+  .work-desc {
+    font-size: .92rem;
+    line-height: 1.6;
+  }
+
   a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
   a:hover { color: var(--title); border-bottom-color: var(--title); }
 
@@ -128,6 +157,7 @@ layout: none
     .header, .paper { flex-direction: column; gap: 1.25rem; }
     .header img, .paper img { width: 170px; }
     .noimg { display: none; }
+    .grid { grid-template-columns: 1fr; gap: 2rem; }
   }
 </style>
 </head>
@@ -203,7 +233,7 @@ layout: none
     </div>
   </div>
 
- <div class="paper">
+  <div class="paper">
     <img src="/images/Swarm.png" alt="">
     <div>
       <div class="paper-title">Circular Formations of Non-Communicating Robot Groups via Local Strategies</div>
@@ -211,6 +241,38 @@ layout: none
       <div class="venue"><span class="vn">Adaptive Behavior</span>, Aug. 2024</div>
       <div class="doi"><a href="https://doi.org/10.1177/10597123231204627">10.1177/10597123231204627</a></div>
     </div>
+  </div>
+
+  <hr>
+
+  <h2>Design</h2>
+
+  <div class="grid">
+
+    <div class="work">
+      <img src="/images/design-01.png" alt="">
+      <div class="work-title">Project Name</div>
+      <div class="work-desc">One or two sentences about what this is and what you made.</div>
+    </div>
+
+    <div class="work">
+      <img src="/images/design-02.png" alt="">
+      <div class="work-title">Project Name</div>
+      <div class="work-desc">One or two sentences about what this is and what you made.</div>
+    </div>
+
+    <div class="work">
+      <img src="/images/design-03.png" alt="">
+      <div class="work-title">Project Name</div>
+      <div class="work-desc">One or two sentences about what this is and what you made.</div>
+    </div>
+
+    <div class="work">
+      <img src="/images/design-04.png" alt="">
+      <div class="work-title">Project Name</div>
+      <div class="work-desc">One or two sentences about what this is and what you made.</div>
+    </div>
+
   </div>
 
 </div>
