@@ -74,24 +74,26 @@ layout: none
     margin: 3.5rem 0;
   }
 
-  /* ---------- sections ---------- */
+  /* ---------- headings ---------- */
 
   h2 {
     font-size: .82rem;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .14em;
     color: var(--title);
     margin: 0 0 2.5rem;
   }
 
- h3 {
+  h2.tight { margin-bottom: 1.75rem; }
+
+  h3 {
     font-size: .78rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: .12em;
     color: var(--title);
-    margin: 0 0 1.75rem;
+    margin: 0 0 1.25rem;
   }
 
   h4 {
@@ -100,7 +102,7 @@ layout: none
     text-transform: uppercase;
     letter-spacing: .10em;
     color: var(--text);
-    margin: 2.5rem 0 1.2rem;
+    margin: 1.5rem 0 1.2rem;
   }
 
   /* ---------- research ---------- */
@@ -147,7 +149,8 @@ layout: none
     gap: 2rem;
   }
 
-  .figures img {
+  .figures img,
+  .figure-single img {
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
@@ -156,12 +159,25 @@ layout: none
     margin-bottom: .55rem;
   }
 
+  .figure-single { margin-top: 2rem; }
+
   .caption {
     font-size: .88rem;
     line-height: 1.5;
+    text-align: center;
   }
 
   .caption em { font-style: italic; }
+  .caption strong { font-weight: 500; color: var(--title); }
+
+  .credit {
+    font-size: .8rem;
+    text-align: center;
+    margin-top: .9rem;
+  }
+
+  a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
+  a:hover { color: var(--title); border-bottom-color: var(--title); }
 
   /* ---------- mobile ---------- */
 
@@ -171,9 +187,6 @@ layout: none
     .noimg { display: none; }
     .figures { grid-template-columns: 1fr; gap: 1.75rem; }
   }
-
-  a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
-  a:hover { color: var(--title); border-bottom-color: var(--title); }
 </style>
 </head>
 <body>
@@ -260,7 +273,7 @@ layout: none
 
   <hr>
 
-  <h2>Design</h2>
+  <h2 class="tight">Design</h2>
 
   <h3>Bio-inspired Snake Robot Design</h3>
 
@@ -278,6 +291,13 @@ layout: none
       <div class="caption">Green Rat Snake (<em>Senticolis triaspis</em>)</div>
     </div>
 
+  </div>
+
+  <div class="credit">Snake photographs courtesy of <a href="https://www.inaturalist.org">iNaturalist.org</a></div>
+
+  <div class="figure-single">
+    <img src="/images/ventral-scales-fabricated.png" alt="Fabricated modular ventral scales">
+    <div class="caption"><strong>Fabricated modular ventral scales:</strong> Molded with VytaFlex20 polyurethane rubber and 3D-printed PETF scales</div>
   </div>
 
 </div>
