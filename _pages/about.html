@@ -105,6 +105,8 @@ layout: none
     margin: 1.5rem 0 1.2rem;
   }
 
+  h4.spaced { margin-top: 3.5rem; }
+
   /* ---------- research ---------- */
 
   .paper {
@@ -145,8 +147,8 @@ layout: none
 
   .figures {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
   }
 
   .figures img,
@@ -172,6 +174,8 @@ layout: none
     text-align: center;
   }
 
+  .figures .caption { font-size: .82rem; }
+
   .caption em { font-style: italic; }
   .caption strong { font-weight: 500; color: var(--title); }
 
@@ -191,6 +195,7 @@ layout: none
     .header img, .paper img { width: 170px; }
     .noimg { display: none; }
     .figures { grid-template-columns: 1fr; gap: 1.75rem; }
+    .figure-single { max-width: 100%; }
   }
 </style>
 </head>
@@ -296,6 +301,11 @@ layout: none
       <div class="caption">Green Rat Snake (<em>Senticolis triaspis</em>)</div>
     </div>
 
+    <div>
+      <img src="/images/dorsal-scales-real-3.jpg" alt="Timber Rattlesnake">
+      <div class="caption">Timber Rattlesnake (<em>Crotalus horridus</em>)</div>
+    </div>
+
   </div>
 
   <div class="credit">Snake photographs courtesy of <a href="https://www.inaturalist.org">iNaturalist.org</a></div>
@@ -304,6 +314,29 @@ layout: none
     <img src="/images/dorsal-scales-fabricated.png" alt="Fabricated modular dorsal scales">
     <div class="caption"><strong>Fabricated modular dorsal scales:</strong> Molded with VytaFlex20 polyurethane rubber and 3D-printed PETF scales</div>
   </div>
+
+  <h4 class="spaced">Mimicking Ventral Scales</h4>
+
+  <div class="figures">
+
+    <div>
+      <img src="/images/ventral-scales-real-1.jpg" alt="Kirtland's Snake">
+      <div class="caption">Kirtland's Snake (<em>Clonophis kirtlandii</em>)</div>
+    </div>
+
+    <div>
+      <img src="/images/ventral-scales-real-2.jpg" alt="Western Yellow-bellied Racer">
+      <div class="caption">Western Yellow-bellied Racer (<em>Coluber constrictor</em> ssp. <em>mormon</em>)</div>
+    </div>
+
+    <div>
+      <img src="/images/ventral-scales-real-3.jpg" alt="Coast Garter Snake">
+      <div class="caption">Coast Garter Snake (<em>Thamnophis elegans</em> ssp. <em>terrestris</em>)</div>
+    </div>
+
+  </div>
+
+  <div class="credit">Snake photographs courtesy of <a href="https://www.inaturalist.org">iNaturalist.org</a></div>
 
 </div>
 </body>
