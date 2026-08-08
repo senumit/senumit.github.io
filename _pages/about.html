@@ -158,6 +158,8 @@ layout: none
     gap: 1.5rem;
   }
 
+  .figures.two { grid-template-columns: 1fr 1fr; }
+
   .figures img,
   .figure-single img {
     width: 100%;
@@ -217,6 +219,12 @@ layout: none
     gap: 1.25rem;
   }
 
+  .plate-halves {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+
   .plate img {
     width: 100%;
     height: 100%;
@@ -225,6 +233,8 @@ layout: none
     border: 1px solid var(--line);
     display: block;
   }
+
+  .plate img.photo { object-fit: cover; }
 
   .plate .caption { margin-top: .7rem; }
 
@@ -237,10 +247,10 @@ layout: none
     .header, .paper { flex-direction: column; gap: 1.25rem; }
     .header img, .paper img { width: 170px; }
     .noimg { display: none; }
-    .figures { grid-template-columns: 1fr; gap: 1.75rem; }
+    .figures, .figures.two { grid-template-columns: 1fr; gap: 1.75rem; }
     .figure-single { max-width: 100%; }
     .plate-row { flex-direction: column; }
-    .plate-thirds { grid-template-columns: 1fr; }
+    .plate-thirds, .plate-halves { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -364,7 +374,7 @@ layout: none
 
   <h5>Ventral Scales</h5>
 
-  <div class="figures">
+  <div class="figures two">
 
     <div>
       <img src="/images/ventral-scales-real-1.jpg" alt="Kirtland's Snake">
@@ -374,11 +384,6 @@ layout: none
     <div>
       <img src="/images/ventral-scales-real-2.jpg" alt="Western Yellow-bellied Racer">
       <div class="caption">Western Yellow-bellied Racer (<em>Coluber constrictor</em> ssp. <em>mormon</em>)</div>
-    </div>
-
-    <div>
-      <img src="/images/ventral-scales-real-3.jpg" alt="Coast Garter Snake">
-      <div class="caption">Coast Garter Snake (<em>Thamnophis elegans</em> ssp. <em>terrestris</em>)</div>
     </div>
 
   </div>
@@ -401,12 +406,19 @@ layout: none
   </div>
 
   <div class="plate">
-    <div class="plate-thirds">
+    <div class="plate-halves">
       <img src="/images/ventral-full-assembly.png" alt="Full skin assembly">
       <img src="/images/ventral-bending-1.png" alt="Skin assembly bending">
-      <img src="/images/ventral-bending-2.png" alt="Skin assembly bending">
     </div>
     <div class="caption"><strong>Full skin assembly</strong> with bending</div>
+  </div>
+
+  <div class="plate">
+    <div class="plate-halves">
+      <img class="photo" src="/images/ventral-scales-real-3.jpg" alt="Coast Garter Snake ventral scales">
+      <img src="/images/ventral-bending-2.png" alt="Bio-inspired ventral skin design">
+    </div>
+    <div class="caption"><strong>Live snake ventral scales and bio-inspired ventral skin design</strong></div>
   </div>
 
   <h4>Mimicking Muscles</h4>
