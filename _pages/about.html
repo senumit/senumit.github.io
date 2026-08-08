@@ -174,6 +174,23 @@ layout: none
 
   .figures img.uncut { object-fit: contain; }
 
+  .video {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--line);
+    margin-bottom: .55rem;
+  }
+
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
   .caption {
     font-size: .88rem;
     line-height: 1.5;
@@ -471,6 +488,13 @@ layout: none
   <div class="figures one">
 
     <div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/sO2d90YedN0" title="Snake unable to gain traction on a fleece blanket" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="caption">Snakes cannot move without anisotropic friction<sup><a href="#ref6">6</a></sup></div>
+    </div>
+
+    <div>
       <img class="uncut" src="/images/grass-locomotion.jpg" alt="Eastern Milksnake">
       <div class="caption">Eastern Milksnake (<em>Lampropeltis triangulum</em>)<sup><a href="#ref1">1</a></sup></div>
     </div>
@@ -499,6 +523,7 @@ layout: none
     <li id="ref3">"Bitis gabonica complete skeleton" by Stefan3345, via <a href="https://commons.wikimedia.org/wiki/File:Bitis_gabonica_complete_skeleton.jpg">Wikimedia Commons</a>, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</li>
     <li id="ref4">"Snake skeleton" by dbking, via <a href="https://commons.wikimedia.org/wiki/File:Snake_skeleton.jpg">Wikimedia Commons</a>, licensed under <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>.</li>
     <li id="ref5">Tingle, J. L., Jurestovsky, D. J., &amp; Astley, H. C. (2023). The relative contributions of multiarticular snake muscles to movement in different planes. <em>Journal of Morphology</em>, 284(6), e21591. <a href="https://doi.org/10.1002/jmor.21591">https://doi.org/10.1002/jmor.21591</a></li>
+    <li id="ref6">"Snake can't get traction on fleece blanket = snake treadmill!" by Dr. Rachel, Exotic Pet Vet, via <a href="https://www.youtube.com/watch?v=sO2d90YedN0">YouTube</a>.</li>
   </ol>
 
 </div>
