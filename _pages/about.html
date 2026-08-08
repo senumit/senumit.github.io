@@ -159,6 +159,7 @@ layout: none
   }
 
   .figures.two { grid-template-columns: 1fr 1fr; }
+  .figures.one { grid-template-columns: 1fr; gap: 2rem; }
 
   .figures img {
     width: 100%;
@@ -169,6 +170,8 @@ layout: none
     margin-bottom: .55rem;
   }
 
+  .figures.one img { aspect-ratio: 16 / 9; }
+
   .caption {
     font-size: .88rem;
     line-height: 1.5;
@@ -176,6 +179,7 @@ layout: none
   }
 
   .figures .caption { font-size: .82rem; }
+  .figures.one .caption { font-size: .88rem; }
 
   .caption em { font-style: italic; }
   .caption strong { font-weight: 500; color: var(--title); }
@@ -422,6 +426,27 @@ layout: none
   <h4>Mimicking Skeleton</h4>
 
   <h4>Mimicking Locomotion</h4>
+
+  <div class="figures one">
+
+    <div>
+      <img src="/images/grass-locomotion.jpg" alt="Eastern Milksnake">
+      <div class="caption">Eastern Milksnake (<em>Lampropeltis triangulum</em>)</div>
+    </div>
+
+    <div>
+      <img src="/images/bark-locomotion.jpeg" alt="Manchurian Black Ratsnake">
+      <div class="caption">Manchurian Black Ratsnake (<em>Elaphe schrenckii</em>)</div>
+    </div>
+
+    <div>
+      <img src="/images/rocks-locomotion.jpeg" alt="Kirtland's Snake">
+      <div class="caption">Kirtland's Snake (<em>Clonophis kirtlandii</em>)</div>
+    </div>
+
+  </div>
+
+  <div class="credit">Snake photographs courtesy of <a href="https://www.inaturalist.org">iNaturalist.org</a></div>
 
   <h4>Mimicking Compliance</h4>
 
