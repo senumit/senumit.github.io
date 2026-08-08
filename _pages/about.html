@@ -186,10 +186,10 @@ layout: none
   .caption em { font-style: italic; }
   .caption strong { font-weight: 500; color: var(--title); }
 
-  .credit {
-    font-size: .78rem;
-    text-align: center;
-    margin-top: 1rem;
+  sup a {
+    border: 0;
+    font-size: .72em;
+    padding-left: .1em;
   }
 
   /* ---------- design plates ---------- */
@@ -237,6 +237,17 @@ layout: none
   .plate img.rot90 { transform: rotate(90deg) scale(0.75); }
 
   .plate .caption { margin-top: .7rem; }
+
+  /* ---------- references ---------- */
+
+  .refs {
+    font-size: .8rem;
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 1.4rem;
+  }
+
+  .refs li { margin-bottom: .5rem; }
 
   a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
   a:hover { color: var(--title); border-bottom-color: var(--title); }
@@ -349,12 +360,12 @@ layout: none
 
     <div>
       <img class="uncut" src="/images/dorsal-scales-real-4.jpg" alt="Western Forest File Snake">
-      <div class="caption">Western Forest File Snake (<em>Mehelya poensis</em>)</div>
+      <div class="caption">Western Forest File Snake (<em>Mehelya poensis</em>)<sup><a href="#ref1">1</a></sup></div>
     </div>
 
     <div>
       <img class="uncut" src="/images/dorsal-scales-real-5.jpg" alt="Fat Burrowing Asp">
-      <div class="caption">Fat Burrowing Asp (<em>Atractaspis corpulenta</em>)</div>
+      <div class="caption">Fat Burrowing Asp (<em>Atractaspis corpulenta</em>)<sup><a href="#ref1">1</a></sup></div>
     </div>
 
   </div>
@@ -364,7 +375,7 @@ layout: none
       <img src="/images/dorsal-scales-real-3.jpg" alt="Timber Rattlesnake dorsal scales">
       <img class="rot90" src="/images/dorsal-scales-fabricated.png" alt="Fabricated modular dorsal scales">
     </div>
-    <div class="caption"><strong>Live snake dorsal scales and fabricated modular dorsal scales:</strong> Molded with VytaFlex20 polyurethane rubber and 3D-printed PETG scales</div>
+    <div class="caption"><strong>Live snake dorsal scales<sup><a href="#ref1">1</a></sup> and fabricated modular dorsal scales:</strong> Molded with VytaFlex20 polyurethane rubber and 3D-printed PETG scales</div>
   </div>
 
   <h5>Ventral Scales</h5>
@@ -373,17 +384,17 @@ layout: none
 
     <div>
       <img class="uncut" src="/images/ventral-scales-real-1.jpg" alt="Kirtland's Snake">
-      <div class="caption">Kirtland's Snake (<em>Clonophis kirtlandii</em>)</div>
+      <div class="caption">Kirtland's Snake (<em>Clonophis kirtlandii</em>)<sup><a href="#ref1">1</a></sup></div>
     </div>
 
     <div>
       <img class="uncut" src="/images/ventral-scales-real-2.jpg" alt="Western Yellow-bellied Racer">
-      <div class="caption">Western Yellow-bellied Racer (<em>Coluber constrictor</em> ssp. <em>mormon</em>)</div>
+      <div class="caption">Western Yellow-bellied Racer (<em>Coluber constrictor</em> ssp. <em>mormon</em>)<sup><a href="#ref1">1</a></sup></div>
     </div>
 
     <div>
       <img class="uncut" src="/images/ventral-scales-real-4.jpg" alt="Red-Black Striped Snake">
-      <div class="caption">Red-Black Striped Snake (<em>Bothrophthalmus lineatus</em>)</div>
+      <div class="caption">Red-Black Striped Snake (<em>Bothrophthalmus lineatus</em>)<sup><a href="#ref1">1</a></sup></div>
     </div>
 
   </div>
@@ -416,12 +427,19 @@ layout: none
       <img src="/images/ventral-scales-real-3.jpg" alt="Coast Garter Snake ventral scales">
       <img src="/images/ventral-bending-2.png" alt="Bio-inspired ventral skin design">
     </div>
-    <div class="caption"><strong>Live snake ventral scales and bio-inspired ventral skin design</strong></div>
+    <div class="caption"><strong>Live snake ventral scales<sup><a href="#ref1">1</a></sup> and bio-inspired ventral skin design</strong></div>
   </div>
 
-  <div class="credit">Snake photographs via <a href="https://www.inaturalist.org">iNaturalist</a></div>
-
   <h4>Mimicking Muscles</h4>
+
+  <div class="figures one">
+
+    <div>
+      <img class="uncut" src="/images/snakeMuscles-illustration.png" alt="Lateral view of snake axial muscles">
+      <div class="caption">Lateral view of snake axial muscles<sup><a href="#ref5">5</a></sup></div>
+    </div>
+
+  </div>
 
   <h4>Mimicking Skeleton</h4>
 
@@ -429,7 +447,7 @@ layout: none
 
     <div>
       <img class="uncut" src="/images/cervical-vertebra-of-reticulated-python.png" alt="Cervical vertebra of a Reticulated Python">
-      <div class="caption">Cervical vertebra of a Reticulated Python, UF Herp 65624</div>
+      <div class="caption">Cervical vertebra of a Reticulated Python, UF Herp 65624<sup><a href="#ref2">2</a></sup></div>
     </div>
 
   </div>
@@ -438,17 +456,15 @@ layout: none
 
     <div>
       <img class="uncut" src="/images/Bitis_gabonica_complete_skeleton.jpg" alt="Gaboon viper complete skeleton">
-      <div class="caption">Complete skeleton of <em>Bitis gabonica</em></div>
+      <div class="caption">Complete skeleton of <em>Bitis gabonica</em><sup><a href="#ref3">3</a></sup></div>
     </div>
 
     <div>
       <img class="uncut" src="/images/Snake_skeleton.jpg" alt="Snake skeleton">
-      <div class="caption">Snake skeleton</div>
+      <div class="caption">Snake skeleton<sup><a href="#ref4">4</a></sup></div>
     </div>
 
   </div>
-
-  <div class="credit">Vertebra scan via <a href="https://www.floridamuseum.ufl.edu">Florida Museum of Natural History</a> (CC BY 4.0) · Skeletons by Stefan3345 and dbking via <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a> (CC BY-SA 4.0, CC BY 2.0)</div>
 
   <h4>Mimicking Locomotion</h4>
 
@@ -456,24 +472,34 @@ layout: none
 
     <div>
       <img class="uncut" src="/images/grass-locomotion.jpg" alt="Eastern Milksnake">
-      <div class="caption">Eastern Milksnake (<em>Lampropeltis triangulum</em>)</div>
+      <div class="caption">Eastern Milksnake (<em>Lampropeltis triangulum</em>)<sup><a href="#ref1">1</a></sup></div>
     </div>
 
     <div>
       <img class="uncut" src="/images/bark-locomotion.jpeg" alt="Manchurian Black Ratsnake">
-      <div class="caption">Manchurian Black Ratsnake (<em>Elaphe schrenckii</em>)</div>
+      <div class="caption">Manchurian Black Ratsnake (<em>Elaphe schrenckii</em>)<sup><a href="#ref1">1</a></sup></div>
     </div>
 
     <div>
       <img class="uncut" src="/images/rocks-locomotion.jpeg" alt="Kirtland's Snake">
-      <div class="caption">Kirtland's Snake (<em>Clonophis kirtlandii</em>)</div>
+      <div class="caption">Kirtland's Snake (<em>Clonophis kirtlandii</em>)<sup><a href="#ref1">1</a></sup></div>
     </div>
 
   </div>
 
-  <div class="credit">Snake photographs via <a href="https://www.inaturalist.org">iNaturalist</a></div>
-
   <h4>Mimicking Compliance</h4>
+
+  <hr>
+
+  <h2>References</h2>
+
+  <ol class="refs">
+    <li id="ref1">Snake photographs via <a href="https://www.inaturalist.org">iNaturalist</a>.</li>
+    <li id="ref2">Cervical vertebra of a Reticulated Python, UF Herp 65624, courtesy of the <a href="https://www.floridamuseum.ufl.edu">Florida Museum of Natural History</a> (CC BY 4.0).</li>
+    <li id="ref3">"Bitis gabonica complete skeleton" by Stefan3345, via <a href="https://commons.wikimedia.org/wiki/File:Bitis_gabonica_complete_skeleton.jpg">Wikimedia Commons</a>, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</li>
+    <li id="ref4">"Snake skeleton" by dbking, via <a href="https://commons.wikimedia.org/wiki/File:Snake_skeleton.jpg">Wikimedia Commons</a>, licensed under <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>.</li>
+    <li id="ref5">Tingle, J. L., Jurestovsky, D. J., &amp; Astley, H. C. (2023). The relative contributions of multiarticular snake muscles to movement in different planes. <em>Journal of Morphology</em>, 284(6), e21591. <a href="https://doi.org/10.1002/jmor.21591">https://doi.org/10.1002/jmor.21591</a></li>
+  </ol>
 
 </div>
 </body>
