@@ -192,6 +192,42 @@ layout: none
     margin-top: .9rem;
   }
 
+  /* ---------- design plates ---------- */
+
+  .plate { margin-top: 2.5rem; }
+
+  .plate-row {
+    display: flex;
+    align-items: stretch;
+    gap: 1.25rem;
+  }
+
+  .plate-main { flex: 1 1 0; }
+
+  .plate-side {
+    flex: 1 1 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+
+  .plate-thirds {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.25rem;
+  }
+
+  .plate img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    border: 1px solid var(--line);
+    display: block;
+  }
+
+  .plate .caption { margin-top: .7rem; }
+
   a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
   a:hover { color: var(--title); border-bottom-color: var(--title); }
 
@@ -203,6 +239,8 @@ layout: none
     .noimg { display: none; }
     .figures { grid-template-columns: 1fr; gap: 1.75rem; }
     .figure-single { max-width: 100%; }
+    .plate-row { flex-direction: column; }
+    .plate-thirds { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -346,6 +384,30 @@ layout: none
   </div>
 
   <div class="credit">Snake photographs courtesy of <a href="https://www.inaturalist.org">iNaturalist.org</a></div>
+
+  <div class="plate">
+    <div class="plate-row">
+      <div class="plate-main">
+        <img src="/images/ventral-main-design.png" alt="Ventral scale main design">
+      </div>
+      <div class="plate-side">
+        <img src="/images/ventral-15.png" alt="15 degree scale angle">
+        <img src="/images/ventral-25.png" alt="25 degree scale angle">
+        <img src="/images/ventral-35.png" alt="35 degree scale angle">
+        <img src="/images/ventral-45.png" alt="45 degree scale angle">
+      </div>
+    </div>
+    <div class="caption"><strong>Modular pseudo-skin design</strong> with different scale angles ranging from 15° to 45°</div>
+  </div>
+
+  <div class="plate">
+    <div class="plate-thirds">
+      <img src="/images/ventral-full-assembly.png" alt="Full skin assembly">
+      <img src="/images/ventral-bending-1.png" alt="Skin assembly bending">
+      <img src="/images/ventral-bending-2.png" alt="Skin assembly bending">
+    </div>
+    <div class="caption"><strong>Full skin assembly</strong> with bending</div>
+  </div>
 
   <h4>Mimicking Muscles</h4>
 
