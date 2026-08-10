@@ -184,6 +184,8 @@ layout: none
     background: #fff;
   }
 
+  .clip.wide { aspect-ratio: 16 / 9; }
+
   .video {
     position: relative;
     width: 100%;
@@ -529,13 +531,18 @@ layout: none
 
   <h4>Mimicking Locomotion</h4>
 
-  <div class="figures one">
+  <div class="figures two">
 
     <div>
       <div class="video">
         <iframe src="https://www.youtube.com/embed/sO2d90YedN0" title="Snake unable to gain traction on a fleece blanket" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="caption">Snakes cannot move without anisotropic friction<sup><a href="#ref6">6</a></sup></div>
+    </div>
+
+    <div>
+      <video class="clip wide" src="/images/smooth_10x.mp4" autoplay muted loop playsinline></video>
+      <div class="caption"><strong>Snake robot on a smooth surface</strong>, 10× speed</div>
     </div>
 
   </div>
@@ -593,6 +600,5 @@ layout: none
   </ol>
 
 </div>
-</video>
 </body>
 </html>
